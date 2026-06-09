@@ -201,6 +201,15 @@ input,select,textarea{font-family:'DM Sans',sans-serif}
       Bulk Import
     </div>
     <div class="sidebar-bottom">
+      <div id="save-btn" onclick="saveData()" style="
+        background:var(--gold);color:#000;font-family:'Syne',sans-serif;
+        font-weight:800;font-size:13px;text-align:center;padding:10px 14px;
+        border-radius:8px;cursor:pointer;margin-bottom:12px;transition:background .15s;
+        display:flex;align-items:center;justify-content:center;gap:6px;
+      " onmouseover="this.style.background='var(--gold2)'" 
+         onmouseout="this.style.background='var(--gold)'">
+        ↑ Push to GitHub
+      </div>
       <div class="logout-btn" onclick="doLogout()">Sign Out</div>
     </div>
   </div>
@@ -407,13 +416,23 @@ async function getFileSha(path) {
   return { sha: data.sha, content: data.content };
 }
 
+// Helper: encode a JS string to base64 correctly (handles emoji & non-ASCII)
+function strToB64(str) {
+  return btoa(String.fromCharCode(...new TextEncoder().encode(str)));
+}
+
+// Helper: decode base64 from GitHub API to a JS string
+function b64ToStr(b64) {
+  const bytes = Uint8Array.from(atob(b64.replace(/\n/g, '')), c => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
 async function saveData() {
-  const jsonContent = btoa(unescape(encodeURIComponent(JSON.stringify(db, null, 2))));
   try {
     // ── Step 1: Save questions.json ──────────────────────────────────────────
     const qBody = {
       message: `Update questions.json [${new Date().toLocaleString()}]`,
-      content: jsonContent,
+      content: strToB64(JSON.stringify(db, null, 2)),
       sha: fileSha
     };
     const qRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${QUESTIONS_FILE_PATH}`, {
@@ -421,51 +440,76 @@ async function saveData() {
       headers: { Authorization: `token ${ghToken}`, 'Content-Type': 'application/json' },
       body: JSON.stringify(qBody)
     });
-    if (!qRes.ok) throw new Error('questions.json save failed');
+    if (!qRes.ok) throw new Error('questions.json save failed: ' + await qRes.text());
     const qData = await qRes.json();
     fileSha = qData.content.sha;
 
     // ── Step 2: Patch INLINE_DATA inside index.html ──────────────────────────
     try {
       const { sha: idxSha, content: idxB64 } = await getFileSha('index.html');
-      const idxRaw = decodeURIComponent(escape(atob(idxB64.replace(/\n/g, ''))));
+      const idxRaw = b64ToStr(idxB64);
 
-      // Build the replacement INLINE_DATA (JSON.stringify produces valid JS literal)
-      const newInline = 'var INLINE_DATA = ' + JSON.stringify(db) + ';';
+      // The INLINE_DATA block always looks like:
+      //   var INLINE_DATA = {....lots of json....};
+      // It sits on ONE line. We find its start and end precisely.
+      const START_TAG = 'var INLINE_DATA = ';
+      const si = idxRaw.indexOf(START_TAG);
+      if (si === -1) throw new Error('START_TAG not found in index.html');
 
-      // Replace the existing INLINE_DATA declaration using split/join (no regex needed)
-      const MARKER_START = 'var INLINE_DATA = ';
-      const MARKER_END = ';\n';
-      const startIdx = idxRaw.indexOf(MARKER_START);
-      const endIdx2 = startIdx === -1 ? -1 : idxRaw.indexOf(MARKER_END, startIdx);
-      const patched = startIdx === -1 || endIdx2 === -1
-        ? idxRaw
-        : idxRaw.slice(0, startIdx) + newInline + idxRaw.slice(endIdx2 + MARKER_END.length - 1);
+      // Find the newline that terminates that line
+      const lineEnd = idxRaw.indexOf('\n', si);
+      if (lineEnd === -1) throw new Error('Could not find end of INLINE_DATA line');
 
-      if (patched === idxRaw) {
-        console.warn('INLINE_DATA marker not found in index.html — skipping index patch');
-      } else {
-        const patchedB64 = btoa(unescape(encodeURIComponent(patched)));
-        const idxBody = {
-          message: `Sync INLINE_DATA in index.html [${new Date().toLocaleString()}]`,
-          content: patchedB64,
-          sha: idxSha
+      const newInline = START_TAG + JSON.stringify(db) + ';';
+      const patched = idxRaw.slice(0, si) + newInline + idxRaw.slice(lineEnd);
+
+      const idxBody = {
+        message: `Sync INLINE_DATA in index.html [${new Date().toLocaleString()}]`,
+        content: strToB64(patched),
+        sha: idxSha
+      };
+      const idxRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/index.html`, {
+        method: 'PUT',
+        headers: { Authorization: `token ${ghToken}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify(idxBody)
+      });
+      if (!idxRes.ok) throw new Error('index.html patch failed: ' + await idxRes.text());
+
+      // ── Step 3: Bump cache version in sw.js so GitHub Pages users get fresh files ──
+      try {
+        const { sha: swSha, content: swB64 } = await getFileSha('sw.js');
+        const swRaw = b64ToStr(swB64);
+
+        // Replace 'answer-this-vN' with an incremented version number
+        const verMatch = swRaw.match(/answer-this-v(\d+)/);
+        if (!verMatch) throw new Error('Cache version string not found in sw.js');
+        const newVer = parseInt(verMatch[1], 10) + 1;
+        const swPatched = swRaw.replace(/answer-this-v\d+/g, 'answer-this-v' + newVer);
+
+        const swBody = {
+          message: `Bump SW cache to v${newVer} [${new Date().toLocaleString()}]`,
+          content: strToB64(swPatched),
+          sha: swSha
         };
-        const idxRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/index.html`, {
+        const swRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/sw.js`, {
           method: 'PUT',
           headers: { Authorization: `token ${ghToken}`, 'Content-Type': 'application/json' },
-          body: JSON.stringify(idxBody)
+          body: JSON.stringify(swBody)
         });
-        if (!idxRes.ok) console.warn('index.html patch failed:', await idxRes.text());
+        if (!swRes.ok) throw new Error('sw.js bump failed: ' + await swRes.text());
+      } catch(swErr) {
+        console.warn('sw.js version bump failed:', swErr.message);
+        // Non-fatal
       }
+
+      showToast('Saved ✓ — questions.json + index.html + sw.js updated', 'success');
     } catch(idxErr) {
-      console.warn('Could not patch index.html INLINE_DATA:', idxErr.message);
-      // Non-fatal — questions.json is already saved
+      // questions.json saved OK, but index.html/sw.js patch failed
+      showToast('questions.json saved, but index.html sync failed: ' + idxErr.message, 'error');
     }
 
-    showToast('Saved to GitHub ✓ (questions.json + index.html synced)', 'success');
   } catch(e) {
-    showToast('GitHub save failed. Check token and repo settings.', 'error');
+    showToast('GitHub save failed: ' + e.message, 'error');
   }
 }
 
