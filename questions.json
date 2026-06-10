@@ -3,57 +3,57 @@
     {
       "id": "bible",
       "name": "Bible",
-      "icon": "âï¸"
+      "icon": "Ã¢ÂÂÃ¯Â¸Â"
     },
     {
       "id": "lifestyle",
       "name": "Lifestyle",
-      "icon": "ð"
+      "icon": "Ã°ÂÂÂ"
     },
     {
       "id": "physics",
       "name": "Physics",
-      "icon": "âï¸"
+      "icon": "Ã¢ÂÂÃ¯Â¸Â"
     },
     {
       "id": "maths",
       "name": "Maths",
-      "icon": "ð¢"
+      "icon": "Ã°ÂÂÂ¢"
     },
     {
       "id": "english",
       "name": "English",
-      "icon": "ð"
+      "icon": "Ã°ÂÂÂ"
     },
     {
       "id": "government",
       "name": "Government",
-      "icon": "ðï¸"
+      "icon": "Ã°ÂÂÂÃ¯Â¸Â"
     },
     {
       "id": "history",
       "name": "History",
-      "icon": "ð"
+      "icon": "Ã°ÂÂÂ"
     },
     {
       "id": "technology",
       "name": "Technology",
-      "icon": "ð»"
+      "icon": "Ã°ÂÂÂ»"
     },
     {
       "id": "riddles",
       "name": "Riddles",
-      "icon": "ð§©"
+      "icon": "Ã°ÂÂ§Â©"
     },
     {
       "id": "brainteasers",
       "name": "Brain Teasers",
-      "icon": "ð§ "
+      "icon": "Ã°ÂÂ§Â "
     },
     {
       "id": "guesstheword",
       "name": "Guess the Word",
-      "icon": "ð¬"
+      "icon": "Ã°ÂÂÂ¬"
     }
   ],
   "questions": [
@@ -1028,12 +1028,12 @@
       "type": "multiple",
       "question": "What is the boiling point of water in degrees Celsius?",
       "options": [
-        "90Â°C",
-        "95Â°C",
-        "100Â°C",
-        "110Â°C"
+        "90ÃÂ°C",
+        "95ÃÂ°C",
+        "100ÃÂ°C",
+        "110ÃÂ°C"
       ],
-      "answer": "100Â°C"
+      "answer": "100ÃÂ°C"
     },
     {
       "id": "phy_e8",
@@ -1087,7 +1087,7 @@
         "Every action has an equal and opposite reaction",
         "F = ma",
         "An object at rest stays at rest",
-        "E = mcÂ²"
+        "E = mcÃÂ²"
       ],
       "answer": "F = ma"
     },
@@ -1168,12 +1168,12 @@
       "type": "multiple",
       "question": "What is the acceleration due to gravity on Earth?",
       "options": [
-        "8.9 m/sÂ²",
-        "9.8 m/sÂ²",
-        "10.8 m/sÂ²",
-        "11.2 m/sÂ²"
+        "8.9 m/sÃÂ²",
+        "9.8 m/sÃÂ²",
+        "10.8 m/sÃÂ²",
+        "11.2 m/sÃÂ²"
       ],
-      "answer": "9.8 m/sÂ²"
+      "answer": "9.8 m/sÃÂ²"
     },
     {
       "id": "phy_m8",
@@ -1242,12 +1242,12 @@
       "options": [
         "KE = mgh",
         "KE = Fd",
-        "KE = Â½mvÂ²",
+        "KE = ÃÂ½mvÃÂ²",
         "KE = mv",
         "KE = F/a",
-        "KE = maÂ²"
+        "KE = maÃÂ²"
       ],
-      "answer": "KE = Â½mvÂ²"
+      "answer": "KE = ÃÂ½mvÃÂ²"
     },
     {
       "id": "phy_h3",
@@ -1290,7 +1290,7 @@
       "options": [
         "V = IR",
         "P = IV",
-        "E = mcÂ²",
+        "E = mcÃÂ²",
         "F = ma",
         "W = Fd",
         "Q = It"
@@ -1353,7 +1353,7 @@
       "question": "Which principle states that you cannot know both the position and momentum of a particle precisely?",
       "options": [
         "Pauli exclusion",
-        "SchrÃ¶dinger's principle",
+        "SchrÃÂ¶dinger's principle",
         "Heisenberg uncertainty",
         "Wave-particle duality",
         "Bohr's postulate",
@@ -1410,7 +1410,7 @@
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "question": "What is 7 Ã 8?",
+      "question": "What is 7 ÃÂ 8?",
       "options": [
         "54",
         "56",
@@ -1480,7 +1480,7 @@
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "question": "What is 100 Ã· 4?",
+      "question": "What is 100 ÃÂ· 4?",
       "options": [
         "20",
         "25",
@@ -1496,12 +1496,12 @@
       "type": "multiple",
       "question": "What is the area of a rectangle 6cm by 4cm?",
       "options": [
-        "10cmÂ²",
-        "20cmÂ²",
-        "24cmÂ²",
-        "28cmÂ²"
+        "10cmÃÂ²",
+        "20cmÃÂ²",
+        "24cmÃÂ²",
+        "28cmÃÂ²"
       ],
-      "answer": "24cmÂ²"
+      "answer": "24cmÃÂ²"
     },
     {
       "id": "mat_e10",
@@ -1522,21 +1522,21 @@
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "If a triangle has angles 60Â° and 80Â°, what is the third angle?",
+      "question": "If a triangle has angles 60ÃÂ° and 80ÃÂ°, what is the third angle?",
       "options": [
-        "30Â°",
-        "40Â°",
-        "50Â°",
-        "60Â°"
+        "30ÃÂ°",
+        "40ÃÂ°",
+        "50ÃÂ°",
+        "60ÃÂ°"
       ],
-      "answer": "40Â°"
+      "answer": "40ÃÂ°"
     },
     {
       "id": "mat_m2",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "What is the value of Ï to 2 decimal places?",
+      "question": "What is the value of ÃÂ to 2 decimal places?",
       "options": [
         "3.12",
         "3.14",
@@ -1578,14 +1578,14 @@
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "What is the area of a circle with radius 7cm? (use Ï = 22/7)",
+      "question": "What is the area of a circle with radius 7cm? (use ÃÂ = 22/7)",
       "options": [
-        "44cmÂ²",
-        "88cmÂ²",
-        "154cmÂ²",
-        "176cmÂ²"
+        "44cmÃÂ²",
+        "88cmÃÂ²",
+        "154cmÃÂ²",
+        "176cmÃÂ²"
       ],
-      "answer": "154cmÂ²"
+      "answer": "154cmÃÂ²"
     },
     {
       "id": "mat_m6",
@@ -1636,33 +1636,33 @@
       "type": "multiple",
       "question": "What is the sum of interior angles of a triangle?",
       "options": [
-        "90Â°",
-        "120Â°",
-        "180Â°",
-        "360Â°"
+        "90ÃÂ°",
+        "120ÃÂ°",
+        "180ÃÂ°",
+        "360ÃÂ°"
       ],
-      "answer": "180Â°"
+      "answer": "180ÃÂ°"
     },
     {
       "id": "mat_m10",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "If a shirt costs â¦4,500 and is discounted by 20%, what is the sale price?",
+      "question": "If a shirt costs Ã¢ÂÂ¦4,500 and is discounted by 20%, what is the sale price?",
       "options": [
-        "â¦3,200",
-        "â¦3,500",
-        "â¦3,600",
-        "â¦4,000"
+        "Ã¢ÂÂ¦3,200",
+        "Ã¢ÂÂ¦3,500",
+        "Ã¢ÂÂ¦3,600",
+        "Ã¢ÂÂ¦4,000"
       ],
-      "answer": "â¦3,600"
+      "answer": "Ã¢ÂÂ¦3,600"
     },
     {
       "id": "mat_h1",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is the value of Ï to 4 decimal places?",
+      "question": "What is the value of ÃÂ to 4 decimal places?",
       "options": [
         "3.1415",
         "3.1416",
@@ -1678,7 +1678,7 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "Factorise: xÂ² - 5x + 6",
+      "question": "Factorise: xÃÂ² - 5x + 6",
       "options": [
         "(x-1)(x-6)",
         "(x-2)(x-3)",
@@ -1694,23 +1694,23 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is the derivative of xÂ³?",
+      "question": "What is the derivative of xÃÂ³?",
       "options": [
-        "xÂ²",
-        "2xÂ²",
-        "3xÂ²",
-        "3xÂ³",
-        "xâ´",
-        "2xÂ³"
+        "xÃÂ²",
+        "2xÃÂ²",
+        "3xÃÂ²",
+        "3xÃÂ³",
+        "xÃ¢ÂÂ´",
+        "2xÃÂ³"
       ],
-      "answer": "3xÂ²"
+      "answer": "3xÃÂ²"
     },
     {
       "id": "mat_h4",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is logââ(1000)?",
+      "question": "What is logÃ¢ÂÂÃ¢ÂÂ(1000)?",
       "options": [
         "1",
         "2",
@@ -1760,14 +1760,14 @@
       "type": "multiple",
       "question": "What is the volume of a cube with side 4cm?",
       "options": [
-        "16cmÂ³",
-        "32cmÂ³",
-        "48cmÂ³",
-        "64cmÂ³",
-        "80cmÂ³",
-        "96cmÂ³"
+        "16cmÃÂ³",
+        "32cmÃÂ³",
+        "48cmÃÂ³",
+        "64cmÃÂ³",
+        "80cmÃÂ³",
+        "96cmÃÂ³"
       ],
-      "answer": "64cmÂ³"
+      "answer": "64cmÃÂ³"
     },
     {
       "id": "mat_h8",
@@ -4414,7 +4414,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is 2+2Ã2?",
+      "question": "What is 2+2ÃÂ2?",
       "options": [
         "8",
         "6",
@@ -5333,12 +5333,12 @@
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "4–5 litres",
+      "answer": "4â5 litres",
       "options": [
-        "2–3 litres",
-        "4–5 litres",
-        "5–6 litres",
-        "7–8 litres"
+        "2â3 litres",
+        "4â5 litres",
+        "5â6 litres",
+        "7â8 litres"
       ]
     },
     {
@@ -5902,7 +5902,7 @@
       "answer": "D = M/V",
       "options": [
         "D = V/M",
-        "D = M × V",
+        "D = M Ã V",
         "D = M/V",
         "D = M + V"
       ]
@@ -5983,14 +5983,14 @@
       "category": "physics",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "λ = h/mv",
+      "answer": "Î» = h/mv",
       "options": [
-        "λ = h/mv",
-        "λ = mv/h",
-        "λ = h × mv",
-        "λ = m/hv",
-        "λ = v/hm",
-        "λ = hm/v"
+        "Î» = h/mv",
+        "Î» = mv/h",
+        "Î» = h Ã mv",
+        "Î» = m/hv",
+        "Î» = v/hm",
+        "Î» = hm/v"
       ]
     },
     {
@@ -5999,14 +5999,14 @@
       "category": "physics",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "6.63 × 10⁻³⁴ J·s",
+      "answer": "6.63 Ã 10â»Â³â´ JÂ·s",
       "options": [
-        "6.63 × 10⁻³⁴ J·s",
-        "6.63 × 10⁻²⁴ J·s",
-        "9.11 × 10⁻³¹ J·s",
-        "1.60 × 10⁻¹⁹ J·s",
-        "3.00 × 10⁸ J·s",
-        "1.38 × 10⁻²³ J·s"
+        "6.63 Ã 10â»Â³â´ JÂ·s",
+        "6.63 Ã 10â»Â²â´ JÂ·s",
+        "9.11 Ã 10â»Â³Â¹ JÂ·s",
+        "1.60 Ã 10â»Â¹â¹ JÂ·s",
+        "3.00 Ã 10â¸ JÂ·s",
+        "1.38 Ã 10â»Â²Â³ JÂ·s"
       ]
     },
     {
@@ -6167,7 +6167,7 @@
     },
     {
       "id": "q1781090470697_92",
-      "question": "What is 12 × 12?",
+      "question": "What is 12 Ã 12?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
@@ -6185,12 +6185,12 @@
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "90°",
+      "answer": "90Â°",
       "options": [
-        "45°",
-        "60°",
-        "90°",
-        "180°"
+        "45Â°",
+        "60Â°",
+        "90Â°",
+        "180Â°"
       ]
     },
     {
@@ -6237,35 +6237,35 @@
     },
     {
       "id": "q1781090470697_97",
-      "question": "What is the volume of a rectangular box 5cm × 4cm × 3cm?",
+      "question": "What is the volume of a rectangular box 5cm Ã 4cm Ã 3cm?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "60cm³",
+      "answer": "60cmÂ³",
       "options": [
-        "48cm³",
-        "54cm³",
-        "60cm³",
-        "72cm³"
+        "48cmÂ³",
+        "54cmÂ³",
+        "60cmÂ³",
+        "72cmÂ³"
       ]
     },
     {
       "id": "q1781090470697_98",
-      "question": "If a market woman has ₦2,400 and spends ₦1,750, how much does she have left?",
+      "question": "If a market woman has â¦2,400 and spends â¦1,750, how much does she have left?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "₦650",
+      "answer": "â¦650",
       "options": [
-        "₦550",
-        "₦600",
-        "₦650",
-        "₦700"
+        "â¦550",
+        "â¦600",
+        "â¦650",
+        "â¦700"
       ]
     },
     {
       "id": "q1781090470697_99",
-      "question": "What is the value of 4²?",
+      "question": "What is the value of 4Â²?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
@@ -6279,16 +6279,16 @@
     },
     {
       "id": "q1781090470697_100",
-      "question": "What is the simple interest on ₦50,000 at 8% per annum for 3 years?",
+      "question": "What is the simple interest on â¦50,000 at 8% per annum for 3 years?",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "₦12,000",
+      "answer": "â¦12,000",
       "options": [
-        "₦10,000",
-        "₦12,000",
-        "₦14,000",
-        "₦16,000"
+        "â¦10,000",
+        "â¦12,000",
+        "â¦14,000",
+        "â¦16,000"
       ]
     },
     {
@@ -6353,12 +6353,12 @@
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "150cm²",
+      "answer": "150cmÂ²",
       "options": [
-        "100cm²",
-        "125cm²",
-        "150cm²",
-        "175cm²"
+        "100cmÂ²",
+        "125cmÂ²",
+        "150cmÂ²",
+        "175cmÂ²"
       ]
     },
     {
@@ -6377,16 +6377,16 @@
     },
     {
       "id": "q1781090470697_107",
-      "question": "What is 2/3 of ₦4,500?",
+      "question": "What is 2/3 of â¦4,500?",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "₦3,000",
+      "answer": "â¦3,000",
       "options": [
-        "₦2,500",
-        "₦2,800",
-        "₦3,000",
-        "₦3,200"
+        "â¦2,500",
+        "â¦2,800",
+        "â¦3,000",
+        "â¦3,200"
       ]
     },
     {
@@ -6419,18 +6419,18 @@
     },
     {
       "id": "q1781090470697_110",
-      "question": "What is the compound interest on ₦100,000 at 10% per annum for 2 years?",
+      "question": "What is the compound interest on â¦100,000 at 10% per annum for 2 years?",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "₦21,000",
+      "answer": "â¦21,000",
       "options": [
-        "₦20,000",
-        "₦21,000",
-        "₦22,000",
-        "₦25,000",
-        "₦18,000",
-        "₦19,000"
+        "â¦20,000",
+        "â¦21,000",
+        "â¦22,000",
+        "â¦25,000",
+        "â¦18,000",
+        "â¦19,000"
       ]
     },
     {
@@ -6441,9 +6441,9 @@
       "type": "multiple",
       "answer": "cos(x)",
       "options": [
-        "–sin(x)",
+        "âsin(x)",
         "cos(x)",
-        "–cos(x)",
+        "âcos(x)",
         "tan(x)",
         "sec(x)",
         "cot(x)"
@@ -6467,7 +6467,7 @@
     },
     {
       "id": "q1781090470697_113",
-      "question": "What is the value of sin(30°)?",
+      "question": "What is the value of sin(30Â°)?",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
@@ -6475,10 +6475,10 @@
       "options": [
         "0",
         "0.5",
-        "√2/2",
-        "√3/2",
+        "â2/2",
+        "â3/2",
         "1",
-        "√3"
+        "â3"
       ]
     },
     {
@@ -6503,14 +6503,14 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "540°",
+      "answer": "540Â°",
       "options": [
-        "360°",
-        "450°",
-        "500°",
-        "540°",
-        "600°",
-        "720°"
+        "360Â°",
+        "450Â°",
+        "500Â°",
+        "540Â°",
+        "600Â°",
+        "720Â°"
       ]
     },
     {
@@ -6519,14 +6519,14 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "x² + y² = 25",
+      "answer": "xÂ² + yÂ² = 25",
       "options": [
         "x + y = 5",
-        "x² + y² = 5",
-        "x² + y² = 25",
-        "x² – y² = 25",
-        "(x+y)² = 25",
-        "x² + y = 25"
+        "xÂ² + yÂ² = 5",
+        "xÂ² + yÂ² = 25",
+        "xÂ² â yÂ² = 25",
+        "(x+y)Â² = 25",
+        "xÂ² + y = 25"
       ]
     },
     {
@@ -6939,7 +6939,7 @@
     },
     {
       "id": "q1781090470697_145",
-      "question": "What is the grammatical term for 'John gave Mary the book' — what role does 'Mary' play?",
+      "question": "What is the grammatical term for 'John gave Mary the book' â what role does 'Mary' play?",
       "category": "english",
       "difficulty": "hard",
       "type": "multiple",
@@ -7871,12 +7871,12 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "There was no such operation — Lagos was never captured",
+      "answer": "There was no such operation â Lagos was never captured",
       "options": [
         "Operation Tiger Claw",
         "Operation Unicorn",
         "Operation Scorpion",
-        "There was no such operation — Lagos was never captured",
+        "There was no such operation â Lagos was never captured",
         "Operation Eagle",
         "Operation Crocodile"
       ]
@@ -8777,16 +8777,16 @@
     },
     {
       "id": "q1781090470698_271",
-      "question": "A man has ₦800 in his wallet and buys bread for ₦350 and water for ₦150. How much does he have left?",
+      "question": "A man has â¦800 in his wallet and buys bread for â¦350 and water for â¦150. How much does he have left?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "₦300",
+      "answer": "â¦300",
       "options": [
-        "₦250",
-        "₦300",
-        "₦350",
-        "₦400"
+        "â¦250",
+        "â¦300",
+        "â¦350",
+        "â¦400"
       ]
     },
     {
@@ -8809,10 +8809,10 @@
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Halfway — then it's running out",
+      "answer": "Halfway â then it's running out",
       "options": [
         "As far as it wants",
-        "Halfway — then it's running out",
+        "Halfway â then it's running out",
         "Depends on the forest",
         "Until it gets tired"
       ]
@@ -8833,16 +8833,16 @@
     },
     {
       "id": "q1781090470698_275",
-      "question": "If you have ₦5,000 and double it, then spend half, how much do you have?",
+      "question": "If you have â¦5,000 and double it, then spend half, how much do you have?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "₦5,000",
+      "answer": "â¦5,000",
       "options": [
-        "₦2,500",
-        "₦5,000",
-        "₦7,500",
-        "₦10,000"
+        "â¦2,500",
+        "â¦5,000",
+        "â¦7,500",
+        "â¦10,000"
       ]
     },
     {
@@ -8889,16 +8889,16 @@
     },
     {
       "id": "q1781090470698_279",
-      "question": "A Nigerian trader sells mangoes in sets of 3 for ₦150. How much do 9 mangoes cost?",
+      "question": "A Nigerian trader sells mangoes in sets of 3 for â¦150. How much do 9 mangoes cost?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "₦450",
+      "answer": "â¦450",
       "options": [
-        "₦300",
-        "₦400",
-        "₦450",
-        "₦500"
+        "â¦300",
+        "â¦400",
+        "â¦450",
+        "â¦500"
       ]
     },
     {
@@ -8991,12 +8991,12 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "7.5°",
+      "answer": "7.5Â°",
       "options": [
-        "0°",
-        "7.5°",
-        "15°",
-        "22.5°"
+        "0Â°",
+        "7.5Â°",
+        "15Â°",
+        "22.5Â°"
       ]
     },
     {
@@ -9057,16 +9057,16 @@
     },
     {
       "id": "q1781090470698_291",
-      "question": "A man earns ₦120,000 per month. He spends 30% on rent, 25% on food, 15% on transport. How much does he save monthly?",
+      "question": "A man earns â¦120,000 per month. He spends 30% on rent, 25% on food, 15% on transport. How much does he save monthly?",
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "₦36,000",
+      "answer": "â¦36,000",
       "options": [
-        "₦24,000",
-        "₦28,000",
-        "₦36,000",
-        "₦48,000"
+        "â¦24,000",
+        "â¦28,000",
+        "â¦36,000",
+        "â¦48,000"
       ]
     },
     {
@@ -9169,7 +9169,7 @@
     },
     {
       "id": "q1781090470698_299",
-      "question": "If ABCD is a 4-digit number where A+B+C+D=15 and A×B×C×D=36, and all digits are different, which set of digits fits?",
+      "question": "If ABCD is a 4-digit number where A+B+C+D=15 and AÃBÃCÃD=36, and all digits are different, which set of digits fits?",
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
