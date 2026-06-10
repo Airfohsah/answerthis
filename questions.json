@@ -1,5 +1,4 @@
 {
-{
   "categories": [
     {
       "id": "bible",
@@ -1029,12 +1028,12 @@
       "type": "multiple",
       "question": "What is the boiling point of water in degrees Celsius?",
       "options": [
-        "90Â°C",
-        "95Â°C",
-        "100Â°C",
-        "110Â°C"
+        "90°C",
+        "95°C",
+        "100°C",
+        "110°C"
       ],
-      "answer": "100Â°C"
+      "answer": "100°C"
     },
     {
       "id": "phy_e8",
@@ -1088,7 +1087,7 @@
         "Every action has an equal and opposite reaction",
         "F = ma",
         "An object at rest stays at rest",
-        "E = mcÂ²"
+        "E = mc²"
       ],
       "answer": "F = ma"
     },
@@ -1169,12 +1168,12 @@
       "type": "multiple",
       "question": "What is the acceleration due to gravity on Earth?",
       "options": [
-        "8.9 m/sÂ²",
-        "9.8 m/sÂ²",
-        "10.8 m/sÂ²",
-        "11.2 m/sÂ²"
+        "8.9 m/s²",
+        "9.8 m/s²",
+        "10.8 m/s²",
+        "11.2 m/s²"
       ],
-      "answer": "9.8 m/sÂ²"
+      "answer": "9.8 m/s²"
     },
     {
       "id": "phy_m8",
@@ -1243,12 +1242,12 @@
       "options": [
         "KE = mgh",
         "KE = Fd",
-        "KE = Â½mvÂ²",
+        "KE = ½mv²",
         "KE = mv",
         "KE = F/a",
-        "KE = maÂ²"
+        "KE = ma²"
       ],
-      "answer": "KE = Â½mvÂ²"
+      "answer": "KE = ½mv²"
     },
     {
       "id": "phy_h3",
@@ -1291,7 +1290,7 @@
       "options": [
         "V = IR",
         "P = IV",
-        "E = mcÂ²",
+        "E = mc²",
         "F = ma",
         "W = Fd",
         "Q = It"
@@ -1354,7 +1353,7 @@
       "question": "Which principle states that you cannot know both the position and momentum of a particle precisely?",
       "options": [
         "Pauli exclusion",
-        "SchrÃ¶dinger's principle",
+        "Schrödinger's principle",
         "Heisenberg uncertainty",
         "Wave-particle duality",
         "Bohr's postulate",
@@ -1411,7 +1410,7 @@
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "question": "What is 7 Ã 8?",
+      "question": "What is 7 × 8?",
       "options": [
         "54",
         "56",
@@ -1481,7 +1480,7 @@
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "question": "What is 100 Ã· 4?",
+      "question": "What is 100 ÷ 4?",
       "options": [
         "20",
         "25",
@@ -1497,12 +1496,12 @@
       "type": "multiple",
       "question": "What is the area of a rectangle 6cm by 4cm?",
       "options": [
-        "10cmÂ²",
-        "20cmÂ²",
-        "24cmÂ²",
-        "28cmÂ²"
+        "10cm²",
+        "20cm²",
+        "24cm²",
+        "28cm²"
       ],
-      "answer": "24cmÂ²"
+      "answer": "24cm²"
     },
     {
       "id": "mat_e10",
@@ -1523,21 +1522,21 @@
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "If a triangle has angles 60Â° and 80Â°, what is the third angle?",
+      "question": "If a triangle has angles 60° and 80°, what is the third angle?",
       "options": [
-        "30Â°",
-        "40Â°",
-        "50Â°",
-        "60Â°"
+        "30°",
+        "40°",
+        "50°",
+        "60°"
       ],
-      "answer": "40Â°"
+      "answer": "40°"
     },
     {
       "id": "mat_m2",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "What is the value of Ï to 2 decimal places?",
+      "question": "What is the value of π to 2 decimal places?",
       "options": [
         "3.12",
         "3.14",
@@ -1579,14 +1578,14 @@
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "What is the area of a circle with radius 7cm? (use Ï = 22/7)",
+      "question": "What is the area of a circle with radius 7cm? (use π = 22/7)",
       "options": [
-        "44cmÂ²",
-        "88cmÂ²",
-        "154cmÂ²",
-        "176cmÂ²"
+        "44cm²",
+        "88cm²",
+        "154cm²",
+        "176cm²"
       ],
-      "answer": "154cmÂ²"
+      "answer": "154cm²"
     },
     {
       "id": "mat_m6",
@@ -1637,33 +1636,33 @@
       "type": "multiple",
       "question": "What is the sum of interior angles of a triangle?",
       "options": [
-        "90Â°",
-        "120Â°",
-        "180Â°",
-        "360Â°"
+        "90°",
+        "120°",
+        "180°",
+        "360°"
       ],
-      "answer": "180Â°"
+      "answer": "180°"
     },
     {
       "id": "mat_m10",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "If a shirt costs â¦4,500 and is discounted by 20%, what is the sale price?",
+      "question": "If a shirt costs ₦4,500 and is discounted by 20%, what is the sale price?",
       "options": [
-        "â¦3,200",
-        "â¦3,500",
-        "â¦3,600",
-        "â¦4,000"
+        "₦3,200",
+        "₦3,500",
+        "₦3,600",
+        "₦4,000"
       ],
-      "answer": "â¦3,600"
+      "answer": "₦3,600"
     },
     {
       "id": "mat_h1",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is the value of Ï to 4 decimal places?",
+      "question": "What is the value of π to 4 decimal places?",
       "options": [
         "3.1415",
         "3.1416",
@@ -1679,7 +1678,7 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "Factorise: xÂ² - 5x + 6",
+      "question": "Factorise: x² - 5x + 6",
       "options": [
         "(x-1)(x-6)",
         "(x-2)(x-3)",
@@ -1695,23 +1694,23 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is the derivative of xÂ³?",
+      "question": "What is the derivative of x³?",
       "options": [
-        "xÂ²",
-        "2xÂ²",
-        "3xÂ²",
-        "3xÂ³",
-        "xâ´",
-        "2xÂ³"
+        "x²",
+        "2x²",
+        "3x²",
+        "3x³",
+        "x⁴",
+        "2x³"
       ],
-      "answer": "3xÂ²"
+      "answer": "3x²"
     },
     {
       "id": "mat_h4",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is logââ(1000)?",
+      "question": "What is log₁₀(1000)?",
       "options": [
         "1",
         "2",
@@ -1761,14 +1760,14 @@
       "type": "multiple",
       "question": "What is the volume of a cube with side 4cm?",
       "options": [
-        "16cmÂ³",
-        "32cmÂ³",
-        "48cmÂ³",
-        "64cmÂ³",
-        "80cmÂ³",
-        "96cmÂ³"
+        "16cm³",
+        "32cm³",
+        "48cm³",
+        "64cm³",
+        "80cm³",
+        "96cm³"
       ],
-      "answer": "64cmÂ³"
+      "answer": "64cm³"
     },
     {
       "id": "mat_h8",
@@ -4415,7 +4414,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "What is 2+2Ã2?",
+      "question": "What is 2+2×2?",
       "options": [
         "8",
         "6",
@@ -14303,6 +14302,4768 @@
       "difficulty": "hard",
       "type": "text",
       "answer": "Negritude"
+    },
+    {
+      "id": "q1781125622243_0",
+      "question": "Who was the first man created by God?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Adam",
+      "options": [
+        "Adam",
+        "Cain",
+        "Abel",
+        "Seth"
+      ]
+    },
+    {
+      "id": "q1781125622243_1",
+      "question": "What did God create on the sixth day?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Animals and man",
+      "options": [
+        "Fish and birds",
+        "Sun and moon",
+        "Animals and man",
+        "Plants and trees"
+      ]
+    },
+    {
+      "id": "q1781125622243_2",
+      "question": "How many days did God take to create the world?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "6",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "q1781125622243_3",
+      "question": "Who was sold into slavery by his brothers?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Joseph",
+      "options": [
+        "Benjamin",
+        "Reuben",
+        "Joseph",
+        "Simeon"
+      ]
+    },
+    {
+      "id": "q1781125622243_4",
+      "question": "What is the first commandment?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "You shall have no other gods before me",
+      "options": [
+        "Do not kill",
+        "Do not steal",
+        "You shall have no other gods before me",
+        "Keep the Sabbath holy"
+      ]
+    },
+    {
+      "id": "q1781125622243_5",
+      "question": "Who led the Israelites out of Egypt?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Moses",
+      "options": [
+        "Abraham",
+        "Joshua",
+        "Moses",
+        "Aaron"
+      ]
+    },
+    {
+      "id": "q1781125622243_6",
+      "question": "In which river was Jesus baptised?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Jordan",
+      "options": [
+        "Nile",
+        "Euphrates",
+        "Jordan",
+        "Tigris"
+      ]
+    },
+    {
+      "id": "q1781125622243_7",
+      "question": "What did Jesus turn water into at the wedding in Cana?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Wine",
+      "options": [
+        "Milk",
+        "Honey",
+        "Oil",
+        "Wine"
+      ]
+    },
+    {
+      "id": "q1781125622243_8",
+      "question": "Who was the wisest king in the Bible?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Solomon",
+      "options": [
+        "David",
+        "Saul",
+        "Solomon",
+        "Hezekiah"
+      ]
+    },
+    {
+      "id": "q1781125622243_9",
+      "question": "How many books are in the Old Testament?",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "39",
+      "options": [
+        "27",
+        "33",
+        "39",
+        "46"
+      ]
+    },
+    {
+      "id": "q1781125622243_10",
+      "question": "Who interpreted Pharaoh's dreams in Egypt?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Joseph",
+      "options": [
+        "Moses",
+        "Daniel",
+        "Joseph",
+        "Samuel"
+      ]
+    },
+    {
+      "id": "q1781125622243_11",
+      "question": "What was the name of the garden where Jesus prayed before his arrest?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Garden of Gethsemane",
+      "options": [
+        "Garden of Eden",
+        "Garden of Gethsemane",
+        "Garden of Olives",
+        "Garden of Nazareth"
+      ]
+    },
+    {
+      "id": "q1781125622243_12",
+      "question": "Which apostle denied Jesus three times before the rooster crowed?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Peter",
+      "options": [
+        "James",
+        "John",
+        "Andrew",
+        "Peter"
+      ]
+    },
+    {
+      "id": "q1781125622243_13",
+      "question": "How many loaves of bread did Jesus use to feed 5000 people?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "5",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "q1781125622243_14",
+      "question": "Who was the mother of Samuel?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Hannah",
+      "options": [
+        "Ruth",
+        "Naomi",
+        "Hannah",
+        "Deborah"
+      ]
+    },
+    {
+      "id": "q1781125622243_15",
+      "question": "What was Paul's name before he became an apostle?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Saul",
+      "options": [
+        "Simon",
+        "Barnabas",
+        "Saul",
+        "Silas"
+      ]
+    },
+    {
+      "id": "q1781125622243_16",
+      "question": "Which book of the Bible contains the Ten Commandments?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Exodus",
+      "options": [
+        "Genesis",
+        "Leviticus",
+        "Exodus",
+        "Numbers"
+      ]
+    },
+    {
+      "id": "q1781125622243_17",
+      "question": "Who was the prophet that confronted King David about his sin with Bathsheba?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Nathan",
+      "options": [
+        "Elijah",
+        "Isaiah",
+        "Nathan",
+        "Samuel"
+      ]
+    },
+    {
+      "id": "q1781125622243_18",
+      "question": "How many fish were caught in the miraculous catch of fish in John 21?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "153",
+      "options": [
+        "100",
+        "153",
+        "200",
+        "265"
+      ]
+    },
+    {
+      "id": "q1781125622243_19",
+      "question": "In which city did Pentecost occur?",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Jerusalem",
+      "options": [
+        "Bethlehem",
+        "Nazareth",
+        "Capernaum",
+        "Jerusalem"
+      ]
+    },
+    {
+      "id": "q1781125622243_20",
+      "question": "Which judge of Israel had 70 sons and was the son of Gideon?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Abimelech",
+      "options": [
+        "Jephthah",
+        "Samson",
+        "Abimelech",
+        "Deborah",
+        "Othniel",
+        "Ehud"
+      ]
+    },
+    {
+      "id": "q1781125622243_21",
+      "question": "What was the name of Abraham's father?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Terah",
+      "options": [
+        "Nahor",
+        "Haran",
+        "Terah",
+        "Shem",
+        "Eber",
+        "Peleg"
+      ]
+    },
+    {
+      "id": "q1781125622243_22",
+      "question": "How many years did the Israelites wander in the wilderness?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "40",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70"
+      ]
+    },
+    {
+      "id": "q1781125622243_23",
+      "question": "Who was the high priest when Jesus was crucified?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Caiaphas",
+      "options": [
+        "Annas",
+        "Zechariah",
+        "Eli",
+        "Caiaphas",
+        "Ananias",
+        "Phinehas"
+      ]
+    },
+    {
+      "id": "q1781125622243_24",
+      "question": "Which book comes immediately before Revelation in the New Testament?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Jude",
+      "options": [
+        "1 John",
+        "2 John",
+        "3 John",
+        "Jude",
+        "Hebrews",
+        "Titus"
+      ]
+    },
+    {
+      "id": "q1781125622243_25",
+      "question": "Who was the wealthy landowner who showed kindness to Ruth and allowed her to glean in his field?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Boaz",
+      "options": [
+        "Elimelech",
+        "Mahlon",
+        "Chilion",
+        "Boaz",
+        "Naomi",
+        "Obed"
+      ]
+    },
+    {
+      "id": "q1781125622243_26",
+      "question": "Which epistle in the New Testament is the shortest by number of verses?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "3 John",
+      "options": [
+        "Philemon",
+        "2 John",
+        "3 John",
+        "Titus",
+        "Jude",
+        "Obadiah"
+      ]
+    },
+    {
+      "id": "q1781125622243_27",
+      "question": "Who was the first martyr in the New Testament church?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Stephen",
+      "options": [
+        "James",
+        "Paul",
+        "Barnabas",
+        "Stephen",
+        "Philip",
+        "Timothy"
+      ]
+    },
+    {
+      "id": "q1781125622243_28",
+      "question": "In the parable of the prodigal son, what did the father give the returning son?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A robe ring and sandals",
+      "options": [
+        "Silver coins",
+        "A new house",
+        "A robe ring and sandals",
+        "Servants",
+        "Land",
+        "A feast only"
+      ]
+    },
+    {
+      "id": "q1781125622243_29",
+      "question": "Which Old Testament prophet was taken to Babylon and interpreted the writing on the wall?",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Daniel",
+      "options": [
+        "Ezekiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel",
+        "Hosea",
+        "Amos"
+      ]
+    },
+    {
+      "id": "q1781125622243_30",
+      "question": "What is the name of Nigeria's most popular music genre?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Afrobeats",
+      "options": [
+        "Juju",
+        "Highlife",
+        "Afrobeats",
+        "Fuji"
+      ]
+    },
+    {
+      "id": "q1781125622243_31",
+      "question": "Which of these is a Nigerian staple food made from cassava?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Garri",
+      "options": [
+        "Amala",
+        "Tuwo",
+        "Garri",
+        "Semovita"
+      ]
+    },
+    {
+      "id": "q1781125622243_32",
+      "question": "What does SPF stand for on sunscreen?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Sun Protection Factor",
+      "options": [
+        "Sun Protection Factor",
+        "Skin Protection Formula",
+        "Solar Protection Frequency",
+        "Sun Proof Formula"
+      ]
+    },
+    {
+      "id": "q1781125622243_33",
+      "question": "How many minutes of moderate exercise per week does WHO recommend for adults?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "150",
+      "options": [
+        "75",
+        "100",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "id": "q1781125622243_34",
+      "question": "What is the Nigerian term for a casual outdoor barbecue of spiced meat?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Suya",
+      "options": [
+        "Asun",
+        "Suya",
+        "Kilishi",
+        "Peppered meat"
+      ]
+    },
+    {
+      "id": "q1781125622243_35",
+      "question": "Which of these is NOT a social media platform?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Spotify",
+      "options": [
+        "LinkedIn",
+        "Pinterest",
+        "Spotify",
+        "Snapchat"
+      ]
+    },
+    {
+      "id": "q1781125622243_36",
+      "question": "What colour is the Nigerian flag?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Green white green",
+      "options": [
+        "Green white green",
+        "Blue white blue",
+        "Red white green",
+        "Green yellow green"
+      ]
+    },
+    {
+      "id": "q1781125622243_37",
+      "question": "Which organ filters waste from the blood to produce urine?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Kidneys",
+      "options": [
+        "Liver",
+        "Spleen",
+        "Kidneys",
+        "Pancreas"
+      ]
+    },
+    {
+      "id": "q1781125622243_38",
+      "question": "What is the main ingredient in moi moi?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Beans",
+      "options": [
+        "Yam",
+        "Corn",
+        "Beans",
+        "Rice"
+      ]
+    },
+    {
+      "id": "q1781125622243_39",
+      "question": "Which of these drinks is made from fermented palm sap?",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Palm wine",
+      "options": [
+        "Zobo",
+        "Kunu",
+        "Fura da nono",
+        "Palm wine"
+      ]
+    },
+    {
+      "id": "q1781125622243_40",
+      "question": "What does the term 'work-life balance' refer to?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Maintaining equilibrium between professional and personal life",
+      "options": [
+        "Working overtime to earn more",
+        "Prioritising work above everything",
+        "Maintaining equilibrium between professional and personal life",
+        "Taking more vacations than work days"
+      ]
+    },
+    {
+      "id": "q1781125622243_41",
+      "question": "What is the average normal human body temperature in Celsius?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "37°C",
+      "options": [
+        "35.5°C",
+        "37°C",
+        "38.5°C",
+        "39°C"
+      ]
+    },
+    {
+      "id": "q1781125622243_42",
+      "question": "Which Lagos state landmark is popular for beach relaxation?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Tarkwa Bay",
+      "options": [
+        "Eko Atlantic",
+        "Lekki Conservation Centre",
+        "Bar Beach",
+        "Tarkwa Bay"
+      ]
+    },
+    {
+      "id": "q1781125622243_43",
+      "question": "What is the name of Nigeria's national airline?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Air Peace",
+      "options": [
+        "Arik Air",
+        "Air Peace",
+        "Nigeria Air",
+        "Overland Airways"
+      ]
+    },
+    {
+      "id": "q1781125622243_44",
+      "question": "Which macronutrient is most important for muscle repair and growth?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Protein",
+      "options": [
+        "Carbohydrates",
+        "Fat",
+        "Fibre",
+        "Protein"
+      ]
+    },
+    {
+      "id": "q1781125622243_45",
+      "question": "What does the '₦' symbol represent?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Nigerian naira",
+      "options": [
+        "Ghana cedis",
+        "Nigerian naira",
+        "Kenyan shilling",
+        "South African rand"
+      ]
+    },
+    {
+      "id": "q1781125622243_46",
+      "question": "Which of these is a popular Nigerian thanksgiving tradition?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Church thanksgiving with food sharing",
+      "options": [
+        "Bonfire night",
+        "Church thanksgiving with food sharing",
+        "Night vigil only",
+        "Masquerade parade"
+      ]
+    },
+    {
+      "id": "q1781125622243_47",
+      "question": "What is the term for the practice of fasting from sunrise to sunset during Ramadan?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Sawm",
+      "options": [
+        "Zakat",
+        "Sawm",
+        "Salat",
+        "Hajj"
+      ]
+    },
+    {
+      "id": "q1781125622243_48",
+      "question": "How many calories are in one gram of protein?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "4",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "id": "q1781125622243_49",
+      "question": "Which Nigerian city is known as the centre of commerce?",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Lagos",
+      "options": [
+        "Abuja",
+        "Kano",
+        "Port Harcourt",
+        "Lagos"
+      ]
+    },
+    {
+      "id": "q1781125622243_50",
+      "question": "What is the glycaemic index used to measure?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "How quickly food raises blood sugar",
+      "options": [
+        "Fat content in food",
+        "How quickly food raises blood sugar",
+        "Calorie density of food",
+        "Protein quality of food",
+        "Vitamin content",
+        "Water content of food"
+      ]
+    },
+    {
+      "id": "q1781125622243_51",
+      "question": "Which neurotransmitter is commonly called the 'happy chemical'?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Serotonin",
+      "options": [
+        "Cortisol",
+        "Adrenaline",
+        "Melatonin",
+        "Serotonin",
+        "Dopamine",
+        "Oxytocin"
+      ]
+    },
+    {
+      "id": "q1781125622243_52",
+      "question": "What is the recommended maximum daily salt intake for adults according to WHO?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "5g",
+      "options": [
+        "3g",
+        "4g",
+        "5g",
+        "6g",
+        "8g",
+        "10g"
+      ]
+    },
+    {
+      "id": "q1781125622243_53",
+      "question": "Which vitamin is synthesised in the liver and stored in the body for the longest time?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Vitamin B12",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin E",
+        "Vitamin K"
+      ]
+    },
+    {
+      "id": "q1781125622243_54",
+      "question": "What is the name of the traditional Igbo wine-carrying ceremony in Nigerian weddings?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Igba nkwu",
+      "options": [
+        "Eru ime",
+        "Igba nkwu",
+        "Ime ego",
+        "Iku aka",
+        "Nne di",
+        "Oji ojii"
+      ]
+    },
+    {
+      "id": "q1781125622243_55",
+      "question": "What does BMR stand for in health and fitness?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Basal Metabolic Rate",
+      "options": [
+        "Body Mass Rate",
+        "Basal Metabolic Rate",
+        "Basic Muscle Ratio",
+        "Body Muscle Resistance",
+        "Basal Mineral Ratio",
+        "Body Metabolic Resistance"
+      ]
+    },
+    {
+      "id": "q1781125622243_56",
+      "question": "Which of these is NOT one of the five basic tastes?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Spicy",
+      "options": [
+        "Sweet",
+        "Sour",
+        "Spicy",
+        "Salty",
+        "Bitter",
+        "Umami"
+      ]
+    },
+    {
+      "id": "q1781125622243_57",
+      "question": "What percentage of sleep should ideally be deep sleep (slow-wave sleep)?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "13-23%",
+      "options": [
+        "5-10%",
+        "13-23%",
+        "25-35%",
+        "40-50%",
+        "50-60%",
+        "60-70%"
+      ]
+    },
+    {
+      "id": "q1781125622243_58",
+      "question": "What is the name of the Yoruba traditional marriage introduction ceremony?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Introduction",
+      "options": [
+        "Bride price",
+        "Eko",
+        "Introduction",
+        "Eru iyawo",
+        "Mo mi o mo e",
+        "Isihiko"
+      ]
+    },
+    {
+      "id": "q1781125622243_59",
+      "question": "Which mineral is most important for bone density and preventing osteoporosis?",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Calcium",
+      "options": [
+        "Iron",
+        "Zinc",
+        "Magnesium",
+        "Calcium",
+        "Potassium",
+        "Phosphorus"
+      ]
+    },
+    {
+      "id": "q1781125622243_60",
+      "question": "What is the unit of energy?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Joule",
+      "options": [
+        "Newton",
+        "Watt",
+        "Joule",
+        "Pascal"
+      ]
+    },
+    {
+      "id": "q1781125622243_61",
+      "question": "What type of energy is stored in a stretched rubber band?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Elastic potential energy",
+      "options": [
+        "Kinetic energy",
+        "Chemical energy",
+        "Elastic potential energy",
+        "Thermal energy"
+      ]
+    },
+    {
+      "id": "q1781125622243_62",
+      "question": "What is the unit of power?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Watt",
+      "options": [
+        "Joule",
+        "Newton",
+        "Pascal",
+        "Watt"
+      ]
+    },
+    {
+      "id": "q1781125622243_63",
+      "question": "Which of these is NOT a form of electromagnetic radiation?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Sound waves",
+      "options": [
+        "X-rays",
+        "Sound waves",
+        "Gamma rays",
+        "Radio waves"
+      ]
+    },
+    {
+      "id": "q1781125622243_64",
+      "question": "What is the freezing point of water in Celsius?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "0°C",
+      "options": [
+        "-10°C",
+        "0°C",
+        "4°C",
+        "10°C"
+      ]
+    },
+    {
+      "id": "q1781125622243_65",
+      "question": "Which material is the best conductor of electricity?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Copper",
+      "options": [
+        "Wood",
+        "Rubber",
+        "Plastic",
+        "Copper"
+      ]
+    },
+    {
+      "id": "q1781125622243_66",
+      "question": "What does a speedometer measure?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Speed",
+      "options": [
+        "Acceleration",
+        "Distance",
+        "Speed",
+        "Force"
+      ]
+    },
+    {
+      "id": "q1781125622243_67",
+      "question": "What is the centre of an atom called?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Nucleus",
+      "options": [
+        "Electron",
+        "Proton",
+        "Nucleus",
+        "Neutron"
+      ]
+    },
+    {
+      "id": "q1781125622243_68",
+      "question": "Which colour is produced when red and blue light are mixed?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Magenta",
+      "options": [
+        "Yellow",
+        "Green",
+        "Magenta",
+        "Cyan"
+      ]
+    },
+    {
+      "id": "q1781125622243_69",
+      "question": "What is the SI unit of temperature?",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Kelvin",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Rankine"
+      ]
+    },
+    {
+      "id": "q1781125622243_70",
+      "question": "What is Newton's third law of motion?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Every action has an equal and opposite reaction",
+      "options": [
+        "F = ma",
+        "An object in motion stays in motion",
+        "Every action has an equal and opposite reaction",
+        "Energy cannot be created or destroyed"
+      ]
+    },
+    {
+      "id": "q1781125622243_71",
+      "question": "What type of lens is thicker in the middle than at the edges?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Convex",
+      "options": [
+        "Concave",
+        "Diverging",
+        "Convex",
+        "Plane"
+      ]
+    },
+    {
+      "id": "q1781125622243_72",
+      "question": "What is the formula for work done?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "W = Fd",
+      "options": [
+        "W = mv",
+        "W = Fd",
+        "W = ma",
+        "W = Pt"
+      ]
+    },
+    {
+      "id": "q1781125622243_73",
+      "question": "Which gas law states that pressure and volume are inversely proportional at constant temperature?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Boyle's law",
+      "options": [
+        "Charles's law",
+        "Gay-Lussac's law",
+        "Boyle's law",
+        "Avogadro's law"
+      ]
+    },
+    {
+      "id": "q1781125622243_74",
+      "question": "What is the name of the force that keeps planets in orbit around the sun?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Gravitational force",
+      "options": [
+        "Magnetic force",
+        "Nuclear force",
+        "Gravitational force",
+        "Centripetal force"
+      ]
+    },
+    {
+      "id": "q1781125622243_75",
+      "question": "What does a voltmeter measure?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Voltage",
+      "options": [
+        "Current",
+        "Resistance",
+        "Power",
+        "Voltage"
+      ]
+    },
+    {
+      "id": "q1781125622243_76",
+      "question": "What phenomenon causes a stick to appear bent when placed in water?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Refraction",
+      "options": [
+        "Reflection",
+        "Diffraction",
+        "Refraction",
+        "Dispersion"
+      ]
+    },
+    {
+      "id": "q1781125622243_77",
+      "question": "What is the unit of inductance?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Henry",
+      "options": [
+        "Farad",
+        "Tesla",
+        "Ohm",
+        "Henry"
+      ]
+    },
+    {
+      "id": "q1781125622243_78",
+      "question": "Which type of radiation has the highest penetrating power?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Gamma",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "X-ray"
+      ]
+    },
+    {
+      "id": "q1781125622243_79",
+      "question": "What is the relationship between frequency and wavelength of a wave?",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "They are inversely proportional",
+      "options": [
+        "They are directly proportional",
+        "They are equal",
+        "They are inversely proportional",
+        "They have no relationship"
+      ]
+    },
+    {
+      "id": "q1781125622243_80",
+      "question": "What is the formula for gravitational potential energy?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "GPE = mgh",
+      "options": [
+        "GPE = mv²",
+        "GPE = ½mv²",
+        "GPE = mgh",
+        "GPE = Fd",
+        "GPE = ma",
+        "GPE = qV"
+      ]
+    },
+    {
+      "id": "q1781125622243_81",
+      "question": "What is the speed of sound in air at 20°C approximately?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "343 m/s",
+      "options": [
+        "220 m/s",
+        "343 m/s",
+        "440 m/s",
+        "550 m/s",
+        "680 m/s",
+        "750 m/s"
+      ]
+    },
+    {
+      "id": "q1781125622243_82",
+      "question": "What is the SI unit of capacitance?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Farad",
+      "options": [
+        "Henry",
+        "Tesla",
+        "Ohm",
+        "Farad",
+        "Weber",
+        "Siemens"
+      ]
+    },
+    {
+      "id": "q1781125622243_83",
+      "question": "Which principle explains why aeroplanes can fly?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Bernoulli's principle",
+      "options": [
+        "Newton's first law",
+        "Pascal's principle",
+        "Archimedes' principle",
+        "Bernoulli's principle",
+        "Ohm's law",
+        "Hooke's law"
+      ]
+    },
+    {
+      "id": "q1781125622243_84",
+      "question": "What is the minimum number of colours needed to produce white light?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "3",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "q1781125622243_85",
+      "question": "What is the name of the effect where light causes electrons to be emitted from a metal surface?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Photoelectric effect",
+      "options": [
+        "Compton effect",
+        "Zeeman effect",
+        "Doppler effect",
+        "Photoelectric effect",
+        "Hall effect",
+        "Meissner effect"
+      ]
+    },
+    {
+      "id": "q1781125622243_86",
+      "question": "What is absolute zero in Celsius?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "-273°C",
+      "options": [
+        "-100°C",
+        "-173°C",
+        "-233°C",
+        "-273°C",
+        "-300°C",
+        "-373°C"
+      ]
+    },
+    {
+      "id": "q1781125622243_87",
+      "question": "What does E = mc² represent?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Mass-energy equivalence",
+      "options": [
+        "Kinetic energy formula",
+        "Ohm's law",
+        "Mass-energy equivalence",
+        "Gravitational potential",
+        "Wave energy",
+        "Electric field energy"
+      ]
+    },
+    {
+      "id": "q1781125622243_88",
+      "question": "Which subatomic particles are found in the nucleus of an atom?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Protons and neutrons",
+      "options": [
+        "Electrons and protons",
+        "Electrons and neutrons",
+        "Protons and neutrons",
+        "Electrons only",
+        "Protons only",
+        "Neutrons only"
+      ]
+    },
+    {
+      "id": "q1781125622243_89",
+      "question": "What is the Doppler effect?",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Change in frequency due to relative motion",
+      "options": [
+        "Light bending around corners",
+        "Change in frequency due to relative motion",
+        "Splitting of white light",
+        "Interference of waves",
+        "Reflection of sound",
+        "Diffraction of light"
+      ]
+    },
+    {
+      "id": "q1781125622243_90",
+      "question": "What is 12 × 12?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "144",
+      "options": [
+        "124",
+        "132",
+        "144",
+        "148"
+      ]
+    },
+    {
+      "id": "q1781125622243_91",
+      "question": "What is 20% of 500?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "100",
+      "options": [
+        "50",
+        "75",
+        "100",
+        "125"
+      ]
+    },
+    {
+      "id": "q1781125622243_92",
+      "question": "What is the square root of 81?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "9",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "11"
+      ]
+    },
+    {
+      "id": "q1781125622243_93",
+      "question": "What is 3/5 as a percentage?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "60%",
+      "options": [
+        "35%",
+        "50%",
+        "60%",
+        "65%"
+      ]
+    },
+    {
+      "id": "q1781125622244_94",
+      "question": "How many degrees are in a right angle?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "90°",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ]
+    },
+    {
+      "id": "q1781125622244_95",
+      "question": "What is 1000 - 357?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "643",
+      "options": [
+        "533",
+        "543",
+        "643",
+        "653"
+      ]
+    },
+    {
+      "id": "q1781125622244_96",
+      "question": "What is the area of a square with side 9cm?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "81cm²",
+      "options": [
+        "36cm²",
+        "54cm²",
+        "72cm²",
+        "81cm²"
+      ]
+    },
+    {
+      "id": "q1781125622244_97",
+      "question": "What is the value of 5! (5 factorial)?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "120",
+      "options": [
+        "20",
+        "60",
+        "120",
+        "240"
+      ]
+    },
+    {
+      "id": "q1781125622244_98",
+      "question": "What is 0.75 as a fraction?",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "3/4",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5"
+      ]
+    },
+    {
+      "id": "q1781125622244_99",
+      "question": "What is the perimeter of a circle with radius 7cm? (use π = 22/7)",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "44cm",
+      "options": [
+        "22cm",
+        "33cm",
+        "44cm",
+        "66cm"
+      ]
+    },
+    {
+      "id": "q1781125622244_100",
+      "question": "If a trader buys an item for ₦2,000 and sells it for ₦2,500, what is the profit percentage?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "25%",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ]
+    },
+    {
+      "id": "q1781125622244_101",
+      "question": "Solve: 5x - 3 = 22. What is x?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "5",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "q1781125622244_102",
+      "question": "What is the median of: 3, 7, 2, 9, 5?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "5",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "id": "q1781125622244_103",
+      "question": "What is the angle sum of the interior angles of a quadrilateral?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "360°",
+      "options": [
+        "180°",
+        "270°",
+        "360°",
+        "540°"
+      ]
+    },
+    {
+      "id": "q1781125622244_104",
+      "question": "What is 2³ × 2⁴?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "2⁷",
+      "options": [
+        "2⁶",
+        "2⁷",
+        "2⁸",
+        "2¹²"
+      ]
+    },
+    {
+      "id": "q1781125622244_105",
+      "question": "A bag contains 5 red and 3 blue balls. What is the probability of picking a red ball?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "5/8",
+      "options": [
+        "3/8",
+        "5/8",
+        "1/2",
+        "2/5"
+      ]
+    },
+    {
+      "id": "q1781125622244_106",
+      "question": "What is the volume of a cylinder with radius 3cm and height 7cm? (use π = 22/7)",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "198cm³",
+      "options": [
+        "66cm³",
+        "132cm³",
+        "154cm³",
+        "198cm³"
+      ]
+    },
+    {
+      "id": "q1781125622244_107",
+      "question": "What is the gradient of the line y = 3x + 5?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "3",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "id": "q1781125622244_108",
+      "question": "Expand: (x + 3)(x - 2)",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "x² + x - 6",
+      "options": [
+        "x² + x - 6",
+        "x² - x - 6",
+        "x² + 5x - 6",
+        "x² - 5x + 6"
+      ]
+    },
+    {
+      "id": "q1781125622244_109",
+      "question": "What is the simple interest on ₦10,000 at 5% per annum for 3 years?",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "₦1,500",
+      "options": [
+        "₦500",
+        "₦1,000",
+        "₦1,500",
+        "₦2,000"
+      ]
+    },
+    {
+      "id": "q1781125622244_110",
+      "question": "What is the value of sin 30°?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "0.5",
+      "options": [
+        "0",
+        "0.5",
+        "√2/2",
+        "√3/2",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "q1781125622244_111",
+      "question": "Solve the quadratic: x² + 7x + 12 = 0. What are the roots?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "x=-3 and x=-4",
+      "options": [
+        "x=2 and x=6",
+        "x=-3 and x=-4",
+        "x=3 and x=4",
+        "x=-2 and x=-6",
+        "x=1 and x=12",
+        "x=-1 and x=-12"
+      ]
+    },
+    {
+      "id": "q1781125622244_112",
+      "question": "What is the integral of 2x?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "x² + C",
+      "options": [
+        "2",
+        "x²",
+        "x² + C",
+        "2x² + C",
+        "x + C",
+        "2 + C"
+      ]
+    },
+    {
+      "id": "q1781125622244_113",
+      "question": "In a geometric sequence, the first term is 3 and the common ratio is 2. What is the 5th term?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "48",
+      "options": [
+        "24",
+        "32",
+        "48",
+        "64",
+        "96",
+        "48"
+      ]
+    },
+    {
+      "id": "q1781125622244_114",
+      "question": "What is the determinant of the matrix [[2,3],[1,4]]?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "5",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "8",
+        "11",
+        "14"
+      ]
+    },
+    {
+      "id": "q1781125622244_115",
+      "question": "How many ways can 4 people be arranged in a row?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "24",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "24",
+        "32",
+        "48"
+      ]
+    },
+    {
+      "id": "q1781125622244_116",
+      "question": "What is log₂(64)?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "6",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "q1781125622244_117",
+      "question": "What is the distance between points (1,2) and (4,6)?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "5",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "q1781125622244_118",
+      "question": "What is the sum of the first 20 terms of an arithmetic sequence with first term 2 and common difference 3?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "610",
+      "options": [
+        "590",
+        "610",
+        "630",
+        "650",
+        "670",
+        "690"
+      ]
+    },
+    {
+      "id": "q1781125622244_119",
+      "question": "If f(x) = x² - 3x + 2, what is f(4)?",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "6",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "id": "q1781125622244_120",
+      "question": "What is the plural of 'tooth'?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Teeth",
+      "options": [
+        "Tooths",
+        "Teeths",
+        "Toothes",
+        "Teeth"
+      ]
+    },
+    {
+      "id": "q1781125622244_121",
+      "question": "Which of these is a preposition?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Under",
+      "options": [
+        "Run",
+        "Beautiful",
+        "Under",
+        "Quickly"
+      ]
+    },
+    {
+      "id": "q1781125622244_122",
+      "question": "What is the opposite of 'generous'?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Stingy",
+      "options": [
+        "Stingy",
+        "Kind",
+        "Humble",
+        "Rude"
+      ]
+    },
+    {
+      "id": "q1781125622244_123",
+      "question": "Which word is spelled correctly?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Government",
+      "options": [
+        "Goverment",
+        "Govornment",
+        "Government",
+        "Govenment"
+      ]
+    },
+    {
+      "id": "q1781125622244_124",
+      "question": "What type of word is 'slowly'?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Adverb",
+      "options": [
+        "Noun",
+        "Verb",
+        "Adjective",
+        "Adverb"
+      ]
+    },
+    {
+      "id": "q1781125622244_125",
+      "question": "Which sentence is in the passive voice?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "The man was bitten by the dog",
+      "options": [
+        "The dog bit the man",
+        "The man was bitten by the dog",
+        "The man ran away",
+        "The dog ran fast"
+      ]
+    },
+    {
+      "id": "q1781125622244_126",
+      "question": "What is the synonym of 'enormous'?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Huge",
+      "options": [
+        "Tiny",
+        "Huge",
+        "Slim",
+        "Quiet"
+      ]
+    },
+    {
+      "id": "q1781125622244_127",
+      "question": "What does the prefix 'un-' mean?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Not",
+      "options": [
+        "Again",
+        "Before",
+        "Not",
+        "After"
+      ]
+    },
+    {
+      "id": "q1781125622244_128",
+      "question": "Which of these is a conjunction?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Because",
+      "options": [
+        "Quickly",
+        "Beautiful",
+        "Because",
+        "Under"
+      ]
+    },
+    {
+      "id": "q1781125622244_129",
+      "question": "What is the past tense of 'run'?",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Ran",
+      "options": [
+        "Runned",
+        "Runed",
+        "Ran",
+        "Run"
+      ]
+    },
+    {
+      "id": "q1781125622244_130",
+      "question": "What is the meaning of the idiom 'it's raining cats and dogs'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "It is raining very heavily",
+      "options": [
+        "Animals falling from the sky",
+        "It is raining very heavily",
+        "It is a pet-friendly day",
+        "Cats and dogs are fighting"
+      ]
+    },
+    {
+      "id": "q1781125622244_131",
+      "question": "What literary device is used in 'Life is a journey'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Metaphor",
+      "options": [
+        "Simile",
+        "Personification",
+        "Hyperbole",
+        "Metaphor"
+      ]
+    },
+    {
+      "id": "q1781125622244_132",
+      "question": "Which word correctly completes: 'Neither John nor his friends __ coming'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "are",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ]
+    },
+    {
+      "id": "q1781125622244_133",
+      "question": "What is the meaning of 'ambiguous'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Open to more than one interpretation",
+      "options": [
+        "Clearly defined",
+        "Open to more than one interpretation",
+        "Extremely ambitious",
+        "Completely wrong"
+      ]
+    },
+    {
+      "id": "q1781125622244_134",
+      "question": "What is an alliteration?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Repetition of the same initial consonant sound",
+      "options": [
+        "A comparison using like or as",
+        "Repetition of the same initial consonant sound",
+        "A word that sounds like what it means",
+        "An exaggerated statement"
+      ]
+    },
+    {
+      "id": "q1781125622244_135",
+      "question": "Which of these is a compound sentence?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "She ran fast and she won the race.",
+      "options": [
+        "She ran.",
+        "She ran fast.",
+        "She ran fast and she won the race.",
+        "Because she ran fast she won."
+      ]
+    },
+    {
+      "id": "q1781125622244_136",
+      "question": "What is the meaning of 'procrastinate'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "To delay or postpone action",
+      "options": [
+        "To work very hard",
+        "To delay or postpone action",
+        "To celebrate a victory",
+        "To plan carefully"
+      ]
+    },
+    {
+      "id": "q1781125622244_137",
+      "question": "What is the correct plural of 'criterion'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Criteria",
+      "options": [
+        "Criterions",
+        "Criterias",
+        "Criteria",
+        "Criterium"
+      ]
+    },
+    {
+      "id": "q1781125622244_138",
+      "question": "What literary device is 'bang', 'hiss', 'buzz'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Onomatopoeia",
+      "options": [
+        "Alliteration",
+        "Onomatopoeia",
+        "Assonance",
+        "Hyperbole"
+      ]
+    },
+    {
+      "id": "q1781125622244_139",
+      "question": "What is the antonym of 'loquacious'?",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Taciturn",
+      "options": [
+        "Talkative",
+        "Noisy",
+        "Taciturn",
+        "Eloquent"
+      ]
+    },
+    {
+      "id": "q1781125622244_140",
+      "question": "What is a dangling modifier?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A modifier that does not clearly modify any word in the sentence",
+      "options": [
+        "A misplaced adjective",
+        "A modifier that does not clearly modify any word in the sentence",
+        "A conjunction used incorrectly",
+        "A verb with no subject",
+        "An adverb placed at the end",
+        "A prepositional phrase used as a noun"
+      ]
+    },
+    {
+      "id": "q1781125622244_141",
+      "question": "What is the term for a word that is its own antonym?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Contronym",
+      "options": [
+        "Homograph",
+        "Homophone",
+        "Contronym",
+        "Palindrome",
+        "Oxymoron",
+        "Portmanteau"
+      ]
+    },
+    {
+      "id": "q1781125622244_142",
+      "question": "In which of Shakespeare's plays does the character Shylock appear?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The Merchant of Venice",
+      "options": [
+        "Hamlet",
+        "A Midsummer Night's Dream",
+        "The Merchant of Venice",
+        "Macbeth",
+        "King Lear",
+        "As You Like It"
+      ]
+    },
+    {
+      "id": "q1781125622244_143",
+      "question": "What is the meaning of 'sesquipedalian'?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Tending to use long words",
+      "options": [
+        "Relating to horses",
+        "Tending to use long words",
+        "A type of poetry",
+        "Speaking in riddles",
+        "Having six feet",
+        "A form of irony"
+      ]
+    },
+    {
+      "id": "q1781125622244_144",
+      "question": "What is an 'appositive' in grammar?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A noun or noun phrase that renames another noun beside it",
+      "options": [
+        "A type of verb tense",
+        "A noun or noun phrase that renames another noun beside it",
+        "A question posed for effect",
+        "A type of conjunction",
+        "A subordinate clause",
+        "A comparative adjective"
+      ]
+    },
+    {
+      "id": "q1781125622244_145",
+      "question": "What is the name for a poem that spells out a word using the first letter of each line?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Acrostic",
+      "options": [
+        "Haiku",
+        "Sonnet",
+        "Acrostic",
+        "Limerick",
+        "Ballad",
+        "Elegy"
+      ]
+    },
+    {
+      "id": "q1781125622244_146",
+      "question": "Which word is a portmanteau of 'breakfast' and 'lunch'?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Brunch",
+      "options": [
+        "Luncheon",
+        "Brinner",
+        "Brunch",
+        "Dunch",
+        "Linner",
+        "Munch"
+      ]
+    },
+    {
+      "id": "q1781125622244_147",
+      "question": "What is 'zeugma' as a literary device?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "One word governing two others in different senses",
+      "options": [
+        "Repetition of a word at the end of clauses",
+        "One word governing two others in different senses",
+        "A comparison without using like or as",
+        "An interruption of a narrative",
+        "A list of items",
+        "A contradiction in terms"
+      ]
+    },
+    {
+      "id": "q1781125622244_148",
+      "question": "What is the term for the repetition of vowel sounds in nearby words?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Assonance",
+      "options": [
+        "Alliteration",
+        "Consonance",
+        "Assonance",
+        "Onomatopoeia",
+        "Rhyme",
+        "Meter"
+      ]
+    },
+    {
+      "id": "q1781125622244_149",
+      "question": "What does 'in medias res' mean as a narrative technique?",
+      "category": "english",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Starting in the middle of the action",
+      "options": [
+        "Beginning at the end",
+        "Starting in the middle of the action",
+        "Narrating in flashback only",
+        "Using an unreliable narrator",
+        "Telling from multiple perspectives",
+        "Ending without resolution"
+      ]
+    },
+    {
+      "id": "q1781125622244_150",
+      "question": "What is the full meaning of INEC?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Independent National Electoral Commission",
+      "options": [
+        "Independent National Electoral Commission",
+        "International Nigerian Electoral Council",
+        "Independent Nigerian Electoral Committee",
+        "Internal National Election Commission"
+      ]
+    },
+    {
+      "id": "q1781125622244_151",
+      "question": "Who is the head of government in Nigeria?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "The President",
+      "options": [
+        "The Senate President",
+        "The Chief Justice",
+        "The President",
+        "The Vice President"
+      ]
+    },
+    {
+      "id": "q1781125622244_152",
+      "question": "What does the executive arm of government do?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Implements the laws",
+      "options": [
+        "Makes the laws",
+        "Interprets the laws",
+        "Implements the laws",
+        "Reviews the laws"
+      ]
+    },
+    {
+      "id": "q1781125622244_153",
+      "question": "What is a constitution?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "The fundamental law of a country",
+      "options": [
+        "A president's speech",
+        "The fundamental law of a country",
+        "A type of election",
+        "A court judgement"
+      ]
+    },
+    {
+      "id": "q1781125622244_154",
+      "question": "Which of these is an example of a monarchy?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "United Kingdom",
+      "options": [
+        "USA",
+        "Nigeria",
+        "United Kingdom",
+        "France"
+      ]
+    },
+    {
+      "id": "q1781125622244_155",
+      "question": "What is the minimum voting age in Nigeria?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "18",
+      "options": [
+        "16",
+        "18",
+        "21",
+        "25"
+      ]
+    },
+    {
+      "id": "q1781125622244_156",
+      "question": "What does LGA stand for in Nigerian government?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Local Government Area",
+      "options": [
+        "Local Governing Area",
+        "Local Government Authority",
+        "Local Government Area",
+        "Lower Government Agency"
+      ]
+    },
+    {
+      "id": "q1781125622244_157",
+      "question": "Which arm of government does the President belong to?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Executive",
+      "options": [
+        "Legislature",
+        "Judiciary",
+        "Executive",
+        "Military"
+      ]
+    },
+    {
+      "id": "q1781125622244_158",
+      "question": "What is propaganda?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Biased information used to influence opinion",
+      "options": [
+        "A type of election",
+        "Biased information used to influence opinion",
+        "A government policy",
+        "A court process"
+      ]
+    },
+    {
+      "id": "q1781125622244_159",
+      "question": "Who appoints the Chief Justice of Nigeria?",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "The President",
+      "options": [
+        "The Senate",
+        "The House of Representatives",
+        "The President",
+        "The National Judicial Council"
+      ]
+    },
+    {
+      "id": "q1781125622244_160",
+      "question": "What is the tenure of a Nigerian president?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "4 years up to two terms",
+      "options": [
+        "4 years single term",
+        "4 years up to two terms",
+        "5 years single term",
+        "6 years single term"
+      ]
+    },
+    {
+      "id": "q1781125622244_161",
+      "question": "What is the full meaning of EFCC?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Economic and Financial Crimes Commission",
+      "options": [
+        "Economic and Financial Crimes Commission",
+        "Economic Fraud and Corruption Commission",
+        "External Financial Crimes Commission",
+        "Economic and Federal Crimes Council"
+      ]
+    },
+    {
+      "id": "q1781125622244_162",
+      "question": "What is a unitary system of government?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "All power concentrated in a central government",
+      "options": [
+        "Power shared between central and regional governments",
+        "All power concentrated in a central government",
+        "Power held by the military",
+        "Power shared between three arms only"
+      ]
+    },
+    {
+      "id": "q1781125622244_163",
+      "question": "What is the name of the Nigerian upper legislative chamber?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Senate",
+      "options": [
+        "House of Representatives",
+        "House of Assembly",
+        "Senate",
+        "National Council"
+      ]
+    },
+    {
+      "id": "q1781125622244_164",
+      "question": "Which body is responsible for registering companies in Nigeria?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "CAC",
+      "options": [
+        "EFCC",
+        "FIRS",
+        "CAC",
+        "NAFDAC"
+      ]
+    },
+    {
+      "id": "q1781125622244_165",
+      "question": "What is the meaning of 'impeachment'?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Formal charge against a public official",
+      "options": [
+        "Removal of a judge",
+        "Formal charge against a public official",
+        "A type of election",
+        "Dissolution of parliament"
+      ]
+    },
+    {
+      "id": "q1781125622244_166",
+      "question": "ECOWAS was established in which year?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "1975",
+      "options": [
+        "1963",
+        "1970",
+        "1975",
+        "1980"
+      ]
+    },
+    {
+      "id": "q1781125622244_167",
+      "question": "What does the Nigerian coat of arms feature at the top?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "An eagle",
+      "options": [
+        "An eagle",
+        "A lion",
+        "A star",
+        "A green field"
+      ]
+    },
+    {
+      "id": "q1781125622244_168",
+      "question": "What is the concept of 'suffrage'?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "The right to vote",
+      "options": [
+        "The right to speak in parliament",
+        "The right to vote",
+        "The right to stand for election",
+        "Freedom of the press"
+      ]
+    },
+    {
+      "id": "q1781125622244_169",
+      "question": "Which Nigerian institution is responsible for monetary policy?",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Central Bank of Nigeria",
+      "options": [
+        "Federal Ministry of Finance",
+        "Securities and Exchange Commission",
+        "Central Bank of Nigeria",
+        "Nigerian Stock Exchange"
+      ]
+    },
+    {
+      "id": "q1781125622244_170",
+      "question": "What is the principle of 'ultra vires' in Nigerian administrative law?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Acting beyond one's legal authority",
+      "options": [
+        "Acting within legal authority",
+        "Acting beyond one's legal authority",
+        "A court order to stop action",
+        "The right to appeal",
+        "A constitutional amendment process",
+        "Transfer of power to states"
+      ]
+    },
+    {
+      "id": "q1781125622244_171",
+      "question": "Under the Nigerian 1999 Constitution, how long is the tenure of a state governor?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "4 years",
+      "options": [
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "6 years",
+        "7 years"
+      ]
+    },
+    {
+      "id": "q1781125622244_172",
+      "question": "What is a 'motion of no confidence'?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A vote by parliament to remove the executive",
+      "options": [
+        "A bill to amend the constitution",
+        "A vote by parliament to remove the executive",
+        "A court order against a minister",
+        "A presidential decree",
+        "A petition by citizens",
+        "A senate confirmation hearing"
+      ]
+    },
+    {
+      "id": "q1781125622244_173",
+      "question": "What is the term for a government that controls all aspects of public and private life?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Totalitarianism",
+      "options": [
+        "Democracy",
+        "Oligarchy",
+        "Federalism",
+        "Totalitarianism",
+        "Theocracy",
+        "Plutocracy"
+      ]
+    },
+    {
+      "id": "q1781125622244_174",
+      "question": "How many local government areas does Nigeria have?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "774",
+      "options": [
+        "668",
+        "744",
+        "774",
+        "800",
+        "824",
+        "868"
+      ]
+    },
+    {
+      "id": "q1781125622244_175",
+      "question": "What does the term 'habeas corpus' mean?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "You shall have the body — requiring a person to be brought before a judge",
+      "options": [
+        "The right to remain silent",
+        "You shall have the body — requiring a person to be brought before a judge",
+        "The power to make laws",
+        "A type of presidential pardon",
+        "A supreme court ruling",
+        "The right to legal representation"
+      ]
+    },
+    {
+      "id": "q1781125622244_176",
+      "question": "What is the first section of the Nigerian 1999 Constitution about?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Supremacy of the constitution",
+      "options": [
+        "Citizenship",
+        "Fundamental rights",
+        "Supremacy of the constitution",
+        "Creation of states",
+        "Executive powers",
+        "Legislative powers"
+      ]
+    },
+    {
+      "id": "q1781125622244_177",
+      "question": "Which of these is a function of the Nigerian Senate exclusively?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Confirming presidential appointments",
+      "options": [
+        "Making appropriation bills",
+        "Confirming presidential appointments",
+        "Overriding presidential veto",
+        "Initiating money bills",
+        "Removing the president alone",
+        "Conducting elections"
+      ]
+    },
+    {
+      "id": "q1781125622244_178",
+      "question": "What is 'gerrymandering'?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Manipulating electoral boundaries for political advantage",
+      "options": [
+        "Bribing voters",
+        "Manipulating electoral boundaries for political advantage",
+        "Forging election results",
+        "Preventing citizens from voting",
+        "Ballot box stuffing",
+        "Multiple voting"
+      ]
+    },
+    {
+      "id": "q1781125622244_179",
+      "question": "Which theory of the origin of the state argues that people voluntarily gave up some freedoms in exchange for protection?",
+      "category": "government",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Social contract theory",
+      "options": [
+        "Divine right theory",
+        "Force theory",
+        "Evolutionary theory",
+        "Social contract theory",
+        "Marxist theory",
+        "Patriarchal theory"
+      ]
+    },
+    {
+      "id": "q1781125622244_180",
+      "question": "What was the name of Nigeria before independence?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Colony and Protectorate of Nigeria",
+      "options": [
+        "Gold Coast",
+        "British West Africa",
+        "Colony and Protectorate of Nigeria",
+        "Royal Niger Territory"
+      ]
+    },
+    {
+      "id": "q1781125622244_181",
+      "question": "Who was the first prime minister of the United Kingdom?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Robert Walpole",
+      "options": [
+        "Winston Churchill",
+        "Robert Walpole",
+        "Oliver Cromwell",
+        "William Pitt"
+      ]
+    },
+    {
+      "id": "q1781125622244_182",
+      "question": "Which ancient wonder of the world still exists today?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Great Pyramid of Giza",
+      "options": [
+        "Hanging Gardens of Babylon",
+        "Colossus of Rhodes",
+        "Great Pyramid of Giza",
+        "Lighthouse of Alexandria"
+      ]
+    },
+    {
+      "id": "q1781125622244_183",
+      "question": "In which year did the American Civil War end?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "1865",
+      "options": [
+        "1861",
+        "1863",
+        "1865",
+        "1867"
+      ]
+    },
+    {
+      "id": "q1781125622244_184",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Marie Curie",
+      "options": [
+        "Florence Nightingale",
+        "Rosalind Franklin",
+        "Marie Curie",
+        "Harriet Tubman"
+      ]
+    },
+    {
+      "id": "q1781125622244_185",
+      "question": "Which empire was known as the 'Empire on which the sun never sets'?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "British Empire",
+      "options": [
+        "Roman Empire",
+        "Ottoman Empire",
+        "French Empire",
+        "British Empire"
+      ]
+    },
+    {
+      "id": "q1781125622244_186",
+      "question": "What year was Nigeria's first republic declared?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "1963",
+      "options": [
+        "1960",
+        "1961",
+        "1963",
+        "1966"
+      ]
+    },
+    {
+      "id": "q1781125622244_187",
+      "question": "Who built the pyramids of ancient Egypt?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Ancient Egyptians",
+      "options": [
+        "Romans",
+        "Greeks",
+        "Ancient Egyptians",
+        "Nubians"
+      ]
+    },
+    {
+      "id": "q1781125622244_188",
+      "question": "What was the name of the first artificial satellite launched into space?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Sputnik 1",
+      "options": [
+        "Explorer 1",
+        "Apollo 1",
+        "Sputnik 1",
+        "Vostok 1"
+      ]
+    },
+    {
+      "id": "q1781125622244_189",
+      "question": "Which country was known as Persia?",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Iran",
+      "options": [
+        "Iraq",
+        "Turkey",
+        "Iran",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "id": "q1781125622244_190",
+      "question": "Which Nigerian military leader was killed in the 1976 coup attempt?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Murtala Mohammed",
+      "options": [
+        "Yakubu Gowon",
+        "Olusegun Obasanjo",
+        "Murtala Mohammed",
+        "Ibrahim Babangida"
+      ]
+    },
+    {
+      "id": "q1781125622244_191",
+      "question": "What was the name of the trade agreement signed at the end of World War I?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Treaty of Versailles",
+      "options": [
+        "Treaty of Paris",
+        "Treaty of Berlin",
+        "Treaty of Versailles",
+        "Treaty of London"
+      ]
+    },
+    {
+      "id": "q1781125622244_192",
+      "question": "Which Nigerian city was the capital before Abuja?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Lagos",
+      "options": [
+        "Ibadan",
+        "Kano",
+        "Enugu",
+        "Lagos"
+      ]
+    },
+    {
+      "id": "q1781125622244_193",
+      "question": "The Atlantic slave trade transported enslaved Africans primarily to which region?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "The Americas",
+      "options": [
+        "Europe",
+        "Asia",
+        "The Americas",
+        "Australia"
+      ]
+    },
+    {
+      "id": "q1781125622244_194",
+      "question": "Who was the first African American president of the United States?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Barack Obama",
+      "options": [
+        "Jesse Jackson",
+        "Colin Powell",
+        "Barack Obama",
+        "Al Sharpton"
+      ]
+    },
+    {
+      "id": "q1781125622244_195",
+      "question": "What was the name of the pre-colonial Hausa state that became the most powerful in northern Nigeria?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Kano Emirate",
+      "options": [
+        "Borno Empire",
+        "Oyo Empire",
+        "Kano Emirate",
+        "Sokoto Caliphate"
+      ]
+    },
+    {
+      "id": "q1781125622244_196",
+      "question": "In which year did India gain independence from Britain?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "1947",
+      "options": [
+        "1945",
+        "1947",
+        "1948",
+        "1950"
+      ]
+    },
+    {
+      "id": "q1781125622244_197",
+      "question": "What was the name of Nigeria's first oil well?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Oloibiri-1",
+      "options": [
+        "Brass Terminal",
+        "Oloibiri-1",
+        "Forcados Terminal",
+        "Bonny Light"
+      ]
+    },
+    {
+      "id": "q1781125622244_198",
+      "question": "The French Revolution began in which year?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "1789",
+      "options": [
+        "1776",
+        "1783",
+        "1789",
+        "1799"
+      ]
+    },
+    {
+      "id": "q1781125622244_199",
+      "question": "Which Nigerian activist was executed by the Abacha regime in 1995?",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Ken Saro-Wiwa",
+      "options": [
+        "Wole Soyinka",
+        "Fela Kuti",
+        "Ken Saro-Wiwa",
+        "Gani Fawehinmi"
+      ]
+    },
+    {
+      "id": "q1781125622244_200",
+      "question": "Which colonial agreement formally ended the Nigerian Civil War in 1970?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Dodan Barracks surrender",
+      "options": [
+        "Aburi Accord",
+        "Port Harcourt Declaration",
+        "Dodan Barracks surrender",
+        "Lagos Accord",
+        "Abuja Accord",
+        "Cotonou Treaty"
+      ]
+    },
+    {
+      "id": "q1781125622244_201",
+      "question": "What was the name of the first newspaper published in Nigeria by the Church Missionary Society in 1859?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Iwe Irohin",
+      "options": [
+        "Daily Times",
+        "West African Pilot",
+        "Iwe Irohin",
+        "Lagos Weekly Record",
+        "Nigerian Tribune",
+        "Lagos Standard"
+      ]
+    },
+    {
+      "id": "q1781125622244_202",
+      "question": "Which Nigerian governor-general preceded Nnamdi Azikiwe?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "James Robertson",
+      "options": [
+        "James Robertson",
+        "Hugh Foot",
+        "Arthur Richards",
+        "Bernard Bourdillon",
+        "John Macpherson",
+        "Frederick Lugard"
+      ]
+    },
+    {
+      "id": "q1781125622244_203",
+      "question": "The Benin Kingdom of Nigeria is famous for its bronze works. In which century did the Benin bronzes flourish most prominently?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "15th century",
+      "options": [
+        "11th century",
+        "13th century",
+        "15th century",
+        "17th century",
+        "19th century",
+        "20th century"
+      ]
+    },
+    {
+      "id": "q1781125622244_204",
+      "question": "What was the name of the organisation formed by African nationalists in Manchester in 1945?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Pan-African Congress",
+      "options": [
+        "African National Congress",
+        "Pan-African Congress",
+        "African Unity Organisation",
+        "West African Students Union",
+        "African Democratic Party",
+        "Congress of African Nations"
+      ]
+    },
+    {
+      "id": "q1781125622244_205",
+      "question": "Who was the Sardauna of Sokoto and premier of Northern Nigeria at independence?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Ahmadu Bello",
+      "options": [
+        "Tafawa Balewa",
+        "Abubakar Tafawa Balewa",
+        "Ahmadu Bello",
+        "Maitama Sule",
+        "Muhammadu Ribadu",
+        "Ibrahim Imam"
+      ]
+    },
+    {
+      "id": "q1781125622244_206",
+      "question": "The Nok civilisation, known for terracotta sculptures, existed in what is now Nigeria approximately when?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "1500 BC–500 AD",
+      "options": [
+        "3000–1000 BC",
+        "1500 BC–500 AD",
+        "500–1500 AD",
+        "1000–1800 AD",
+        "200 BC–300 AD",
+        "100–600 AD"
+      ]
+    },
+    {
+      "id": "q1781125622244_207",
+      "question": "Which European country established the first trading post on the West African coast?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Portugal",
+      "options": [
+        "Britain",
+        "France",
+        "Netherlands",
+        "Portugal",
+        "Spain",
+        "Germany"
+      ]
+    },
+    {
+      "id": "q1781125622244_208",
+      "question": "In what year was the Amalgamation of Northern and Southern Nigeria carried out by Lord Lugard?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "1914",
+      "options": [
+        "1900",
+        "1906",
+        "1910",
+        "1914",
+        "1918",
+        "1922"
+      ]
+    },
+    {
+      "id": "q1781125622244_209",
+      "question": "What was the name of the Igbo market oracle that wielded enormous religious and political influence in pre-colonial Eastern Nigeria?",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Arochukwu oracle",
+      "options": [
+        "Eze Nri",
+        "Agbala",
+        "Arochukwu oracle",
+        "Ogbunike oracle",
+        "Amadiọha",
+        "Aro Confederacy"
+      ]
+    },
+    {
+      "id": "q1781125622244_210",
+      "question": "What does 'AI' stand for?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Artificial Intelligence",
+      "options": [
+        "Automated Internet",
+        "Artificial Intelligence",
+        "Advanced Integration",
+        "Applied Innovation"
+      ]
+    },
+    {
+      "id": "q1781125622244_211",
+      "question": "Which company created the Windows operating system?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Microsoft",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ]
+    },
+    {
+      "id": "q1781125622244_212",
+      "question": "What does 'GB' stand for in storage?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Gigabyte",
+      "options": [
+        "Gigabyte",
+        "Gigaband",
+        "General Byte",
+        "Global Bit"
+      ]
+    },
+    {
+      "id": "q1781125622244_213",
+      "question": "What is the name of the app used for video calls developed by Microsoft?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Teams",
+      "options": [
+        "Zoom",
+        "Google Meet",
+        "Skype",
+        "Teams"
+      ]
+    },
+    {
+      "id": "q1781125622244_214",
+      "question": "Which of these is a web browser?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Chrome",
+      "options": [
+        "Photoshop",
+        "Excel",
+        "Chrome",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "q1781125622244_215",
+      "question": "What does 'GPS' stand for?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Global Positioning System",
+      "options": [
+        "General Positioning System",
+        "Global Positioning System",
+        "Geographic Proximity Sensor",
+        "Ground Position Signal"
+      ]
+    },
+    {
+      "id": "q1781125622244_216",
+      "question": "What is the name of the popular Nigerian ride-hailing app?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Bolt",
+      "options": [
+        "Uber",
+        "Bolt",
+        "Rida",
+        "InDriver"
+      ]
+    },
+    {
+      "id": "q1781125622244_217",
+      "question": "What does 'OS' stand for in computing?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Operating System",
+      "options": [
+        "Online System",
+        "Open Source",
+        "Operating System",
+        "Output Signal"
+      ]
+    },
+    {
+      "id": "q1781125622244_218",
+      "question": "Which company owns YouTube?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Google",
+      "options": [
+        "Meta",
+        "Microsoft",
+        "Amazon",
+        "Google"
+      ]
+    },
+    {
+      "id": "q1781125622244_219",
+      "question": "What is Bluetooth used for?",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Short-range wireless data transfer",
+      "options": [
+        "Charging devices",
+        "Short-range wireless data transfer",
+        "Connecting to the internet",
+        "Storing files"
+      ]
+    },
+    {
+      "id": "q1781125622244_220",
+      "question": "What does CSS stand for in web development?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Cascading Style Sheets",
+      "options": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Styling System",
+        "Code Style Script"
+      ]
+    },
+    {
+      "id": "q1781125622244_221",
+      "question": "What is the name of the Nigerian tech hub known as Africa's Silicon Valley?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Yaba",
+      "options": [
+        "Abuja Tech Village",
+        "Yaba",
+        "Port Harcourt Innovation Hub",
+        "Lagos Island Tech Park"
+      ]
+    },
+    {
+      "id": "q1781125622244_222",
+      "question": "What does 'SaaS' stand for?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Software as a Service",
+      "options": [
+        "Software as a Service",
+        "System as a Solution",
+        "Security and Application Suite",
+        "Storage as a System"
+      ]
+    },
+    {
+      "id": "q1781125622244_223",
+      "question": "Which programming language uses indentation as syntax?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Python",
+      "options": [
+        "Java",
+        "C++",
+        "Python",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "q1781125622244_224",
+      "question": "What is the full meaning of OTP as used in Nigerian banking apps?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "One Time Password",
+      "options": [
+        "One Time Password",
+        "Online Transfer Protocol",
+        "Outbound Transaction Pin",
+        "Official Transfer Permission"
+      ]
+    },
+    {
+      "id": "q1781125622244_225",
+      "question": "What is blockchain primarily used for?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Decentralised record keeping",
+      "options": [
+        "Video editing",
+        "Decentralised record keeping",
+        "Social networking",
+        "Cloud storage"
+      ]
+    },
+    {
+      "id": "q1781125622244_226",
+      "question": "What does 'IoT' stand for?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Internet of Things",
+      "options": [
+        "Internet of Technology",
+        "Integration of Things",
+        "Internet of Things",
+        "Input Output Technology"
+      ]
+    },
+    {
+      "id": "q1781125622244_227",
+      "question": "Which Nigerian mobile payment platform is owned by GTBank?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "GTWorld",
+      "options": [
+        "Paga",
+        "QuickTeller",
+        "GTWorld",
+        "Interswitch"
+      ]
+    },
+    {
+      "id": "q1781125622244_228",
+      "question": "What does 'open source' mean in software?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Software whose source code is publicly available",
+      "options": [
+        "Software that is very expensive",
+        "Software whose source code is publicly available",
+        "Software only for businesses",
+        "Software that cannot be modified"
+      ]
+    },
+    {
+      "id": "q1781125622244_229",
+      "question": "What is the name of the programming concept where a function calls itself?",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Recursion",
+      "options": [
+        "Iteration",
+        "Inheritance",
+        "Recursion",
+        "Polymorphism"
+      ]
+    },
+    {
+      "id": "q1781125622244_230",
+      "question": "What is the time complexity of binary search?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "O(log n)",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(n log n)",
+        "O(2ⁿ)"
+      ]
+    },
+    {
+      "id": "q1781125622244_231",
+      "question": "What does TCP stand for in networking?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Transmission Control Protocol",
+      "options": [
+        "Transfer Control Protocol",
+        "Transmission Control Protocol",
+        "Terminal Connection Protocol",
+        "Traffic Control Program",
+        "Transmission Channel Protocol",
+        "Transfer Channel Protocol"
+      ]
+    },
+    {
+      "id": "q1781125622244_232",
+      "question": "Which type of database stores data in tables with rows and columns?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Relational database",
+      "options": [
+        "NoSQL",
+        "Graph database",
+        "Document database",
+        "Relational database",
+        "Object database",
+        "Key-value store"
+      ]
+    },
+    {
+      "id": "q1781125622244_233",
+      "question": "What is a REST API?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "An architectural style for distributed hypermedia systems",
+      "options": [
+        "A database management system",
+        "An architectural style for distributed hypermedia systems",
+        "A type of programming language",
+        "A security protocol",
+        "A cloud computing service",
+        "A hardware interface standard"
+      ]
+    },
+    {
+      "id": "q1781125622244_234",
+      "question": "What does 'PWA' stand for in web development?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Progressive Web App",
+      "options": [
+        "Private Web Application",
+        "Progressive Web App",
+        "Protected Website Access",
+        "Public Web Architecture",
+        "Personal Webpage App",
+        "Portable Web Application"
+      ]
+    },
+    {
+      "id": "q1781125622244_235",
+      "question": "What is 'two's complement' used for in computing?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Representing negative integers in binary",
+      "options": [
+        "Multiplying binary numbers",
+        "Representing negative integers in binary",
+        "Converting decimal to hexadecimal",
+        "Compressing data",
+        "Encrypting files",
+        "Error detection in networks"
+      ]
+    },
+    {
+      "id": "q1781125622244_236",
+      "question": "What is the name of Google's open-source mobile operating system framework used to build Android apps?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Flutter",
+      "options": [
+        "React Native",
+        "Flutter",
+        "Kotlin",
+        "Xamarin",
+        "Ionic",
+        "NativeScript"
+      ]
+    },
+    {
+      "id": "q1781125622244_237",
+      "question": "What does USSD stand for, as used in Nigerian mobile banking?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Unstructured Supplementary Service Data",
+      "options": [
+        "Universal Short Service Dial",
+        "Unstructured Supplementary Service Data",
+        "United System for SMS Dialling",
+        "Universal Supplementary Service Delivery",
+        "Unstructured Short Service Delivery",
+        "Unified Supplementary System Data"
+      ]
+    },
+    {
+      "id": "q1781125622244_238",
+      "question": "In cybersecurity, what is a 'man-in-the-middle attack'?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "An attacker secretly intercepts communication between two parties",
+      "options": [
+        "An attack that floods a server with traffic",
+        "An attacker secretly intercepts communication between two parties",
+        "Installing malicious software on a device",
+        "Guessing passwords through brute force",
+        "Exploiting software vulnerabilities",
+        "Social engineering via phone calls"
+      ]
+    },
+    {
+      "id": "q1781125622244_239",
+      "question": "What is 'latency' in networking?",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The delay between a request and a response",
+      "options": [
+        "The speed of a processor",
+        "The delay between a request and a response",
+        "The amount of data transferred per second",
+        "The number of devices on a network",
+        "The strength of a WiFi signal",
+        "The encryption strength of a connection"
+      ]
+    },
+    {
+      "id": "q1781125622244_240",
+      "question": "What has four legs in the morning, two at noon, and three in the evening?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "A human",
+      "options": [
+        "A dog",
+        "A table",
+        "A human",
+        "A horse"
+      ]
+    },
+    {
+      "id": "q1781125622244_241",
+      "question": "I am light as a feather, but even the strongest man cannot hold me for more than a few minutes. What am I?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "His breath",
+      "options": [
+        "A cloud",
+        "A bubble",
+        "His breath",
+        "A feather"
+      ]
+    },
+    {
+      "id": "q1781125622244_242",
+      "question": "What has a face and two hands but no arms or legs?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "A clock",
+      "options": [
+        "A doll",
+        "A clock",
+        "A painting",
+        "A mask"
+      ]
+    },
+    {
+      "id": "q1781125622244_243",
+      "question": "The more you share me the more you have. What am I?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Knowledge",
+      "options": [
+        "Money",
+        "Food",
+        "Knowledge",
+        "Water"
+      ]
+    },
+    {
+      "id": "q1781125622244_244",
+      "question": "What belongs to you but others use it more than you?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Your name",
+      "options": [
+        "Your house",
+        "Your money",
+        "Your name",
+        "Your clothes"
+      ]
+    },
+    {
+      "id": "q1781125622244_245",
+      "question": "I have no legs, I never walk, but I always run. What am I?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "A river",
+      "options": [
+        "A car",
+        "A river",
+        "The wind",
+        "A clock"
+      ]
+    },
+    {
+      "id": "q1781125622244_246",
+      "question": "What can you catch but not throw?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "A cold",
+      "options": [
+        "A ball",
+        "A fish",
+        "A cold",
+        "A shadow"
+      ]
+    },
+    {
+      "id": "q1781125622244_247",
+      "question": "What gets bigger when more is taken away?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "A hole",
+      "options": [
+        "A debt",
+        "A hole",
+        "A problem",
+        "Hunger"
+      ]
+    },
+    {
+      "id": "q1781125622244_248",
+      "question": "I have wings but cannot fly. I have a tail but am not an animal. What am I?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "A kite",
+      "options": [
+        "A kite",
+        "A plane",
+        "A butterfly",
+        "A fan"
+      ]
+    },
+    {
+      "id": "q1781125622244_249",
+      "question": "What do you throw out when you want to use it but take in when you don't want to use it?",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "An anchor",
+      "options": [
+        "A net",
+        "An anchor",
+        "A key",
+        "A rope"
+      ]
+    },
+    {
+      "id": "q1781125622244_250",
+      "question": "I have no mouth but must scream. No legs but must run. No eyes but must cry. What am I?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "A storm",
+      "options": [
+        "A storm",
+        "A ghost",
+        "A machine",
+        "A shadow"
+      ]
+    },
+    {
+      "id": "q1781125622244_251",
+      "question": "You see me once in June, twice in November, but never in May. What am I?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "The letter E",
+      "options": [
+        "Rain",
+        "The letter E",
+        "A solar eclipse",
+        "The letter N"
+      ]
+    },
+    {
+      "id": "q1781125622244_252",
+      "question": "What has 88 keys but cannot open a single door?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "A piano",
+      "options": [
+        "A safe",
+        "A piano",
+        "A computer",
+        "A typewriter"
+      ]
+    },
+    {
+      "id": "q1781125622244_253",
+      "question": "A man shaves several times a day yet still has a beard. Who is he?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "A barber",
+      "options": [
+        "A barber",
+        "A doctor",
+        "A soldier",
+        "A monk"
+      ]
+    },
+    {
+      "id": "q1781125622244_254",
+      "question": "I have streets but no houses, forests but no trees, water but no fish. What am I?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "A map",
+      "options": [
+        "A desert",
+        "A map",
+        "A painting",
+        "A dream"
+      ]
+    },
+    {
+      "id": "q1781125622244_255",
+      "question": "I fly without wings, I cry without eyes. Wherever I go, darkness follows. What am I?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "A cloud",
+      "options": [
+        "The wind",
+        "A cloud",
+        "A night bird",
+        "A shadow"
+      ]
+    },
+    {
+      "id": "q1781125622244_256",
+      "question": "What is always in front of you but can never be seen?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Your future",
+      "options": [
+        "Your future",
+        "Air",
+        "Your face",
+        "The sky"
+      ]
+    },
+    {
+      "id": "q1781125622244_257",
+      "question": "I go up when the rain comes down. What am I?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "An umbrella",
+      "options": [
+        "A rainbow",
+        "An umbrella",
+        "A flood",
+        "A kite"
+      ]
+    },
+    {
+      "id": "q1781125622244_258",
+      "question": "A rooster lays an egg on top of a triangular roof. Which way does it roll?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Roosters don't lay eggs",
+      "options": [
+        "Left",
+        "Right",
+        "Down the front",
+        "Roosters don't lay eggs"
+      ]
+    },
+    {
+      "id": "q1781125622244_259",
+      "question": "What word in the dictionary is always spelled incorrectly?",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Incorrectly",
+      "options": [
+        "Queue",
+        "Incorrectly",
+        "Rhythm",
+        "Pneumonia"
+      ]
+    },
+    {
+      "id": "q1781125622244_260",
+      "question": "I have a thousand needles but I do not sew. I live in the water but cannot drink. What am I?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A sea urchin",
+      "options": [
+        "A jellyfish",
+        "A cactus",
+        "A porcupine fish",
+        "A sea urchin",
+        "A stingray",
+        "A coral"
+      ]
+    },
+    {
+      "id": "q1781125622244_261",
+      "question": "A boy was rushed to hospital. The surgeon said 'I cannot operate on this boy — he is my son.' But the surgeon was not the boy's father. How?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The surgeon was his mother",
+      "options": [
+        "The surgeon was lying",
+        "The boy was adopted",
+        "The surgeon was his mother",
+        "The surgeon was his uncle",
+        "The boy had two fathers",
+        "It was a different boy"
+      ]
+    },
+    {
+      "id": "q1781125622244_262",
+      "question": "What occurs once in a second, twice in a moment, but never in a thousand years?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The letter M",
+      "options": [
+        "A blink",
+        "A heartbeat",
+        "The letter M",
+        "A thought",
+        "A second",
+        "A dream"
+      ]
+    },
+    {
+      "id": "q1781125622244_263",
+      "question": "Three doctors say Robert is their brother. Robert says he has no brothers. Who is lying?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Nobody — Robert has sisters who are doctors",
+      "options": [
+        "Robert is lying",
+        "The doctors are lying",
+        "Nobody — Robert has sisters who are doctors",
+        "It is a trick question",
+        "The doctors are not real doctors",
+        "Robert forgot his brothers"
+      ]
+    },
+    {
+      "id": "q1781125622244_264",
+      "question": "I can be swallowed but I can also swallow you. What am I?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Pride",
+      "options": [
+        "Water",
+        "Pride",
+        "Medicine",
+        "A hole",
+        "A snake",
+        "A secret"
+      ]
+    },
+    {
+      "id": "q1781125622244_265",
+      "question": "Two fathers and two sons go fishing. They each catch one fish. They bring home exactly three fish. How?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The group is a grandfather father and son",
+      "options": [
+        "One fish was thrown back",
+        "One fish was eaten on the way",
+        "The group is a grandfather father and son",
+        "Two people shared one fish",
+        "One person caught two fish and gave one back",
+        "They miscounted"
+      ]
+    },
+    {
+      "id": "q1781125622244_266",
+      "question": "I am not alive but I grow. I do not breathe but I need air. I do not drink but I need water. I do not eat but I need food. What am I?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A plant",
+      "options": [
+        "A fire",
+        "A plant",
+        "Mould",
+        "A baby",
+        "A robot",
+        "Yeast"
+      ]
+    },
+    {
+      "id": "q1781125622244_267",
+      "question": "The one who makes it sells it. The one who buys it never uses it. The one who uses it never knows they are using it. What is it?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A coffin",
+      "options": [
+        "A coffin",
+        "A wedding ring",
+        "Poison",
+        "Medicine",
+        "A grave",
+        "A secret"
+      ]
+    },
+    {
+      "id": "q1781125622244_268",
+      "question": "I have cities but no houses. I have mountains but no trees. I have water but no fish. I have roads but no cars. What am I?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "A map",
+      "options": [
+        "A painting",
+        "A dream",
+        "A map",
+        "A globe",
+        "A desert",
+        "A photograph"
+      ]
+    },
+    {
+      "id": "q1781125622244_269",
+      "question": "You walk into a room with a match. There is a candle, a lamp, and a fireplace. Which do you light first?",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The match",
+      "options": [
+        "The candle",
+        "The lamp",
+        "The fireplace",
+        "All at once",
+        "The biggest one",
+        "The match"
+      ]
+    },
+    {
+      "id": "q1781125622244_270",
+      "question": "If you have 3 apples and you take away 2, how many do you have?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "2",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ]
+    },
+    {
+      "id": "q1781125622244_271",
+      "question": "What is half of 2 + 2?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "3",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "q1781125622244_272",
+      "question": "A plane crashes on the border of Nigeria and Benin Republic. Where do they bury the survivors?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "You don't bury survivors",
+      "options": [
+        "Nigeria",
+        "Benin Republic",
+        "Both countries",
+        "You don't bury survivors"
+      ]
+    },
+    {
+      "id": "q1781125622244_273",
+      "question": "How many months have 28 days?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "12",
+      "options": [
+        "1",
+        "2",
+        "6",
+        "12"
+      ]
+    },
+    {
+      "id": "q1781125622244_274",
+      "question": "If a danfo bus has 14 passengers and 6 get off at Ojuelegba while 9 get on, how many passengers are on the bus?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "17",
+      "options": [
+        "14",
+        "15",
+        "17",
+        "19"
+      ]
+    },
+    {
+      "id": "q1781125622244_275",
+      "question": "Which is heavier: a kilogram of feathers or a kilogram of iron?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "They are equal",
+      "options": [
+        "Iron",
+        "Feathers",
+        "They are equal",
+        "Depends on the weather"
+      ]
+    },
+    {
+      "id": "q1781125622244_276",
+      "question": "How far can a dog run into a forest?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Halfway — then it's running out",
+      "options": [
+        "10km",
+        "As far as it wants",
+        "Halfway — then it's running out",
+        "Until it gets tired"
+      ]
+    },
+    {
+      "id": "q1781125622244_277",
+      "question": "If there are 5 suya sticks and you eat all but 3, how many do you have left?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "3",
+      "options": [
+        "2",
+        "3",
+        "0",
+        "5"
+      ]
+    },
+    {
+      "id": "q1781125622244_278",
+      "question": "What is the next number in the sequence: 2, 4, 8, 16, __?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "32",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "64"
+      ]
+    },
+    {
+      "id": "q1781125622244_279",
+      "question": "A farmer has 15 cows. All but 8 die. How many cows does he have left?",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "8",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "id": "q1781125622244_280",
+      "question": "You are in a dark room with a candle, a kerosene lamp, and a gas cooker. You have only one match. What do you light first?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "The match",
+      "options": [
+        "The candle",
+        "The lamp",
+        "The gas cooker",
+        "The match"
+      ]
+    },
+    {
+      "id": "q1781125622244_281",
+      "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "5 minutes",
+      "options": [
+        "100 minutes",
+        "50 minutes",
+        "10 minutes",
+        "5 minutes"
+      ]
+    },
+    {
+      "id": "q1781125622244_282",
+      "question": "In Oshodi market, a trader sells oranges for ₦50 each. If she sells 3 for ₦100, how much does she make selling 12 oranges that way?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "₦400",
+      "options": [
+        "₦300",
+        "₦400",
+        "₦450",
+        "₦600"
+      ]
+    },
+    {
+      "id": "q1781125622244_283",
+      "question": "What comes next: J, F, M, A, M, J, __?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "J",
+      "options": [
+        "A",
+        "J",
+        "S",
+        "O"
+      ]
+    },
+    {
+      "id": "q1781125622244_284",
+      "question": "A man is looking at a photograph. He says 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the photo?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "His son",
+      "options": [
+        "His uncle",
+        "His brother",
+        "His son",
+        "Himself"
+      ]
+    },
+    {
+      "id": "q1781125622244_285",
+      "question": "If you rearrange the letters 'CIFAIPC', you get the name of?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "An ocean",
+      "options": [
+        "A country",
+        "A city",
+        "An ocean",
+        "A continent"
+      ]
+    },
+    {
+      "id": "q1781125622244_286",
+      "question": "What is the missing number: 1, 4, 9, 16, 25, __?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "36",
+      "options": [
+        "30",
+        "36",
+        "40",
+        "49"
+      ]
+    },
+    {
+      "id": "q1781125622244_287",
+      "question": "A Nigerian family has 5 children. Half of them are boys. How is this possible?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "All 5 children are boys",
+      "options": [
+        "It is impossible",
+        "All 5 are boys",
+        "All 5 are girls",
+        "All 5 children are boys"
+      ]
+    },
+    {
+      "id": "q1781125622244_288",
+      "question": "How many times can you subtract 5 from 25?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Once — then you are subtracting from 20",
+      "options": [
+        "4",
+        "5",
+        "Once — then you are subtracting from 20",
+        "Infinite times"
+      ]
+    },
+    {
+      "id": "q1781125622244_289",
+      "question": "Three friends share a ₦3,000 hotel bill. They each pay ₦1,000. The receptionist refunds ₦500. They each get ₦100 back. So each paid ₦900. 3×₦900=₦2,700 + ₦200 tip = ₦2,900. Where is the missing ₦100?",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "There is no missing money — the maths is framed wrongly",
+      "options": [
+        "The receptionist kept it",
+        "There is no missing money — the maths is framed wrongly",
+        "It was forgotten",
+        "One friend stole it",
+        "It was service charge",
+        "The hotel refunded wrong"
+      ]
+    },
+    {
+      "id": "q1781125622244_290",
+      "question": "You have two ropes, each takes exactly 1 hour to burn (non-uniformly). How do you measure exactly 45 minutes?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Light rope 1 from both ends and rope 2 from one end simultaneously — when rope 1 finishes (30min) light rope 2's other end",
+      "options": [
+        "Burn one rope and wait",
+        "Burn both ropes from one end",
+        "Light rope 1 from both ends and rope 2 from one end simultaneously — when rope 1 finishes (30min) light rope 2's other end",
+        "Cut the ropes in half",
+        "Fold the ropes and burn",
+        "Time the burning speed"
+      ]
+    },
+    {
+      "id": "q1781125622244_291",
+      "question": "A snail is at the bottom of a 10m well. Each day it climbs 3m and slips back 2m at night. How many days to escape?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "8 days",
+      "options": [
+        "7 days",
+        "8 days",
+        "9 days",
+        "10 days",
+        "11 days",
+        "12 days"
+      ]
+    },
+    {
+      "id": "q1781125622244_292",
+      "question": "You have 9 balls, one is heavier. Using a balance scale with only 2 weighings, how do you find it?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Weigh 3 vs 3 — if equal the 3rd group has it; weigh 2 from that group to find it",
+      "options": [
+        "Weigh 4 vs 4 then 2 vs 2",
+        "Weigh 3 vs 3 — if equal the 3rd group has it; weigh 2 from that group to find it",
+        "Weigh all 9 at once",
+        "Weigh 1 vs 1 nine times",
+        "Split into 5 and 4",
+        "Guess and check"
+      ]
+    },
+    {
+      "id": "q1781125622244_293",
+      "question": "100 prisoners are each given a random hat (black or white). They can see all other hats but not their own. They must each guess their own hat colour simultaneously. What strategy guarantees at least 50 survive?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Each person calls same colour as the majority they see",
+      "options": [
+        "Everyone says black",
+        "Everyone says white",
+        "Odd-positioned prisoners repeat their neighbour",
+        "Each person guesses the opposite of the person in front",
+        "Each person calls same colour as the majority they see",
+        "Random guessing"
+      ]
+    },
+    {
+      "id": "q1781125622244_294",
+      "question": "In a town, the barber shaves all those and only those who do not shave themselves. Does the barber shave himself?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "The question is unanswerable — it is a paradox",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Only on Sundays",
+        "The question is unanswerable — it is a paradox",
+        "It depends on the day"
+      ]
+    },
+    {
+      "id": "q1781125622244_295",
+      "question": "You have 3 light switches outside a room. One controls a bulb inside. You can only enter once. How do you find which switch controls the bulb?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Turn on switch 1 for 10 minutes, turn it off, turn on switch 2, then enter — a warm bulb means switch 1, lit means switch 2, off and cold means switch 3",
+      "options": [
+        "Flip all switches and guess",
+        "Flip switch 1, enter and check",
+        "Turn on switch 1 for 10 minutes, turn it off, turn on switch 2, then enter — a warm bulb means switch 1, lit means switch 2, off and cold means switch 3",
+        "Flip two switches and enter",
+        "Ask someone else to check",
+        "Leave all switches off"
+      ]
+    },
+    {
+      "id": "q1781125622244_296",
+      "question": "What is the next number in the Fibonacci-style sequence: 1, 1, 2, 3, 5, 8, 13, 21, __?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "34",
+      "options": [
+        "29",
+        "31",
+        "34",
+        "36",
+        "38",
+        "40"
+      ]
+    },
+    {
+      "id": "q1781125622244_297",
+      "question": "If all Wazzys are Wobbies and some Wobbies are Winkies, which statement must be true?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "None of the above must be true",
+      "options": [
+        "All Wazzys are Winkies",
+        "Some Wazzys are Winkies",
+        "No Wazzys are Winkies",
+        "Some Winkies are Wazzys",
+        "All Wobbies are Wazzys",
+        "None of the above must be true"
+      ]
+    },
+    {
+      "id": "q1781125622244_298",
+      "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "7.5°",
+      "options": [
+        "0°",
+        "7.5°",
+        "15°",
+        "22.5°",
+        "30°",
+        "45°"
+      ]
+    },
+    {
+      "id": "q1781125622244_299",
+      "question": "You are in Nigeria and want to send ₦1,000 to a friend using a locked box. Neither of you has the other's key. How do you send it securely without a trusted third party?",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "answer": "Send locked box, friend adds their lock and returns it, you remove your lock and resend",
+      "options": [
+        "Send the key first",
+        "Send the money without a lock",
+        "Send locked box, friend adds their lock and returns it, you remove your lock and resend",
+        "Use a bank",
+        "Tell a friend to carry it",
+        "Scan the money and email it"
+      ]
+    },
+    {
+      "id": "q1781125622244_300",
+      "question": "I am Nigeria's currency. My symbol is ₦. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Naira",
+      "options": [
+        "Dollar",
+        "Naira",
+        "Pound",
+        "Cedis"
+      ]
+    },
+    {
+      "id": "q1781125622244_301",
+      "question": "I am a popular Nigerian flatbread made from fermented corn or millet, eaten with soup. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Tuwo",
+      "options": [
+        "Pounded yam",
+        "Eba",
+        "Tuwo shinkafa",
+        "Tuwo"
+      ]
+    },
+    {
+      "id": "q1781125622244_302",
+      "question": "I am the largest city in Nigeria and the economic capital. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Lagos",
+      "options": [
+        "Abuja",
+        "Kano",
+        "Ibadan",
+        "Lagos"
+      ]
+    },
+    {
+      "id": "q1781125622244_303",
+      "question": "I am a feeling of great happiness and delight. I am the opposite of sorrow. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Joy",
+      "options": [
+        "Grief",
+        "Anger",
+        "Joy",
+        "Fear"
+      ]
+    },
+    {
+      "id": "q1781125622244_304",
+      "question": "I am the process of plants making food using sunlight. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Photosynthesis",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Germination",
+        "Pollination"
+      ]
+    },
+    {
+      "id": "q1781125622244_305",
+      "question": "In Nigerian Pidgin, I mean 'how are you' or 'what's up'. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "How far",
+      "options": [
+        "How far",
+        "Wetin dey",
+        "E don do",
+        "Na so"
+      ]
+    },
+    {
+      "id": "q1781125622244_306",
+      "question": "I am a Nigerian soup made from ground melon seeds. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Egusi",
+      "options": [
+        "Ogbono",
+        "Banga",
+        "Egusi",
+        "Okra"
+      ]
+    },
+    {
+      "id": "q1781125622244_307",
+      "question": "I am the instrument with black and white keys that produces musical notes. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Piano",
+      "options": [
+        "Guitar",
+        "Violin",
+        "Drum",
+        "Piano"
+      ]
+    },
+    {
+      "id": "q1781125622244_308",
+      "question": "I am worn on the head during Nigerian traditional ceremonies and I am a type of hat. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Fila",
+      "options": [
+        "Beret",
+        "Fila",
+        "Cap",
+        "Helmet"
+      ]
+    },
+    {
+      "id": "q1781125622244_309",
+      "question": "I am the season in Nigeria when it does not rain. What am I?",
+      "category": "guesstheword",
+      "difficulty": "easy",
+      "type": "multiple",
+      "answer": "Dry season",
+      "options": [
+        "Rainy season",
+        "Harmattan",
+        "Dry season",
+        "Flood season"
+      ]
+    },
+    {
+      "id": "q1781125622244_310",
+      "question": "I am a Yoruba word that means 'crown' and is used as a title for kings. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Oba",
+      "options": [
+        "Eze",
+        "Obi",
+        "Oba",
+        "Emir"
+      ]
+    },
+    {
+      "id": "q1781125622244_311",
+      "question": "I am a popular Nigerian street food — grilled plantain eaten as a snack. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Boli",
+      "options": [
+        "Ojojo",
+        "Akara",
+        "Boli",
+        "Puff puff"
+      ]
+    },
+    {
+      "id": "q1781125622244_312",
+      "question": "I am the Hausa word for 'welcome' said when greeting a guest. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Barka",
+      "options": [
+        "Sannu",
+        "Nagode",
+        "Barka",
+        "Karibu"
+      ]
+    },
+    {
+      "id": "q1781125622244_313",
+      "question": "I am the phenomenon where hot air rises and cold air takes its place, causing circular movement. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Convection",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Convection",
+        "Evaporation"
+      ]
+    },
+    {
+      "id": "q1781125622244_314",
+      "question": "I am the part of a computer that permanently stores the operating system and software even when powered off. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "ROM",
+      "options": [
+        "RAM",
+        "CPU",
+        "ROM",
+        "GPU"
+      ]
+    },
+    {
+      "id": "q1781125622244_315",
+      "question": "I am a figure of speech where human qualities are given to non-human things. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Personification",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Hyperbole",
+        "Personification"
+      ]
+    },
+    {
+      "id": "q1781125622244_316",
+      "question": "I am the Nigerian meal made by wrapping beans paste and fish in leaves before steaming. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Moi moi",
+      "options": [
+        "Akara",
+        "Moi moi",
+        "Gbegiri",
+        "Ekuru"
+      ]
+    },
+    {
+      "id": "q1781125622244_317",
+      "question": "I am the type of account that earns interest on previously earned interest. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Compound interest",
+      "options": [
+        "Simple interest",
+        "Savings account",
+        "Compound interest",
+        "Fixed deposit"
+      ]
+    },
+    {
+      "id": "q1781125622244_318",
+      "question": "I am a traditional Nigerian instrument made from a gourd with beads on the outside, shaken to make music. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Shekere",
+      "options": [
+        "Goje",
+        "Shekere",
+        "Dundun",
+        "Talking drum"
+      ]
+    },
+    {
+      "id": "q1781125622244_319",
+      "question": "In Igbo culture, I am the ceremonial meeting of community elders and titled men. What am I?",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "multiple",
+      "answer": "Oha",
+      "options": [
+        "Eze",
+        "Igwe",
+        "Oha",
+        "Ozo"
+      ]
+    },
+    {
+      "id": "q1781125622244_320",
+      "question": "I am worn around the neck by Yoruba and Edo brides. I am made of red coral beads and I symbolise royalty and prosperity in Nigerian royal culture. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "coral beads"
+    },
+    {
+      "id": "q1781125622244_321",
+      "question": "I am a literary device where the end of one clause becomes the beginning of the next. My name comes from Greek. Writers use me to create a chain-like effect: 'Fear leads to anger, anger leads to hate, hate leads to suffering.' What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "anadiplosis"
+    },
+    {
+      "id": "q1781125622244_322",
+      "question": "I am Nigeria's largest freshwater lake, located in Kogi State where two mighty rivers meet. Explorers searched for the source of the Niger near me. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "Kainji Lake"
+    },
+    {
+      "id": "q1781125622244_323",
+      "question": "I am a medical condition where the body's immune system attacks its own tissues. The word comes from Greek meaning 'self'. What type of disorder am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "autoimmune"
+    },
+    {
+      "id": "q1781125622244_324",
+      "question": "I am the Igbo festival celebrated to mark the new harvest season, featuring masquerades and communal feasting. I thank the gods for a good harvest. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "New Yam Festival"
+    },
+    {
+      "id": "q1781125622244_325",
+      "question": "I am a mathematical concept — the rate at which a function changes at any given point. Calculus uses me to find slopes of curves. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "derivative"
+    },
+    {
+      "id": "q1781125622244_326",
+      "question": "I am a pre-colonial Nigerian trading currency made from curved metal shaped like a horseshoe. Colonial traders used me heavily in the Niger Delta region. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "manilla"
+    },
+    {
+      "id": "q1781125622244_327",
+      "question": "I am the process by which a company lists its shares on a stock exchange for the public to buy for the first time. Nigerian companies do this at the NSE. What am I called?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "IPO"
+    },
+    {
+      "id": "q1781125622244_328",
+      "question": "I am a rhetorical device where you raise a question and then immediately answer it yourself. Orators use me to anticipate objections. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "hypophora"
+    },
+    {
+      "id": "q1781125622244_329",
+      "question": "I am the dry dusty wind that blows from the Sahara Desert across West Africa between November and March, bringing cold nights and hazy days to Nigeria. What am I?",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "answer": "Harmattan"
     }
   ]
 }
