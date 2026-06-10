@@ -418,7 +418,13 @@ async function getFileSha(path) {
 
 // Helper: encode a JS string to base64 correctly (handles emoji & non-ASCII)
 function strToB64(str) {
-  return btoa(String.fromCharCode(...new TextEncoder().encode(str)));
+  const bytes = new TextEncoder().encode(str);
+  let binary = '';
+  const chunkSize = 8192;
+  for (let i = 0; i < bytes.length; i += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
+  }
+  return btoa(binary);
 }
 
 // Helper: decode base64 from GitHub API to a JS string
