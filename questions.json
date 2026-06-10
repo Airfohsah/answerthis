@@ -1,59 +1,60 @@
 {
+{
   "categories": [
     {
       "id": "bible",
       "name": "Bible",
-      "icon": "âï¸"
+      "icon": "✝️"
     },
     {
       "id": "lifestyle",
       "name": "Lifestyle",
-      "icon": "ð"
+      "icon": "🌟"
     },
     {
       "id": "physics",
       "name": "Physics",
-      "icon": "âï¸"
+      "icon": "⚛️"
     },
     {
       "id": "maths",
       "name": "Maths",
-      "icon": "ð¢"
+      "icon": "🔢"
     },
     {
       "id": "english",
       "name": "English",
-      "icon": "ð"
+      "icon": "📖"
     },
     {
       "id": "government",
       "name": "Government",
-      "icon": "ðï¸"
+      "icon": "🏛️"
     },
     {
       "id": "history",
       "name": "History",
-      "icon": "ð"
+      "icon": "📜"
     },
     {
       "id": "technology",
       "name": "Technology",
-      "icon": "ð»"
+      "icon": "💻"
     },
     {
       "id": "riddles",
       "name": "Riddles",
-      "icon": "ð§©"
+      "icon": "🧩"
     },
     {
       "id": "brainteasers",
       "name": "Brain Teasers",
-      "icon": "ð§ "
+      "icon": "🧠"
     },
     {
       "id": "guesstheword",
       "name": "Guess the Word",
-      "icon": "ð¬"
+      "icon": "💬"
     }
   ],
   "questions": [
