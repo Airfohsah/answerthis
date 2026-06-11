@@ -402,7 +402,7 @@ async function loadData() {
     if (!res.ok) throw new Error('GitHub API returned ' + res.status);
     var file = await res.json();
     fileSha = file.sha;
-    db = JSON.parse(atob(file.content.replace(/\n/g, '')));
+    db = JSON.parse(b64ToStr(file.content));
     showToast('Loaded from GitHub ✓', 'success');
   } catch(e) {
     showToast('GitHub fetch failed: ' + e.message + '. Loaded embedded data instead.', 'error');
@@ -474,16 +474,10 @@ async function saveData() {
       // The INLINE_DATA block always looks like:
       //   var INLINE_DATA = {....lots of json....};
       // It sits on ONE line. We find its start and end precisely.
-      const START_TAG = 'var INLINE_DATA = ';
-      const si = idxRaw.indexOf(START_TAG);
-      if (si === -1) throw new Error('START_TAG not found in index.html');
-
-      // Find the newline that terminates that line
-      const lineEnd = idxRaw.indexOf('\n', si);
-      if (lineEnd === -1) throw new Error('Could not find end of INLINE_DATA line');
-
-      const newInline = START_TAG + JSON.stringify(db) + ';';
-      const patched = idxRaw.slice(0, si) + newInline + idxRaw.slice(lineEnd);
+      // Robust: match var INLINE_DATA = {...}; across any number of lines
+const newInline = 'var INLINE_DATA = ' + JSON.stringify(db) + ';';
+const patched = idxRaw.replace(/var INLINE_DATA = [\s\S]*?;(?=\s*\n)/, newInline);
+if (patched === idxRaw) throw new Error('INLINE_DATA regex found no match in index.html');
 
       const idxBody = {
         message: `Sync INLINE_DATA in index.html [${new Date().toLocaleString()}]`,
