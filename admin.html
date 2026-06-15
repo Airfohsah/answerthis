@@ -200,6 +200,10 @@ input,select,textarea{font-family:'DM Sans',sans-serif}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
       Bulk Import
     </div>
+    <div class="nav-link" onclick="showPage('bulkdelete')" id="nav-bulkdelete">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
+      Bulk Delete
+    </div>
     <div class="sidebar-bottom">
       <div id="save-btn" onclick="saveData()" style="
         background:var(--gold);color:#000;font-family:'Syne',sans-serif;
@@ -300,6 +304,45 @@ input,select,textarea{font-family:'DM Sans',sans-serif}
     </div>
   </div>
 </div>
+
+  <!-- BULK DELETE -->
+  <div class="admin-page" id="page-bulkdelete">
+    <div class="page-header">
+      <div class="page-title">Bulk Delete</div>
+      <div class="page-sub">Delete multiple questions by pasting or uploading a JSON array of IDs</div>
+    </div>
+
+    <div class="template-box" style="margin-bottom:16px">
+      <div class="template-title">Expected Format</div>
+      <pre class="template-code">["bib_e1", "phy_m3", "q1781095280389_5"]</pre>
+    </div>
+
+    <div class="import-area" id="delete-drop-area"
+      onclick="document.getElementById('delete-file-input').click()"
+      ondragover="event.preventDefault();this.classList.add('drag')"
+      ondragleave="this.classList.remove('drag')"
+      ondrop="handleDeleteDrop(event)">
+      <div class="import-area-icon">🗑️</div>
+      <div class="import-area-text">Click to upload or drag & drop a JSON file</div>
+      <div class="import-area-sub">Or paste IDs directly below</div>
+      <input type="file" id="delete-file-input" accept=".json" style="display:none" onchange="handleDeleteFile(this)">
+    </div>
+
+    <div class="form-row">
+      <label class="form-label">Paste JSON array of IDs</label>
+      <textarea class="form-input" id="delete-paste" rows="6" placeholder='["bib_e1", "phy_m3", "q1781095280389_5"]'></textarea>
+    </div>
+
+    <div class="import-preview" id="delete-preview">
+      <div class="import-preview-title" id="delete-preview-title"></div>
+      <div class="import-log" id="delete-log"></div>
+    </div>
+
+    <div style="display:flex;gap:10px;margin-top:8px">
+      <button class="btn btn-outline" onclick="previewDelete()">Preview</button>
+      <button class="btn btn-red" onclick="runDelete()">🗑️ Delete Questions</button>
+    </div>
+  </div>
 
 <!-- MODAL -->
 <div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this)closeModal()">
@@ -454,7 +497,7 @@ async function saveData() {
     // ── Step 1: Save questions.json ──────────────────────────────────────────
     const qBody = {
       message: `Update questions.json [${new Date().toLocaleString()}]`,
-      content: strToB64(JSON.stringify(db, null, 2)),
+      content: strToB64(JSON.stringify(db)),
       sha: fileSha
     };
     const qRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${QUESTIONS_FILE_PATH}`, {
@@ -473,17 +516,30 @@ async function saveData() {
 
       // The INLINE_DATA block always looks like:
       //   var INLINE_DATA = {....lots of json....};
-      // It sits on ONE line. We find its start and end precisely.
+      // It may span multiple lines. We find its start and end precisely.
       const START_TAG = 'var INLINE_DATA = ';
       const si = idxRaw.indexOf(START_TAG);
       if (si === -1) throw new Error('START_TAG not found in index.html');
 
-      // Find the newline that terminates that line
-      const lineEnd = idxRaw.indexOf('\n', si);
-      if (lineEnd === -1) throw new Error('Could not find end of INLINE_DATA line');
+      // Find the end of the statement — the closing }; on its own or inline
+      // We scan forward from si to find the matching closing brace of the object
+      let depth = 0;
+      let blockEnd = -1;
+      for (let i = si + START_TAG.length; i < idxRaw.length; i++) {
+        if (idxRaw[i] === '{') depth++;
+        else if (idxRaw[i] === '}') {
+          depth--;
+          if (depth === 0) {
+            // consume the trailing semicolon if present
+            blockEnd = idxRaw[i + 1] === ';' ? i + 2 : i + 1;
+            break;
+          }
+        }
+      }
+      if (blockEnd === -1) throw new Error('Could not find end of INLINE_DATA block in index.html');
 
       const newInline = START_TAG + JSON.stringify(db) + ';';
-      const patched = idxRaw.slice(0, si) + newInline + idxRaw.slice(lineEnd);
+      const patched = idxRaw.slice(0, si) + newInline + idxRaw.slice(blockEnd);
 
       const idxBody = {
         message: `Sync INLINE_DATA in index.html [${new Date().toLocaleString()}]`,
@@ -997,6 +1053,74 @@ function runImport() {
     showToast(`Imported ${added} questions (${skipped} skipped)`, 'success');
   } catch(e) {
     showToast('Import failed: ' + e.message, 'error');
+  }
+}
+
+// ============================================================
+// BULK DELETE
+// ============================================================
+function handleDeleteFile(input) {
+  const file = input.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = e => { document.getElementById('delete-paste').value = e.target.result; };
+  reader.readAsText(file);
+  document.getElementById('delete-drop-area').classList.remove('drag');
+}
+
+function handleDeleteDrop(e) {
+  e.preventDefault();
+  document.getElementById('delete-drop-area').classList.remove('drag');
+  const file = e.dataTransfer.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => { document.getElementById('delete-paste').value = ev.target.result; };
+  reader.readAsText(file);
+}
+
+function previewDelete() {
+  const text = document.getElementById('delete-paste').value.trim();
+  const preview = document.getElementById('delete-preview');
+  const log = document.getElementById('delete-log');
+  const title = document.getElementById('delete-preview-title');
+  preview.style.display = 'block';
+
+  try {
+    const ids = JSON.parse(text);
+    if(!Array.isArray(ids)) throw new Error('Must be a JSON array of ID strings');
+    const found = [], notFound = [];
+    ids.forEach(id => {
+      const q = db.questions.find(q => q.id === id);
+      if(q) found.push(`✓ ${id} — ${q.question.substring(0, 60)}...`);
+      else notFound.push(`✗ ${id} — NOT FOUND`);
+    });
+    title.textContent = `Preview: ${found.length} found, ${notFound.length} not found`;
+    log.textContent = [...found, ...notFound].join('\n');
+    log.style.color = notFound.length ? 'var(--gold)' : 'var(--green)';
+  } catch(e) {
+    title.textContent = 'Parse Error';
+    log.textContent = e.message;
+    log.style.color = 'var(--red)';
+  }
+}
+
+function runDelete() {
+  const text = document.getElementById('delete-paste').value.trim();
+  try {
+    const ids = JSON.parse(text);
+    if(!Array.isArray(ids)) throw new Error('Must be a JSON array of ID strings');
+    const before = db.questions.length;
+    db.questions = db.questions.filter(q => !ids.includes(q.id));
+    const deleted = before - db.questions.length;
+    const notFound = ids.length - deleted;
+    if(!confirm(`About to permanently delete ${deleted} question(s). Continue?`)) return;
+    refreshAll();
+    saveData();
+    document.getElementById('delete-paste').value = '';
+    document.getElementById('delete-preview').style.display = 'none';
+    showToast(`Deleted ${deleted} question(s)${notFound ? ` (${notFound} IDs not found)` : ''}`, 'success');
+  } catch(e) {
+    showToast('Delete failed: ' + e.message, 'error');
   }
 }
 
