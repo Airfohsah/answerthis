@@ -513,9 +513,7 @@ async function saveData() {
     // ── Step 2: Patch INLINE_DATA inside index.html ──────────────────────────
     try {
       const { sha: idxSha } = await getFileSha('index.html');
-      const rawRes = await fetch(`https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/index.html`, {
-        headers: { Authorization: `token ${ghToken}`, 'Cache-Control': 'no-cache' }
-      });
+      const rawRes = await fetch(`https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/index.html?t=${Date.now()}`);
       if (!rawRes.ok) throw new Error('Could not fetch raw index.html: ' + rawRes.status);
       const idxRaw = await rawRes.text();
 
