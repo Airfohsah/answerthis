@@ -446,6 +446,11 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
     </div>
   </div>
   <div class="stat-grid" id="stat-grid"></div>
+  <div style="display:flex;gap:10px;padding:0 20px;margin-top:20px">
+    <div class="btn-secondary" style="flex:1" onclick="saveGameData()">💾 Save Data</div>
+    <div class="btn-secondary" style="flex:1" onclick="document.getElementById('load-data-input').click()">📂 Load Data</div>
+    <input type="file" id="load-data-input" accept=".json" style="display:none" onchange="loadGameData(this)">
+  </div>
 </div>
 
 <!-- BOTTOM NAV -->
@@ -529,39 +534,41 @@ const MODE_LABELS = {
 // ============================================================
 // FIX 3: SEEN QUESTIONS TRACKING
 // ============================================================
-function getSeenKey(category, difficulty) {
-  return SEEN_KEY_PREFIX + category + '_' + difficulty;
+function getSeenKey(categories, difficulty) {
+  const catKey = Array.isArray(categories) ? categories.slice().sort().join('+') : categories;
+  return SEEN_KEY_PREFIX + catKey + '_' + difficulty;
 }
 
-function getSeenIds(category, difficulty) {
+function getSeenIds(categories, difficulty) {
   try {
-    return JSON.parse(localStorage.getItem(getSeenKey(category, difficulty)) || '[]');
+    return JSON.parse(localStorage.getItem(getSeenKey(categories, difficulty)) || '[]');
   } catch(e) { return []; }
 }
 
-function markAsSeen(category, difficulty, ids) {
-  const existing = getSeenIds(category, difficulty);
+function markAsSeen(categories, difficulty, ids) {
+  const existing = getSeenIds(categories, difficulty);
   const merged = [...new Set([...existing, ...ids])];
-  localStorage.setItem(getSeenKey(category, difficulty), JSON.stringify(merged));
+  localStorage.setItem(getSeenKey(categories, difficulty), JSON.stringify(merged));
 }
 
-function resetSeen(category, difficulty) {
-  localStorage.removeItem(getSeenKey(category, difficulty));
+function resetSeen(categories, difficulty) {
+  localStorage.removeItem(getSeenKey(categories, difficulty));
 }
 
 // FIX 3: Get unseen questions for a category/difficulty, auto-reset when exhausted
-function getUnseenPool(category, difficulty) {
-  let pool = allQuestions.filter(q => q.category === category && q.difficulty === difficulty);
-  if(pool.length === 0) pool = allQuestions.filter(q => q.category === category);
+function getUnseenPool(categories, difficulty) {
+  const catList = Array.isArray(categories) ? categories : [categories];
+  let pool = allQuestions.filter(q => catList.includes(q.category) && q.difficulty === difficulty);
+  if(pool.length === 0) pool = allQuestions.filter(q => catList.includes(q.category));
   if(pool.length === 0) pool = allQuestions.filter(q => q.difficulty === difficulty);
   if(pool.length === 0) pool = [...allQuestions];
 
-  const seenIds = getSeenIds(category, difficulty);
+  const seenIds = getSeenIds(catList, difficulty);
   let unseen = pool.filter(q => !seenIds.includes(q.id));
 
   // If we've exhausted all questions, reset and start fresh
   if(unseen.length === 0) {
-    resetSeen(category, difficulty);
+    resetSeen(catList, difficulty);
     unseen = [...pool];
   }
 
@@ -621,7 +628,10 @@ function showScreen(name) {
 function renderHomeCats() {
   const grid = document.getElementById('home-cat-grid');
   if(!grid) return;
-  grid.innerHTML = allCategories.map(c =>
+  grid.innerHTML = `<div class="cat-item" onclick="openSetup('questions','__mix__')">
+      <div class="cat-item-icon">🔀</div>
+      <div class="cat-item-name">Mix Everything</div>
+    </div>` + allCategories.map(c =>
     `<div class="cat-item" onclick="openSetup('questions','${c.id}')">
       <div class="cat-item-icon">${c.icon}</div>
       <div class="cat-item-name">${c.name}</div>
@@ -672,14 +682,16 @@ function renderSetupBody(mode, presetCategory) {
 
   // Category select
   const catId = presetCategory || (gameState.lastSetup?.category) || allCategories[0]?.id;
+  const isMix = catId === '__mix__';
   html += `<div class="setup-section">
     <div class="setup-label">Category</div>
     <div id="selected-cat-display" style="background:var(--card);border:1.5px solid var(--gold);border-radius:var(--radius-sm);padding:12px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;margin-bottom:8px" onclick="openCatModal()">
-      <span id="selected-cat-icon" style="font-size:22px">${getCatById(catId)?.icon||'❓'}</span>
-      <span id="selected-cat-name" style="font-size:15px;font-weight:500">${getCatById(catId)?.name||'Select Category'}</span>
+      <span id="selected-cat-icon" style="font-size:22px">${isMix ? '🔀' : (getCatById(catId)?.icon||'❓')}</span>
+      <span id="selected-cat-name" style="font-size:15px;font-weight:500">${isMix ? 'Mix Everything' : (getCatById(catId)?.name||'Select Category')}</span>
       <span style="margin-left:auto;color:var(--text3);font-size:12px">Change ›</span>
     </div>
     <input type="hidden" id="setup-category" value="${catId}">
+    <input type="hidden" id="setup-category-multi" value="${(gameState.lastSetup?.categories||[]).join(',')}">
   </div>`;
 
   // Difficulty
@@ -823,32 +835,87 @@ function refreshRemoveBtns() {
 
 function getCatById(id) { return allCategories.find(c => c.id === id); }
 
+function getCatDisplayName(g) {
+  if(g.category === '__mix__') return 'Mix Everything';
+  if(Array.isArray(g.categories) && g.categories.length > 1) {
+    return g.categories.map(id => getCatById(id)?.name || id).join(', ');
+  }
+  return getCatById(g.category)?.name || g.category || '—';
+}
+
 function openCatModal() {
   const current = document.getElementById('setup-category')?.value;
+  const multiRaw = document.getElementById('setup-category-multi')?.value || '';
+  const selectedSet = new Set(multiRaw ? multiRaw.split(',').filter(Boolean) : (current && current !== '__mix__' ? [current] : []));
+  const isMix = current === '__mix__';
+
   showModal('Choose Category',
     `<div class="cat-select-grid">
+      <div class="cat-select-item ${isMix ? 'active' : ''}" id="cat-mix-item" onclick="selectMixEverything()">
+        <span class="cat-select-icon">🔀</span>
+        <span class="cat-select-name">Mix Everything</span>
+        <div class="cat-check">${isMix ? '✓' : ''}</div>
+      </div>
       ${allCategories.map(c =>
-        `<div class="cat-select-item ${c.id === current ? 'active' : ''}" onclick="selectCat('${c.id}','${c.name}','${c.icon}',this)">
+        `<div class="cat-select-item ${selectedSet.has(c.id) ? 'active' : ''}" data-cat-id="${c.id}" onclick="toggleCatSelection('${c.id}','${c.name}','${c.icon}',this)">
           <span class="cat-select-icon">${c.icon}</span>
           <span class="cat-select-name">${c.name}</span>
-          <div class="cat-check">${c.id === current ? '✓' : ''}</div>
+          <div class="cat-check">${selectedSet.has(c.id) ? '✓' : ''}</div>
         </div>`
       ).join('')}
-    </div>`,
+    </div>
+    <div style="margin-top:10px;font-size:12px;color:var(--text3)">Tip: pick more than one category to mix just those, or choose Mix Everything for all categories.</div>`,
     [{ label: 'Done', action: 'closeModal()', primary: true }]
   );
 }
 
-function selectCat(id, name, icon, el) {
+function selectMixEverything() {
   document.querySelectorAll('.cat-select-item').forEach(i => {
     i.classList.remove('active');
-    i.querySelector('.cat-check').textContent = '';
+    const chk = i.querySelector('.cat-check');
+    if(chk) chk.textContent = '';
   });
-  el.classList.add('active');
-  el.querySelector('.cat-check').textContent = '✓';
-  document.getElementById('setup-category').value = id;
-  document.getElementById('selected-cat-icon').textContent = icon;
-  document.getElementById('selected-cat-name').textContent = name;
+  const mixItem = document.getElementById('cat-mix-item');
+  mixItem.classList.add('active');
+  mixItem.querySelector('.cat-check').textContent = '✓';
+  document.getElementById('setup-category').value = '__mix__';
+  document.getElementById('setup-category-multi').value = '';
+  document.getElementById('selected-cat-icon').textContent = '🔀';
+  document.getElementById('selected-cat-name').textContent = 'Mix Everything';
+}
+
+function toggleCatSelection(id, name, icon, el) {
+  const mixItem = document.getElementById('cat-mix-item');
+  mixItem.classList.remove('active');
+  mixItem.querySelector('.cat-check').textContent = '';
+
+  const isActive = el.classList.contains('active');
+  el.classList.toggle('active', !isActive);
+  el.querySelector('.cat-check').textContent = !isActive ? '✓' : '';
+
+  let selected = [...document.querySelectorAll('.cat-select-item[data-cat-id]')]
+    .filter(i => i.classList.contains('active'))
+    .map(i => i.dataset.catId);
+
+  if(selected.length === 0) {
+    el.classList.add('active');
+    el.querySelector('.cat-check').textContent = '✓';
+    selected = [id];
+  }
+
+  document.getElementById('setup-category-multi').value = selected.join(',');
+  const catInput = document.getElementById('setup-category');
+
+  if(selected.length === 1) {
+    catInput.value = selected[0];
+    const c = getCatById(selected[0]);
+    document.getElementById('selected-cat-icon').textContent = c?.icon || icon;
+    document.getElementById('selected-cat-name').textContent = c?.name || name;
+  } else {
+    catInput.value = '__multi__';
+    document.getElementById('selected-cat-icon').textContent = '🔀';
+    document.getElementById('selected-cat-name').textContent = `${selected.length} categories`;
+  }
 }
 
 // ============================================================
@@ -856,6 +923,10 @@ function selectCat(id, name, icon, el) {
 // ============================================================
 function startGame() {
   const category = document.getElementById('setup-category')?.value;
+  const multiRaw = document.getElementById('setup-category-multi')?.value || '';
+  const categories = category === '__mix__'
+    ? allCategories.map(c => c.id)
+    : (category === '__multi__' ? multiRaw.split(',').filter(Boolean) : [category]);
   const diffEl = document.querySelector('#setup-body .pill-row .pill.active');
   const difficulty = diffEl ? diffEl.textContent.toLowerCase() : 'easy';
   const mode = gameState.mode;
@@ -885,13 +956,13 @@ function startGame() {
   if(mode === 'multiplayer') {
     // Each player gets their own unseen pool, pre-shuffled at game start
     playerQuestions = players.map(() => {
-      const pool = getUnseenPool(category, difficulty);
+      const pool = getUnseenPool(categories, difficulty);
       const shuffled = guaranteedShuffle(pool);
       return shuffled.slice(0, Math.min(questionCount, shuffled.length));
     });
   } else {
     // Single player: get unseen pool
-    const pool = getUnseenPool(category, difficulty);
+    const pool = getUnseenPool(categories, difficulty);
     const numQ = mode === 'survival' ? Math.min(200, pool.length) : Math.min(questionCount, pool.length);
     const questions = guaranteedShuffle(pool).slice(0, numQ);
     playerQuestions = [questions];
@@ -899,7 +970,7 @@ function startGame() {
 
   gameState = {
     ...gameState,
-    mode, category, difficulty, questionCount, timeLimit, players,
+    mode, category, categories, difficulty, questionCount, timeLimit, players,
     currentPlayerIdx: 0,
     currentQ: 0,
     questions: playerQuestions[0],
@@ -909,12 +980,12 @@ function startGame() {
     answered: false,
     timer: null,
     survivalTime: 60,
-    lastSetup: { category, difficulty, questionCount, players, timeLimit }
+    lastSetup: { category, categories, difficulty, questionCount, players, timeLimit }
   };
 
   // FIX 3: Track which question IDs we just pulled as seen
   playerQuestions.forEach(qs => {
-    markAsSeen(category, difficulty, qs.map(q => q.id));
+    markAsSeen(categories, difficulty, qs.map(q => q.id));
   });
 
   showScreen('game');
@@ -1157,7 +1228,7 @@ function nextQuestion() {
       if(gameState.survivalTime > 0) {
         // Refill with a new shuffled pool
         const freshPool = guaranteedShuffle(
-          allQuestions.filter(q => q.category === gameState.category && q.difficulty === gameState.difficulty)
+          allQuestions.filter(q => (gameState.categories||[gameState.category]).includes(q.category) && q.difficulty === gameState.difficulty)
         );
         gameState.questions = freshPool.length > 0 ? freshPool : guaranteedShuffle([...allQuestions]);
         gameState.currentQ = 0;
@@ -1296,7 +1367,7 @@ function startPlayerTurn() {
 // ============================================================
 function endGame() {
   clearTimer();
-  const { mode, players, playerCorrect, questions, category, difficulty } = gameState;
+  const { mode, players, playerCorrect, questions, category, categories, difficulty } = gameState;
   const totalQ = mode === 'multiplayer' ? gameState.questionCount : questions.length;
 
   const results = players.map((name, i) => ({
@@ -1304,7 +1375,7 @@ function endGame() {
     pct: Math.round(playerCorrect[i] / Math.max(totalQ,1) * 100)
   })).sort((a,b) => b.correct - a.correct);
 
-  saveGame({ mode, category, difficulty, players: results, date: new Date().toISOString(),
+  saveGame({ mode, category, categories, difficulty, players: results, date: new Date().toISOString(),
     totalCorrect: results[0].correct, totalQuestions: totalQ,
     survivalTime: mode === 'survival' ? gameState.survivalTime : null
   });
@@ -1316,7 +1387,7 @@ function endGame() {
   document.getElementById('results-trophy').textContent = trophy;
   document.getElementById('results-title').textContent = players.length > 1 ? `${results[0].name} Wins!` : 'Game Over!';
   document.getElementById('results-sub').textContent = players.length > 1
-    ? `${results.length} players · ${getCatById(category)?.name||category} · ${difficulty}`
+    ? `${results.length} players · ${getCatDisplayName({category, categories})} · ${difficulty}`
     : `${results[0].correct}/${totalQ} correct · ${results[0].pct}%`;
 
   const tableHeader = `<div class="results-table-header"><div>#</div><div>Player</div><div>Score</div><div>%</div></div>`;
@@ -1374,7 +1445,7 @@ function loadHistory() {
     const timeStr = date.toLocaleTimeString('en-NG', { hour:'2-digit', minute:'2-digit' });
     // FIX 10: Use MODE_LABELS map
     const modeLabel = MODE_LABELS[g.mode] || g.mode;
-    const catName = getCatById(g.category)?.name || g.category || '—';
+    const catName = getCatDisplayName(g);
     const scoresText = g.players.map(p => `${p.name}: ${p.correct}/${p.total}`).join(' · ');
     return `<div class="hist-item" onclick="showHistDetail(${i})">
       <div class="hist-item-top">
@@ -1407,7 +1478,7 @@ function showHistDetail(idx) {
       </div>
       <div style="background:var(--bg3);border-radius:8px;padding:10px;font-size:12px">
         <div style="color:var(--text3)">Category</div>
-        <div style="font-weight:700;margin-top:2px">${getCatById(g.category)?.name||g.category||'—'}</div>
+        <div style="font-weight:700;margin-top:2px">${getCatDisplayName(g)}</div>
       </div>
     </div>
     ${rows}
@@ -1442,6 +1513,64 @@ function loadProfile() {
   ].map(s =>
     `<div class="stat-card"><div class="stat-val">${s.val}</div><div class="stat-lbl">${s.lbl}</div></div>`
   ).join('');
+}
+
+// ============================================================
+// SAVE / LOAD GAME DATA (export/import localStorage as JSON file)
+// ============================================================
+function saveGameData() {
+  const exportObj = { exportedAt: new Date().toISOString(), version: 1, data: {} };
+  for(let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if(key && key.startsWith('answerthis_')) {
+      exportObj.data[key] = localStorage.getItem(key);
+    }
+  }
+  const blob = new Blob([JSON.stringify(exportObj, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `answerthis-save-${new Date().toISOString().slice(0,10)}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToastMsg('Save file downloaded ✓');
+}
+
+function loadGameData(input) {
+  const file = input.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const parsed = JSON.parse(e.target.result);
+      if(!parsed.data) throw new Error('Invalid save file');
+      Object.keys(parsed.data).forEach(key => {
+        localStorage.setItem(key, parsed.data[key]);
+      });
+      showToastMsg('Data loaded ✓');
+      loadProfile();
+    } catch(err) {
+      showToastMsg('Load failed: invalid file');
+    }
+  };
+  reader.readAsText(file);
+  input.value = '';
+}
+
+function showToastMsg(msg) {
+  let toast = document.getElementById('save-load-toast');
+  if(!toast) {
+    toast = document.createElement('div');
+    toast.id = 'save-load-toast';
+    toast.style.cssText = 'position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--gold);color:var(--text);padding:10px 20px;border-radius:30px;font-size:13px;z-index:9999;transition:opacity .3s';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.style.opacity = '1';
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => { toast.style.opacity = '0'; }, 2200);
 }
 
 // ============================================================
