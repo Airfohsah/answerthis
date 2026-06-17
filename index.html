@@ -606,6 +606,16 @@ async function init() {
 // SCREEN MANAGEMENT
 // ============================================================
 const GAME_SCREENS = ['screen-splash','screen-home','screen-setup','screen-game','screen-results','screen-history','screen-profile'];
+function safePushState(state, hash) {
+  try {
+    history.pushState(state, '', hash);
+  } catch(e) {
+    // Sandboxed preview environments (e.g. about:srcdoc iframes) block
+    // pushState with a URL change. Safe to ignore there; works fine on
+    // the real deployed domain.
+  }
+}
+
 function showScreen(name) {
   GAME_SCREENS.forEach(s => {
     const el = document.getElementById(s);
@@ -620,6 +630,66 @@ function showScreen(name) {
     document.getElementById('nav-'+n)?.classList.toggle('active', n === name);
   });
   if(name === 'home') { renderHomeCats(); updateHomeStats(); }
+
+  // BACK NAVIGATION FIX: push a history entry per screen so swipe-back /
+  // Android back button navigates within the app instead of closing it.
+  if(!showScreen._restoring) {
+    safePushState({ screen: name }, '#' + name);
+  }
+}
+
+// Map of "back" destinations per screen. Game screen intentionally has no
+// simple back target — back from an active game asks for confirmation
+// instead of silently losing progress.
+const SCREEN_BACK_MAP = {
+  'setup': 'home',
+  'results': 'home',
+  'history': 'home',
+  'profile': 'home',
+  'splash': 'home'
+};
+
+window.addEventListener('popstate', (e) => {
+  // If a modal is open, close that first instead of changing screens.
+  const modalOverlay = document.getElementById('modal-overlay');
+  if(modalOverlay && modalOverlay.classList.contains('show')) {
+    closeModal();
+    safePushState({ screen: getCurrentScreenName() }, location.hash);
+    return;
+  }
+
+  const current = getCurrentScreenName();
+
+  if(current === 'game') {
+    // Don't let a back-swipe silently kill an active game.
+    const confirmLeave = confirm('Leave this game? Your progress will be lost.');
+    if(confirmLeave) {
+      clearTimer();
+      showScreen._restoring = true;
+      showScreen('home');
+      showScreen._restoring = false;
+    } else {
+      // Stay on game screen, re-push state so the next back-swipe asks again.
+      safePushState({ screen: 'game' }, '#game');
+    }
+    return;
+  }
+
+  if(current === 'home') {
+    // Already at home; nothing else to go back to within the app.
+    safePushState({ screen: 'home' }, '#home');
+    return;
+  }
+
+  const dest = SCREEN_BACK_MAP[current] || 'home';
+  showScreen._restoring = true;
+  showScreen(dest);
+  showScreen._restoring = false;
+});
+
+function getCurrentScreenName() {
+  const activeEl = GAME_SCREENS.find(s => document.getElementById(s)?.classList.contains('active'));
+  return activeEl ? activeEl.replace('screen-', '') : 'home';
 }
 
 // ============================================================
@@ -980,6 +1050,7 @@ function startGame() {
     answered: false,
     timer: null,
     survivalTime: 60,
+    answerLog: [],
     lastSetup: { category, categories, difficulty, questionCount, players, timeLimit }
   };
 
@@ -1060,7 +1131,8 @@ function renderQuestion() {
   } else {
     textArea.style.display = 'none';
     optionsArea.style.display = 'flex';
-    optionsArea.innerHTML = q.options.map(opt =>
+    const shuffledOptions = guaranteedShuffle(q.options);
+    optionsArea.innerHTML = shuffledOptions.map(opt =>
       `<div class="option-btn" onclick="selectOption(this,'${escHtml(opt)}','${escHtml(q.answer)}')">${opt}</div>`
     ).join('');
   }
@@ -1126,8 +1198,20 @@ function selectOption(el, selected, correct) {
   }
 
   showFeedback(isCorrect);
-  document.getElementById('game-actions').innerHTML = `
-    <div class="action-btn btn-next" onclick="nextQuestion()">Next →</div>`;
+
+  if(!gameState.answerLog) gameState.answerLog = [];
+  gameState.answerLog.push({
+    question: gameState.questions[gameState.currentQ].question,
+    options: gameState.questions[gameState.currentQ].options || null,
+    selected, correct, isCorrect
+  });
+
+  if(gameState.mode === 'countdown' || gameState.mode === 'survival') {
+    setTimeout(() => { nextQuestion(); }, 1000);
+  } else {
+    document.getElementById('game-actions').innerHTML = `
+      <div class="action-btn btn-next" onclick="nextQuestion()">Next →</div>`;
+  }
 }
 
 function submitTextAnswer() {
@@ -1148,8 +1232,20 @@ function submitTextAnswer() {
 
   if(isCorrect) handleCorrect(); else handleWrong();
   showFeedback(isCorrect);
-  document.getElementById('game-actions').innerHTML = `
-    <div class="action-btn btn-next" onclick="nextQuestion()">Next →</div>`;
+
+  if(!gameState.answerLog) gameState.answerLog = [];
+  gameState.answerLog.push({
+    question: q.question,
+    options: null,
+    selected: userAns, correct: q.answer, isCorrect
+  });
+
+  if(gameState.mode === 'countdown' || gameState.mode === 'survival') {
+    setTimeout(() => { nextQuestion(); }, 1000);
+  } else {
+    document.getElementById('game-actions').innerHTML = `
+      <div class="action-btn btn-next" onclick="nextQuestion()">Next →</div>`;
+  }
 }
 
 function skipQuestion() {
@@ -1179,6 +1275,13 @@ function skipQuestion() {
     textInput.className = 'text-answer-input wrong';
     textInput.disabled = true;
   }
+
+  if(!gameState.answerLog) gameState.answerLog = [];
+  gameState.answerLog.push({
+    question: q.question,
+    options: q.options || null,
+    selected: null, correct: q.answer, isCorrect: false, skipped: true
+  });
 
   document.getElementById('game-actions').innerHTML = `
     <div class="action-btn btn-next" onclick="nextQuestion()">Next →</div>`;
@@ -1377,7 +1480,8 @@ function endGame() {
 
   saveGame({ mode, category, categories, difficulty, players: results, date: new Date().toISOString(),
     totalCorrect: results[0].correct, totalQuestions: totalQ,
-    survivalTime: mode === 'survival' ? gameState.survivalTime : null
+    survivalTime: mode === 'survival' ? gameState.survivalTime : null,
+    answerLog: mode !== 'multiplayer' ? (gameState.answerLog || []) : null
   });
 
   if(results[0].pct >= 70) spawnConfetti();
@@ -1469,6 +1573,28 @@ function showHistDetail(idx) {
       <span style="color:var(--gold);font-family:'Syne',sans-serif;font-weight:700">${p.correct}/${p.total} (${p.pct}%)</span>
     </div>`
   ).join('');
+
+  // Per-question breakdown (single-player modes only, when data exists)
+  let breakdownHtml = '';
+  if(Array.isArray(g.answerLog) && g.answerLog.length > 0) {
+    const qRows = g.answerLog.map((a, qi) => {
+      const icon = a.skipped ? '⏭️' : (a.isCorrect ? '✅' : '❌');
+      const yourAnsLine = a.skipped
+        ? `<div style="color:var(--text3);font-size:12px;margin-top:4px">Skipped</div>`
+        : `<div style="color:${a.isCorrect ? 'var(--green)' : 'var(--red)'};font-size:12px;margin-top:4px">Your answer: ${a.selected}</div>`;
+      const correctLine = (!a.isCorrect) ? `<div style="color:var(--gold);font-size:12px;margin-top:2px">Correct: ${a.correct}</div>` : '';
+      return `<div style="padding:10px 0;border-bottom:1px solid var(--border)">
+        <div style="font-size:13px;font-weight:600">${icon} ${qi+1}. ${a.question}</div>
+        ${yourAnsLine}
+        ${correctLine}
+      </div>`;
+    }).join('');
+    breakdownHtml = `<div style="margin-top:16px">
+      <div style="font-size:13px;color:var(--text3);margin-bottom:8px">Question Review</div>
+      ${qRows}
+    </div>`;
+  }
+
   showModal('Game Details', `
     <div style="font-size:13px;color:var(--text3);margin-bottom:16px">${new Date(g.date).toLocaleString('en-NG')}</div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px">
@@ -1482,6 +1608,7 @@ function showHistDetail(idx) {
       </div>
     </div>
     ${rows}
+    ${breakdownHtml}
   `, [{ label: 'Close', action: 'closeModal()', primary: true }]);
 }
 
