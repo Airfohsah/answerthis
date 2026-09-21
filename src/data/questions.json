@@ -241,7 +241,7 @@
         "Simeon",
         "Eli",
         "Aaron",
-        "Zacharias"
+        "Nathan"
       ],
       "answer": "Zechariah"
     },
@@ -304,7 +304,7 @@
         "Mount Zion",
         "Mount Olive",
         "Golgotha",
-        "Calvary Hill",
+        "Mount Nebo",
         "Mount Moriah"
       ],
       "answer": "Golgotha"
@@ -474,7 +474,7 @@
       "category": "bible",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "Which city were the walls that fell at the sound of trumpets?",
+      "question": "In which city did the walls fall at the sound of trumpets?",
       "options": [
         "Jerusalem",
         "Bethlehem",
@@ -660,12 +660,12 @@
       "type": "multiple",
       "question": "If 5+3=28, 9+1=810, 8+6=214, what does 5+4 equal?",
       "options": [
+        "9",
+        "91",
         "19",
-        "19",
-        "19",
-        "19",
-        "19",
-        "19"
+        "20",
+        "45",
+        "14"
       ],
       "answer": "19"
     },
@@ -679,8 +679,8 @@
         "The candle",
         "The wood stove",
         "The gas lamp",
+        "The match",
         "All three simultaneously",
-        "The brightest one",
         "None"
       ],
       "answer": "The match"
@@ -699,7 +699,7 @@
         "King Queen Queen",
         "Queen Queen Queen"
       ],
-      "answer": "Queen King Queen"
+      "answer": "King Queen Queen"
     },
     {
       "id": "brt_h4",
@@ -2154,7 +2154,7 @@
       "category": "guesstheword",
       "difficulty": "medium",
       "type": "multiple",
-      "question": "The Nigerian Pidgin word for money.",
+      "question": "The Igbo word for money.",
       "options": [
         "Kudi",
         "Ego",
@@ -3218,7 +3218,7 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "question": "Solve: 3x - 2y = 12, x + y = 1. What is x?",
+      "question": "Solve: 3x - 2y = 12, x + y = -1. What is x?",
       "options": [
         "1",
         "2",
@@ -4111,7 +4111,7 @@
       "category": "bible",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Not stated in the Bible",
+      "answer": "3",
       "options": [
         "2",
         "3",
@@ -4125,7 +4125,7 @@
       "category": "bible",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Both are the same people",
+      "answer": "Shadrach, Meshach and Abednego",
       "options": [
         "Shadrach, Meshach and Abednego",
         "Ananias, Azarias and Mishael",
@@ -4369,12 +4369,12 @@
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "4â5 litres",
+      "answer": "4–5 litres",
       "options": [
-        "2â3 litres",
-        "4â5 litres",
-        "5â6 litres",
-        "7â8 litres"
+        "2–3 litres",
+        "4–5 litres",
+        "5–6 litres",
+        "7–8 litres"
       ]
     },
     {
@@ -4994,7 +4994,7 @@
       "answer": "D = M/V",
       "options": [
         "D = V/M",
-        "D = M Ã V",
+        "D = M × V",
         "D = M/V",
         "D = M + V"
       ]
@@ -5089,14 +5089,14 @@
       "category": "physics",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Î» = h/mv",
+      "answer": "λ = h/mv",
       "options": [
-        "Î» = h/mv",
-        "Î» = mv/h",
-        "Î» = h Ã mv",
-        "Î» = m/hv",
-        "Î» = v/hm",
-        "Î» = hm/v"
+        "λ = h/mv",
+        "λ = mv/h",
+        "λ = h × mv",
+        "λ = m/hv",
+        "λ = v/hm",
+        "λ = hm/v"
       ]
     },
     {
@@ -5105,14 +5105,14 @@
       "category": "physics",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "6.63 Ã 10â»Â³â´ JÂ·s",
+      "answer": "6.63 × 10⁻³⁴ J·s",
       "options": [
-        "6.63 Ã 10â»Â³â´ JÂ·s",
-        "6.63 Ã 10â»Â²â´ JÂ·s",
-        "9.11 Ã 10â»Â³Â¹ JÂ·s",
-        "1.60 Ã 10â»Â¹â¹ JÂ·s",
-        "3.00 Ã 10â¸ JÂ·s",
-        "1.38 Ã 10â»Â²Â³ JÂ·s"
+        "6.63 × 10⁻³⁴ J·s",
+        "6.63 × 10⁻²⁴ J·s",
+        "9.11 × 10⁻³¹ J·s",
+        "1.60 × 10⁻¹⁹ J·s",
+        "3.00 × 10⁸ J·s",
+        "1.38 × 10⁻²³ J·s"
       ]
     },
     {
@@ -5195,16 +5195,16 @@
     },
     {
       "id": "q1781095280390_100",
-      "question": "What is the simple interest on â¦50,000 at 8% per annum for 3 years?",
+      "question": "What is the simple interest on ₦50,000 at 8% per annum for 3 years?",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "â¦12,000",
+      "answer": "₦12,000",
       "options": [
-        "â¦10,000",
-        "â¦12,000",
-        "â¦14,000",
-        "â¦16,000"
+        "₦10,000",
+        "₦12,000",
+        "₦14,000",
+        "₦16,000"
       ]
     },
     {
@@ -5269,12 +5269,12 @@
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "150cmÂ²",
+      "answer": "150cm²",
       "options": [
-        "100cmÂ²",
-        "125cmÂ²",
-        "150cmÂ²",
-        "175cmÂ²"
+        "100cm²",
+        "125cm²",
+        "150cm²",
+        "175cm²"
       ]
     },
     {
@@ -5293,16 +5293,16 @@
     },
     {
       "id": "q1781095280390_107",
-      "question": "What is 2/3 of â¦4,500?",
+      "question": "What is 2/3 of ₦4,500?",
       "category": "maths",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "â¦3,000",
+      "answer": "₦3,000",
       "options": [
-        "â¦2,500",
-        "â¦2,800",
-        "â¦3,000",
-        "â¦3,200"
+        "₦2,500",
+        "₦2,800",
+        "₦3,000",
+        "₦3,200"
       ]
     },
     {
@@ -5335,18 +5335,18 @@
     },
     {
       "id": "q1781095280390_110",
-      "question": "What is the compound interest on â¦100,000 at 10% per annum for 2 years?",
+      "question": "What is the compound interest on ₦100,000 at 10% per annum for 2 years?",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "â¦21,000",
+      "answer": "₦21,000",
       "options": [
-        "â¦20,000",
-        "â¦21,000",
-        "â¦22,000",
-        "â¦25,000",
-        "â¦18,000",
-        "â¦19,000"
+        "₦20,000",
+        "₦21,000",
+        "₦22,000",
+        "₦25,000",
+        "₦18,000",
+        "₦19,000"
       ]
     },
     {
@@ -5357,9 +5357,9 @@
       "type": "multiple",
       "answer": "cos(x)",
       "options": [
-        "âsin(x)",
+        "-sin(x)",
         "cos(x)",
-        "âcos(x)",
+        "-cos(x)",
         "tan(x)",
         "sec(x)",
         "cot(x)"
@@ -5383,7 +5383,7 @@
     },
     {
       "id": "q1781095280390_113",
-      "question": "What is the value of sin(30Â°)?",
+      "question": "What is the value of sin(30°)?",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
@@ -5391,10 +5391,10 @@
       "options": [
         "0",
         "0.5",
-        "â2/2",
-        "â3/2",
+        "√2/2",
+        "√3/2",
         "1",
-        "â3"
+        "√3"
       ]
     },
     {
@@ -5419,14 +5419,14 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "540Â°",
+      "answer": "540°",
       "options": [
-        "360Â°",
-        "450Â°",
-        "500Â°",
-        "540Â°",
-        "600Â°",
-        "720Â°"
+        "360°",
+        "450°",
+        "500°",
+        "540°",
+        "600°",
+        "720°"
       ]
     },
     {
@@ -5435,14 +5435,14 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "xÂ² + yÂ² = 25",
+      "answer": "x² + y² = 25",
       "options": [
         "x + y = 5",
-        "xÂ² + yÂ² = 5",
-        "xÂ² + yÂ² = 25",
-        "xÂ² â yÂ² = 25",
-        "(x+y)Â² = 25",
-        "xÂ² + y = 25"
+        "x² + y² = 5",
+        "x² + y² = 25",
+        "x² − y² = 25",
+        "(x+y)² = 25",
+        "x² + y = 25"
       ]
     },
     {
@@ -5855,7 +5855,7 @@
     },
     {
       "id": "q1781095280390_145",
-      "question": "What is the grammatical term for 'John gave Mary the book' â what role does 'Mary' play?",
+      "question": "What is the grammatical term for 'John gave Mary the book' — what role does 'Mary' play?",
       "category": "english",
       "difficulty": "hard",
       "type": "multiple",
@@ -6331,11 +6331,11 @@
       "category": "government",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Treaty of Rome",
+      "answer": "Rome Statute",
       "options": [
-        "Treaty of Rome",
+        "Rome Statute",
         "Geneva Convention",
-        "Treaty of Westphalia",
+        "Treaty of Rome",
         "Lisbon Treaty",
         "Treaty of Maastricht",
         "Vienna Convention"
@@ -6675,7 +6675,7 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "1900",
+      "answer": "1919",
       "options": [
         "1900",
         "1910",
@@ -6727,7 +6727,7 @@
       "options": [
         "West African Reporter",
         "Sierra Leone Gazette",
-        "Royal Gazette",
+        "Freetown Herald",
         "The African Times",
         "West Africa Herald",
         "Freetown Chronicle"
@@ -6787,12 +6787,12 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "There was no such operation â Lagos was never captured",
+      "answer": "There was no such operation - Lagos was never captured",
       "options": [
         "Operation Tiger Claw",
         "Operation Unicorn",
         "Operation Scorpion",
-        "There was no such operation â Lagos was never captured",
+        "There was no such operation - Lagos was never captured",
         "Operation Eagle",
         "Operation Crocodile"
       ]
@@ -6969,13 +6969,13 @@
     },
     {
       "id": "q1781095280390_221",
-      "question": "Which Nigerian tech unicorn was founded by Flutterwave?",
+      "question": "Which Nigerian fintech company's payment API powers global platforms like Uber and Booking.com?",
       "category": "technology",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Flutterwave is the unicorn",
+      "answer": "Flutterwave",
       "options": [
-        "Flutterwave is the unicorn",
+        "Flutterwave",
         "Andela",
         "Opay",
         "Kuda Bank"
@@ -7427,7 +7427,7 @@
       "category": "riddles",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "10 years",
+      "answer": "20 years",
       "options": [
         "5 years",
         "10 years",
@@ -7693,16 +7693,16 @@
     },
     {
       "id": "q1781095280390_271",
-      "question": "A man has â¦800 in his wallet and buys bread for â¦350 and water for â¦150. How much does he have left?",
+      "question": "A man has ₦800 in his wallet and buys bread for ₦350 and water for ₦150. How much does he have left?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "â¦300",
+      "answer": "₦300",
       "options": [
-        "â¦250",
-        "â¦300",
-        "â¦350",
-        "â¦400"
+        "₦250",
+        "₦300",
+        "₦350",
+        "₦400"
       ]
     },
     {
@@ -7725,10 +7725,10 @@
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Halfway â then it's running out",
+      "answer": "Halfway — then it's running out",
       "options": [
         "As far as it wants",
-        "Halfway â then it's running out",
+        "Halfway — then it's running out",
         "Depends on the forest",
         "Until it gets tired"
       ]
@@ -7749,16 +7749,16 @@
     },
     {
       "id": "q1781095280390_275",
-      "question": "If you have â¦5,000 and double it, then spend half, how much do you have?",
+      "question": "If you have ₦5,000 and double it, then spend half, how much do you have?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "â¦5,000",
+      "answer": "₦5,000",
       "options": [
-        "â¦2,500",
-        "â¦5,000",
-        "â¦7,500",
-        "â¦10,000"
+        "₦2,500",
+        "₦5,000",
+        "₦7,500",
+        "₦10,000"
       ]
     },
     {
@@ -7805,16 +7805,16 @@
     },
     {
       "id": "q1781095280390_279",
-      "question": "A Nigerian trader sells mangoes in sets of 3 for â¦150. How much do 9 mangoes cost?",
+      "question": "A Nigerian trader sells mangoes in sets of 3 for ₦150. How much do 9 mangoes cost?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "â¦450",
+      "answer": "₦450",
       "options": [
-        "â¦300",
-        "â¦400",
-        "â¦450",
-        "â¦500"
+        "₦300",
+        "₦400",
+        "₦450",
+        "₦500"
       ]
     },
     {
@@ -7861,7 +7861,7 @@
     },
     {
       "id": "q1781095280390_283",
-      "question": "What three-digit number is divisible by 9 and by 11, and has all identical digits?",
+      "question": "What is the largest three-digit number that is divisible by 9 and has all identical digits?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -7889,16 +7889,16 @@
     },
     {
       "id": "q1781095280390_285",
-      "question": "If LAGOS = 17 using A=1, B=2... then what does KANO equal?",
+      "question": "If LAGOS = 54 using A=1, B=2 ... Z=26 (sum of letter values), then what does KANO equal?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "34",
+      "answer": "41",
       "options": [
         "34",
         "36",
         "38",
-        "40"
+        "41"
       ]
     },
     {
@@ -7907,12 +7907,12 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "7.5Â°",
+      "answer": "7.5°",
       "options": [
-        "0Â°",
-        "7.5Â°",
-        "15Â°",
-        "22.5Â°"
+        "0°",
+        "7.5°",
+        "15°",
+        "22.5°"
       ]
     },
     {
@@ -7973,16 +7973,16 @@
     },
     {
       "id": "q1781095280390_291",
-      "question": "A man earns â¦120,000 per month. He spends 30% on rent, 25% on food, 15% on transport. How much does he save monthly?",
+      "question": "A man earns ₦120,000 per month. He spends 30% on rent, 25% on food, 15% on transport. How much does he save monthly?",
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "â¦36,000",
+      "answer": "₦36,000",
       "options": [
-        "â¦24,000",
-        "â¦28,000",
-        "â¦36,000",
-        "â¦48,000"
+        "₦24,000",
+        "₦28,000",
+        "₦36,000",
+        "₦48,000"
       ]
     },
     {
@@ -8085,7 +8085,7 @@
     },
     {
       "id": "q1781095280390_299",
-      "question": "If ABCD is a 4-digit number where A+B+C+D=15 and AÃBÃCÃD=36, and all digits are different, which set of digits fits?",
+      "question": "If ABCD is a 4-digit number where A+B+C+D=15 and A×B×C×D=54, and all digits are different, which set of digits fits?",
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
@@ -8302,7 +8302,7 @@
       "answer": "New Yam Festival",
       "options": [
         "Osun festival",
-        "Iri ji",
+        "Ofala festival",
         "New Yam Festival",
         "Mmanwu festival"
       ]
@@ -8551,7 +8551,7 @@
     },
     {
       "id": "q1781095280390_92",
-      "question": "What is 12 Ã 12?",
+      "question": "What is 12 × 12?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
@@ -8569,12 +8569,12 @@
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "90Â°",
+      "answer": "90°",
       "options": [
-        "45Â°",
-        "60Â°",
-        "90Â°",
-        "180Â°"
+        "45°",
+        "60°",
+        "90°",
+        "180°"
       ]
     },
     {
@@ -8621,35 +8621,35 @@
     },
     {
       "id": "q1781095280390_97",
-      "question": "What is the volume of a rectangular box 5cm Ã 4cm Ã 3cm?",
+      "question": "What is the volume of a rectangular box 5cm × 4cm × 3cm?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "60cmÂ³",
+      "answer": "60cm³",
       "options": [
-        "48cmÂ³",
-        "54cmÂ³",
-        "60cmÂ³",
-        "72cmÂ³"
+        "48cm³",
+        "54cm³",
+        "60cm³",
+        "72cm³"
       ]
     },
     {
       "id": "q1781095280390_98",
-      "question": "If a market woman has â¦2,400 and spends â¦1,750, how much does she have left?",
+      "question": "If a market woman has ₦2,400 and spends ₦1,750, how much does she have left?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "â¦650",
+      "answer": "₦650",
       "options": [
-        "â¦550",
-        "â¦600",
-        "â¦650",
-        "â¦700"
+        "₦550",
+        "₦600",
+        "₦650",
+        "₦700"
       ]
     },
     {
       "id": "q1781095280390_99",
-      "question": "What is the value of 4Â²?",
+      "question": "What is the value of 4²?",
       "category": "maths",
       "difficulty": "easy",
       "type": "multiple",
@@ -8998,7 +8998,7 @@
         "₦264,500",
         "₦264,000",
         "₦265,000",
-        "₦264,500"
+        "₦270,000"
       ]
     },
     {
@@ -9263,7 +9263,7 @@
       "type": "multiple",
       "answer": "Criteria",
       "options": [
-        "Criterions",
+        "Criterion",
         "Criterias",
         "Criteria",
         "Criterions"
@@ -10667,15 +10667,15 @@
     },
     {
       "id": "q1781110388445_221",
-      "question": "Which Nigerian tech company is known for Paystack?",
+      "question": "Which Nigerian payment company was acquired by Stripe in 2020?",
       "category": "technology",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Paystack (acquired by Stripe)",
+      "answer": "Paystack",
       "options": [
         "Flutterwave",
         "Interswitch",
-        "Paystack (acquired by Stripe)",
+        "Paystack",
         "Kuda Bank"
       ]
     },
@@ -10819,8 +10819,8 @@
         "O(n)",
         "O(log n)",
         "O(n log n)",
-        "O(n2)",
-        "O(2n)"
+        "O(n²)",
+        "O(2ⁿ)"
       ]
     },
     {
@@ -11557,7 +11557,7 @@
     },
     {
       "id": "q1781110388445_276",
-      "question": "A chicken and a half lays an egg and a half in a day and a half. How many eggs does one chicken lay in one day?",
+      "question": "A chicken and a half lays an egg and a half in a day and a half. How many eggs does one chicken lay in a day and a half?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
@@ -11727,7 +11727,7 @@
     },
     {
       "id": "q1781110388445_287",
-      "question": "If ABUJA = 6, LAGOS = 5, KANO = 4, then ENUGU = ?",
+      "question": "If ABUJA = 5, LAGOS = 5, KANO = 4, then ENUGU = ?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -11935,7 +11935,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "52",
+      "answer": "50",
       "options": [
         "47",
         "48",
@@ -12303,7 +12303,7 @@
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "Ubuntu"
+      "answer": "Igwebuike"
     },
     {
       "id": "q1781110388445_323",
@@ -12381,11 +12381,11 @@
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Ofe onugbu (Oha soup)",
+      "answer": "Ofe onugbu",
       "options": [
         "Egusi soup",
         "Banga soup",
-        "Ofe onugbu (Oha soup)",
+        "Ofe onugbu",
         "Edikang Ikong"
       ]
     },
@@ -13607,7 +13607,7 @@
     },
     {
       "id": "q1781125622243_20",
-      "question": "Which judge of Israel had 70 sons and was the son of Gideon?",
+      "question": "Which son of Gideon killed 69 of his brothers to become ruler of Israel?",
       "category": "bible",
       "difficulty": "hard",
       "type": "multiple",
@@ -13707,7 +13707,7 @@
       "category": "bible",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "3 John",
+      "answer": "2 John",
       "options": [
         "Philemon",
         "2 John",
@@ -14137,7 +14137,7 @@
     },
     {
       "id": "q1781125622243_53",
-      "question": "Which vitamin is synthesised in the liver and stored in the body for the longest time?",
+      "question": "Which vitamin is stored in the body for the longest time?",
       "category": "lifestyle",
       "difficulty": "hard",
       "type": "multiple",
@@ -15000,7 +15000,7 @@
         "48",
         "64",
         "96",
-        "48"
+        "12"
       ]
     },
     {
@@ -16261,7 +16261,7 @@
     },
     {
       "id": "q1781125622244_200",
-      "question": "Which colonial agreement formally ended the Nigerian Civil War in 1970?",
+      "question": "Which agreement/event formally ended the Nigerian Civil War in 1970?",
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
@@ -17117,12 +17117,12 @@
       "category": "riddles",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Roosters don't lay eggs",
+      "answer": "Ice",
       "options": [
-        "Left",
-        "Right",
-        "Down the front",
-        "Roosters don't lay eggs"
+        "Ice cream",
+        "Metal",
+        "A candle",
+        "Ice"
       ]
     },
     {
@@ -17173,7 +17173,7 @@
     },
     {
       "id": "q1781125622244_262",
-      "question": "What occurs once in a second, twice in a moment, but never in a thousand years?",
+      "question": "What occurs once in a minute, twice in a moment, but never in a thousand years?",
       "category": "riddles",
       "difficulty": "hard",
       "type": "multiple",
@@ -17241,7 +17241,7 @@
       "category": "riddles",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "A plant",
+      "answer": "A fire",
       "options": [
         "A fire",
         "A plant",
@@ -17761,11 +17761,11 @@
       "category": "guesstheword",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Tuwo",
+      "answer": "Masa",
       "options": [
         "Pounded yam",
         "Eba",
-        "Tuwo shinkafa",
+        "Masa",
         "Tuwo"
       ]
     },
@@ -17883,7 +17883,7 @@
     },
     {
       "id": "q1781125622244_310",
-      "question": "I am a Yoruba word that means 'crown' and is used as a title for kings. What am I?",
+      "question": "I am a Yoruba word that means 'king' and is used as a title for traditional rulers. What am I?",
       "category": "guesstheword",
       "difficulty": "medium",
       "type": "multiple",
@@ -18373,10 +18373,10 @@
       "category": "bible",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Gold silver and spices",
+      "answer": "Gold, spices and precious stones",
       "options": [
         "An army",
-        "Gold silver and spices",
+        "Gold, spices and precious stones",
         "Horses and chariots",
         "Precious stones only"
       ]
@@ -19291,7 +19291,7 @@
     },
     {
       "id": "q1781127731190_167",
-      "question": "What body oversees the Nigerian police force?",
+      "question": "Which of these office holders is sometimes referred to as the 'Chief Executive' of a Nigerian state?",
       "category": "government",
       "difficulty": "medium",
       "type": "multiple",
@@ -20209,10 +20209,10 @@
       "category": "technology",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Yaba Tech Cluster",
+      "answer": "Yabacon Valley",
       "options": [
         "Abuja Tech Park",
-        "Yaba Tech Cluster",
+        "Yabacon Valley",
         "Port Harcourt Hub",
         "Kano Digital Center"
       ]
@@ -20251,7 +20251,7 @@
       "category": "technology",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Glo",
+      "answer": "MTN",
       "options": [
         "MTN",
         "Airtel",
@@ -21157,9 +21157,9 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Burn one rope from both ends; when it finishes light the other from both ends",
+      "answer": "Light one rope at both ends and the other rope at one end simultaneously; when the first rope finishes (30 min), light the second end of the remaining rope for 15 more minutes",
       "options": [
-        "Burn one rope from both ends; when it finishes light the other from both ends",
+        "Light one rope at both ends and the other rope at one end simultaneously; when the first rope finishes (30 min), light the second end of the remaining rope for 15 more minutes",
         "Cut one rope in the middle",
         "Burn both ropes simultaneously",
         "Guess"
@@ -21637,7 +21637,7 @@
     },
     {
       "id": "q1781127731190_31",
-      "question": "Which Nigerian food is made from pounded yam?",
+      "question": "Which of these is an instant flour substitute for pounded yam?",
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
@@ -21805,7 +21805,7 @@
     },
     {
       "id": "q1781127731190_320",
-      "question": "I am a seven-letter word. Remove one letter and I become a country in West Africa. Remove two and I become a body part. I mean the state of being free from illness. What word am I?",
+      "question": "I am a seven-letter word meaning the state of being free from illness. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21813,7 +21813,7 @@
     },
     {
       "id": "q1781127731190_321",
-      "question": "I have six letters. I am what every Nigerian trader loves to find at Oshodi or Balogun. I mean a great advantage or reduction in price. My first three letters are a type of nut. What word am I?",
+      "question": "I have seven letters. I am what every Nigerian trader loves to find at Oshodi or Balogun. I mean a great advantage or reduction in price. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21821,7 +21821,7 @@
     },
     {
       "id": "q1781127731190_322",
-      "question": "I am a nine-letter word meaning the study of the origin of words. Remove my last four letters and I become something you feel in your chest during church service. What word am I?",
+      "question": "I am a nine-letter word meaning the study of the origin of words. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21829,7 +21829,7 @@
     },
     {
       "id": "q1781127731190_323",
-      "question": "I am an eight-letter word used in Nigerian law courts. I mean someone who gives evidence in court. My first four letters name a small biting insect. What word am I?",
+      "question": "I am a seven-letter word used in Nigerian law courts meaning someone who gives evidence in court. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21845,7 +21845,7 @@
     },
     {
       "id": "q1781127731190_325",
-      "question": "I am an eleven-letter word meaning impossible to read. Nigerian teachers often write this word on students' assignments. What word am I?",
+      "question": "I am a nine-letter word meaning impossible to read. Nigerian teachers often write this word on students' assignments. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21853,7 +21853,7 @@
     },
     {
       "id": "q1781127731190_326",
-      "question": "I am a ten-letter word meaning the variety of plant and animal life in a particular habitat. Environmental scientists and NGOs in Nigeria often use me. What word am I?",
+      "question": "I am a twelve-letter word meaning the variety of plant and animal life in a particular habitat. Environmental scientists and NGOs in Nigeria often use me. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21861,7 +21861,7 @@
     },
     {
       "id": "q1781127731190_327",
-      "question": "I am a 12-letter word meaning the act of formally accusing a public official of misconduct. Nigerian senators tried to do this to their president in 2023. What word am I?",
+      "question": "I am an 11-letter word meaning the act of formally accusing a public official of misconduct. Nigerian senators tried to do this to their president in 2023. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -21873,7 +21873,7 @@
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "PASSING"
+      "answer": "PASSAGE"
     },
     {
       "id": "q1781127731190_329",
@@ -23012,7 +23012,7 @@
         "88cm³",
         "100cm³",
         "113.1cm³",
-        "113.1cm³"
+        "120cm³"
       ]
     },
     {
@@ -23179,7 +23179,7 @@
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "345",
+      "answer": "375",
       "options": [
         "225",
         "240",
@@ -23325,7 +23325,7 @@
       "options": [
         "Gooses",
         "Geese",
-        "Gooses",
+        "Geeses",
         "Goose"
       ]
     },
@@ -24589,7 +24589,7 @@
     },
     {
       "id": "q1781135278153_20",
-      "question": "Which Old Testament book is set entirely outside of Israel and features a non-Israelite as its heroine?",
+      "question": "Which Old Testament book begins in Moab and features a non-Israelite as its heroine?",
       "category": "bible",
       "difficulty": "hard",
       "type": "multiple",
@@ -24607,7 +24607,7 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "All of the above",
+      "answer": "Owu War",
       "options": [
         "Ekitiparapo Wars",
         "Kiriji War",
@@ -24989,7 +24989,7 @@
       "category": "technology",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Glo",
+      "answer": "MTN",
       "options": [
         "MTN",
         "Airtel",
@@ -25585,7 +25585,7 @@
       "category": "riddles",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "The letter 'g'",
+      "answer": "The letter 'e'",
       "options": [
         "The capital",
         "Nothing",
@@ -25773,7 +25773,7 @@
       "type": "multiple",
       "answer": "2",
       "options": [
-        "0",
+        "3",
         "1",
         "2",
         "4"
@@ -25781,7 +25781,7 @@
     },
     {
       "id": "q1781135278153_273",
-      "question": "If a chicken and a half lays an egg and a half in a day and a half, how many eggs does one chicken lay in one day?",
+      "question": "If a chicken and a half lays an egg and a half in a day and a half, how many eggs does one chicken lay in a day and a half?",
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
@@ -26019,7 +26019,7 @@
     },
     {
       "id": "q1781135278153_289",
-      "question": "If ABUJA = 6, LAGOS = 5, KANO = 4, then ENUGU = ?",
+      "question": "If ABUJA = 5, LAGOS = 5, KANO = 4, then ENUGU = ?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -26051,10 +26051,10 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Light one rope at both ends and the other at one end",
+      "answer": "Light one rope at both ends and the other at one end; when the first rope finishes (30 min), light the other end of the remaining rope",
       "options": [
         "Cut one rope in half",
-        "Light one rope at both ends and the other at one end",
+        "Light one rope at both ends and the other at one end; when the first rope finishes (30 min), light the other end of the remaining rope",
         "Light both ropes at the same time",
         "Light one rope and wait 15 minutes then light the other",
         "Fold each rope into quarters",
@@ -26603,7 +26603,7 @@
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "Ubuntu"
+      "answer": "Igwebuike"
     },
     {
       "id": "q1781135278153_328",
@@ -26739,11 +26739,11 @@
       "category": "lifestyle",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Tightfisted",
+      "answer": "Ahun",
       "options": [
         "Shakara",
         "Ogbologbo",
-        "Tightfisted",
+        "Ahun",
         "Orobo"
       ]
     },
@@ -26795,9 +26795,9 @@
       "category": "lifestyle",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Benue",
+      "answer": "Edo",
       "options": [
-        "Benue",
+        "Edo",
         "Plateau",
         "Kwara",
         "Niger"
@@ -27319,7 +27319,7 @@
       "category": "physics",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Galvanometer",
+      "answer": "Coulombmeter",
       "options": [
         "Voltmeter",
         "Ammeter",
@@ -27366,7 +27366,7 @@
         "Trumpet",
         "Harp",
         "Flute",
-        "Lyre"
+        "Cymbals"
       ]
     },
     {
@@ -29287,10 +29287,10 @@
       "category": "bible",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Mahlah, Noah, Hoglah, Milcah, Tirzah, Dinah",
+      "answer": "Mahlah, Noah, Hoglah, Milcah, Tirzah",
       "options": [
         "Ruth, Naomi, Orpah, Esther, Deborah, Miriam",
-        "Mahlah, Noah, Hoglah, Milcah, Tirzah, Dinah",
+        "Mahlah, Noah, Hoglah, Milcah, Tirzah",
         "Tamar, Rahab, Bathsheba, Mary, Anna, Lydia",
         "Leah, Rachel, Bilhah, Zilpah, Dinah, Asenath",
         "Jael, Achsah, Abigail, Michal, Huldah, Noadiah",
@@ -29491,7 +29491,7 @@
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Owambe",
+      "answer": "Owambe lite",
       "options": [
         "Owambe",
         "Owambe lite",
@@ -30553,9 +30553,9 @@
       "category": "history",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Dan Fodio Usman",
+      "answer": "Usman dan Fodio",
       "options": [
-        "Dan Fodio Usman",
+        "Usman dan Fodio",
         "Shehu Ahmadu",
         "Uthman ibn Affan",
         "Muhammad Bello"
@@ -30689,7 +30689,7 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Kano Crisis",
+      "answer": "Kano Riot",
       "options": [
         "Kano Riot",
         "Lagos Walking Out",
@@ -30701,7 +30701,7 @@
     },
     {
       "id": "q1781172321707_206",
-      "question": "Which French historian coined the term 'Middle Ages' to describe the period between ancient Rome and the Renaissance?",
+      "question": "Which Italian historian coined the term 'Middle Ages' to describe the period between ancient Rome and the Renaissance?",
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
@@ -30783,11 +30783,11 @@
       "category": "technology",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Access Pay",
+      "answer": "AccessMore",
       "options": [
         "GTB Pay",
         "Paga",
-        "Access Pay",
+        "AccessMore",
         "QuickTeller"
       ]
     },
@@ -31007,7 +31007,7 @@
       "category": "technology",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Etisalat/9Mobile",
+      "answer": "Glo",
       "options": [
         "MTN",
         "Airtel",
@@ -31363,7 +31363,7 @@
       "category": "riddles",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "62 minutes",
+      "answer": "60 minutes",
       "options": [
         "58 minutes",
         "60 minutes",
@@ -31803,11 +31803,11 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "172.5°",
+      "answer": "22.5°",
       "options": [
         "172.5°",
         "157.5°",
-        "180°",
+        "22.5°",
         "165°"
       ]
     },
@@ -31859,12 +31859,12 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "72km",
+      "answer": "86km",
       "options": [
         "65km",
         "72km",
         "80km",
-        "60km"
+        "86km"
       ]
     },
     {
@@ -31929,7 +31929,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Dami, Chidi, Bola, Ade, Emeka",
+      "answer": "Dami, Ade, Chidi, Bola, Emeka",
       "options": [
         "Dami, Chidi, Bola, Ade, Emeka",
         "Dami, Ade, Chidi, Bola, Emeka",
@@ -32073,7 +32073,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "12am",
+      "answer": "6am",
       "options": [
         "12am",
         "3am",
@@ -32365,19 +32365,19 @@
     },
     {
       "id": "q1781172321707_320",
-      "question": "I am a nine-letter Yoruba philosophical concept meaning 'character' or 'good moral conduct', considered the foundation of Yoruba ethics and the title of a famous play by Wole Soyinka. What word am I?",
+      "question": "I am the Yoruba philosophical concept meaning 'character' or 'good moral conduct', considered the foundation of Yoruba ethics. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "Kongi"
+      "answer": "Iwa"
     },
     {
       "id": "q1781172321707_321",
-      "question": "I am an eleven-letter English word used in economics to describe a situation where increased production leads to lower average costs per unit. Nigerian manufacturers seek me to be competitive. What word am I?",
+      "question": "I am the economic term for the situation where increased production leads to lower average costs per unit. Nigerian manufacturers seek me. What term am I? (Three words)",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "Economies"
+      "answer": "Economies of scale"
     },
     {
       "id": "q1781172321707_322",
@@ -32389,7 +32389,7 @@
     },
     {
       "id": "q1781172321707_323",
-      "question": "I am the ten-letter word for the practice in finance where an investor simultaneously buys and sells assets in different markets to profit from price differences. What am I?",
+      "question": "I am the nine-letter word for the practice in finance where an investor simultaneously buys and sells assets in different markets to profit from price differences. What am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -32421,7 +32421,7 @@
     },
     {
       "id": "q1781172321707_327",
-      "question": "I am the thirteen-letter scientific word for the study of the relationship between organisms and their physical environment. Environmental scientists and NGOs in Nigeria use me frequently. What am I?",
+      "question": "I am the seven-letter scientific word for the study of the relationship between organisms and their physical environment. Environmental scientists and NGOs in Nigeria use me frequently. What am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -32437,7 +32437,7 @@
     },
     {
       "id": "q1781172321707_329",
-      "question": "I am the twelve-letter term in economics for a market condition where a single buyer controls demand and can dictate prices to multiple sellers. I am the opposite of monopoly. What am I?",
+      "question": "I am the nine-letter term in economics for a market condition where a single buyer controls demand and can dictate prices to multiple sellers. I am the opposite of monopoly. What am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -32747,7 +32747,7 @@
         "350",
         "175",
         "420",
-        "350",
+        "280",
         "140"
       ]
     },
@@ -32922,7 +32922,7 @@
         "Recieve",
         "Receive",
         "Recive",
-        "Recieve"
+        "Receve"
       ]
     },
     {
@@ -33371,11 +33371,11 @@
       "category": "government",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "A shield with two horses",
+      "answer": "Costus spectabilis flowers",
       "options": [
         "Two eagles",
         "Two horses",
-        "An eagle and a lion",
+        "Costus spectabilis flowers",
         "A shield with two horses"
       ]
     },
@@ -34059,7 +34059,7 @@
     },
     {
       "id": "q1781174854220_199",
-      "question": "What was the name of the first Black-owned newspaper in Nigeria, published in 1859?",
+      "question": "What was the name of the first newspaper published in Nigeria, launched in 1859?",
       "category": "history",
       "difficulty": "medium",
       "type": "multiple",
@@ -34107,9 +34107,9 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Kiriji War",
+      "answer": "Owu War",
       "options": [
-        "Ijesha Wars",
+        "Owu War",
         "Ekitiparapo Wars",
         "Kiriji War",
         "Dahomey Wars",
@@ -34119,7 +34119,7 @@
     },
     {
       "id": "q1781174854220_201",
-      "question": "Which Nigerian governor-general was in office from 1954 to 1960 and facilitated Nigeria's independence?",
+      "question": "Which Nigerian governor-general was in office from 1955 to 1960 and facilitated Nigeria's independence?",
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
@@ -34419,7 +34419,7 @@
     },
     {
       "id": "q1781174854220_22",
-      "question": "In which chapter of Romans does Paul write about the armour of God?",
+      "question": "In which chapter of Ephesians does Paul write about the armour of God?",
       "category": "bible",
       "difficulty": "hard",
       "type": "multiple",
@@ -34781,15 +34781,15 @@
     },
     {
       "id": "q1781174854220_241",
-      "question": "What comes once in a year, twice in a month but never in a day?",
+      "question": "What comes once in a year, twice in a week, but never in a day?",
       "category": "riddles",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "The letter Y",
+      "answer": "The letter E",
       "options": [
         "Monday",
         "Sunday",
-        "The letter Y",
+        "The letter E",
         "The letter M"
       ]
     },
@@ -34837,7 +34837,7 @@
     },
     {
       "id": "q1781174854220_245",
-      "question": "What word becomes longer when you remove a letter from it?",
+      "question": "What word becomes shorter when you add two letters to it?",
       "category": "riddles",
       "difficulty": "easy",
       "type": "multiple",
@@ -35011,10 +35011,10 @@
       "category": "riddles",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "1 tomato, 9 oranges, 90 groundnuts",
+      "answer": "9 tomatoes, 51 oranges, 40 groundnuts",
       "options": [
         "1 tomato, 9 oranges, 90 groundnuts",
-        "2 tomatoes, 8 oranges, 90 groundnuts",
+        "9 tomatoes, 51 oranges, 40 groundnuts",
         "1 tomato, 10 oranges, 89 groundnuts",
         "2 tomatoes, 10 oranges, 88 groundnuts"
       ]
@@ -35083,7 +35083,7 @@
       "category": "riddles",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "96",
+      "answer": "98",
       "options": [
         "0",
         "50",
@@ -35179,7 +35179,7 @@
       "category": "riddles",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Second place",
+      "answer": "First place",
       "options": [
         "First place",
         "Second place",
@@ -35495,7 +35495,7 @@
     },
     {
       "id": "q1781174854220_286",
-      "question": "If you rearrange the letters 'NAOBIG', you get a country. What country?",
+      "question": "If you rearrange the letters 'NAOBG', you get a country. What country?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -35624,7 +35624,7 @@
         "196",
         "256",
         "441",
-        "441",
+        "484",
         "225",
         "289"
       ]
@@ -35651,7 +35651,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "5",
+      "answer": "4",
       "options": [
         "4",
         "5",
@@ -35667,7 +35667,7 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Monday",
+      "answer": "Friday",
       "options": [
         "Monday",
         "Tuesday",
@@ -36063,7 +36063,7 @@
     },
     {
       "id": "q1781174854220_320",
-      "question": "I am a ten-letter word for the branch of linguistics that studies the rules for combining words into sentences. Nigerian students study me in English grammar class. What am I?",
+      "question": "I am a six-letter word for the branch of linguistics that studies the rules for combining words into sentences. Nigerian students study me in English grammar class. What am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -36127,7 +36127,7 @@
     },
     {
       "id": "q1781174854220_328",
-      "question": "I am the twelve-letter term for the international framework of rules governing relations between sovereign states, treaties, and diplomacy. Nigerian foreign policy operates within my boundaries. What am I? (Two words)",
+      "question": "I am the term for the international framework of rules governing relations between sovereign states, treaties, and diplomacy. Nigerian foreign policy operates within my boundaries. What am I? (Two words)",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -36505,7 +36505,7 @@
     },
     {
       "id": "q1781174854220_56",
-      "question": "What is the name of the traditional Tiv ceremony in Benue State where young men prove their bravery by enduring flogging?",
+      "question": "What is the name of the traditional Fulani ceremony where young men prove their bravery by enduring flogging?",
       "category": "lifestyle",
       "difficulty": "hard",
       "type": "multiple",
@@ -37223,10 +37223,10 @@
       "category": "bible",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Apple",
+      "answer": "Not specified in the Bible",
       "options": [
         "Apple",
-        "Orange",
+        "Not specified in the Bible",
         "Fig",
         "Grape"
       ]
@@ -37545,7 +37545,7 @@
     },
     {
       "id": "q1781177327285_119",
-      "question": "Solve the simultaneous equations: 2x + 3y = 16 and 4x - y = 6. What is y?",
+      "question": "Solve the simultaneous equations: 2x + 3y = 16 and 4x - y = 4. What is y?",
       "category": "maths",
       "difficulty": "hard",
       "type": "multiple",
@@ -37581,7 +37581,7 @@
       "type": "multiple",
       "answer": "Criteria",
       "options": [
-        "Criterions",
+        "Criterion",
         "Criterias",
         "Criteria",
         "Criterions"
@@ -37869,7 +37869,7 @@
     },
     {
       "id": "q1781177327285_14",
-      "question": "How many people are listed in the beatitudes in the Sermon on the Mount?",
+      "question": "How many beatitudes did Jesus give in the Sermon on the Mount (Matthew 5)?",
       "category": "bible",
       "difficulty": "medium",
       "type": "multiple",
@@ -37963,7 +37963,7 @@
     },
     {
       "id": "q1781177327285_145",
-      "question": "In Wole Soyinka's play 'A Dance of the Forests', which Yoruba deity does the 'Forest Father' represent?",
+      "question": "In Wole Soyinka's play 'A Dance of the Forests', which Yoruba deity does the 'Forest Head' represent?",
       "category": "english",
       "difficulty": "hard",
       "type": "multiple",
@@ -38323,16 +38323,16 @@
     },
     {
       "id": "q1781177327285_168",
-      "question": "What is the name of the body in Nigeria that handles trademark, patent and copyright registration?",
+      "question": "What is the name of the body in Nigeria that handles trademark and patent registration?",
       "category": "government",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "IPON",
+      "answer": "NIPO",
       "options": [
         "NAFDAC",
         "FCCPC",
         "NIPC",
-        "IPON"
+        "NIPO"
       ]
     },
     {
@@ -38397,7 +38397,7 @@
     },
     {
       "id": "q1781177327285_172",
-      "question": "Under the 1999 Nigerian Constitution, Section 233 vests which court with exclusive original jurisdiction over disputes between the Federation and a state?",
+      "question": "Under the 1999 Nigerian Constitution, Section 232 vests which court with exclusive original jurisdiction over disputes between the Federation and a state?",
       "category": "government",
       "difficulty": "hard",
       "type": "multiple",
@@ -38637,7 +38637,7 @@
     },
     {
       "id": "q1781177327285_187",
-      "question": "What was the name of the ship on which enslaved Africans suffered the notorious 'Middle Passage' crossing?",
+      "question": "Which slave ship was the site of a famous 1839 mutiny led by enslaved Africans seeking their freedom?",
       "category": "history",
       "difficulty": "easy",
       "type": "multiple",
@@ -38777,15 +38777,15 @@
     },
     {
       "id": "q1781177327285_196",
-      "question": "Which country gifted France the Statue of Liberty as a symbol of shared democratic values?",
+      "question": "Which country gifted the Statue of Liberty to the United States as a symbol of shared democratic values?",
       "category": "history",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "France gifted it to the USA",
+      "answer": "France",
       "options": [
         "Britain",
         "Germany",
-        "France gifted it to the USA",
+        "France",
         "Belgium"
       ]
     },
@@ -38947,12 +38947,12 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "No formal treaty was signed",
+      "answer": "Instrument of Surrender",
       "options": [
         "The Lagos Accord",
         "The Aburi Agreement",
         "The Dodan Barracks Declaration",
-        "No formal treaty was signed",
+        "Instrument of Surrender",
         "The Kaduna Accord",
         "The Biafra Instrument"
       ]
@@ -39011,7 +39011,7 @@
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "The Sixteen Years' War",
+      "answer": "The Owu War",
       "options": [
         "The Kiriji War",
         "The Ekitiparapo Conflict",
@@ -39141,10 +39141,10 @@
       "category": "technology",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "*100#",
+      "answer": "*310#",
       "options": [
         "*123#",
-        "*100#",
+        "*310#",
         "*555#",
         "*999#"
       ]
@@ -39629,7 +39629,7 @@
       "category": "riddles",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Heat",
+      "answer": "Flavour",
       "options": [
         "Stew",
         "Heat",
@@ -39743,7 +39743,7 @@
       "category": "riddles",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Roosters don't lay eggs — and roosters have no loose feathers to blow",
+      "answer": "North",
       "options": [
         "North",
         "South",
@@ -40193,13 +40193,13 @@
       "options": [
         "47",
         "55",
-        "55",
+        "58",
         "51"
       ]
     },
     {
       "id": "q1781177327285_282",
-      "question": "If ABUJA = 6 and KANO = 4, what is CALABAR?",
+      "question": "If ABUJA = 5 and KANO = 4, what is CALABAR?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -40255,7 +40255,7 @@
     },
     {
       "id": "q1781177327285_286",
-      "question": "Rearrange the letters of 'LAGISO' to form a Nigerian city. What city is it?",
+      "question": "Rearrange the letters of 'GOLSA' to form a Nigerian city. What city is it?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -40273,7 +40273,7 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "47.5°",
+      "answer": "17.5°",
       "options": [
         "17.5°",
         "30°",
@@ -40903,7 +40903,7 @@
     },
     {
       "id": "q1781177327285_33",
-      "question": "Which of these is a Nigerian street food made from fried dough in a ring shape?",
+      "question": "Which of these is a Nigerian street food made from fried dough in a ball shape?",
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
@@ -42479,12 +42479,12 @@
       "category": "bible",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Gabriel",
+      "answer": "Not named in the Bible",
       "options": [
         "Michael",
         "Raphael",
         "Gabriel",
-        "Uriel"
+        "Not named in the Bible"
       ]
     },
     {
@@ -43111,7 +43111,7 @@
     },
     {
       "id": "q1781181164271_17",
-      "question": "What was the name of the widow whose oil was miraculously multiplied by Elisha?",
+      "question": "In 2 Kings 4, how is the widow whose oil Elisha miraculously multiplied described?",
       "category": "bible",
       "difficulty": "medium",
       "type": "multiple",
@@ -43275,7 +43275,7 @@
       "type": "multiple",
       "answer": "Constitution Suspension and Modification Decree",
       "options": [
-        "Decree No. 1 of 1984",
+        "Decree No. 17 of 1984",
         "Supreme Military Council Order",
         "Federal Military Government Edict",
         "Constitution Suspension and Modification Decree",
@@ -43569,12 +43569,12 @@
       "category": "history",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Cecilia Bamidele",
+      "answer": "Stella Thomas",
       "options": [
         "Funmilayo Ransome-Kuti",
         "Ngozi Okonjo-Iweala",
         "Stella Obasanjo",
-        "Cecilia Bamidele"
+        "Stella Thomas"
       ]
     },
     {
@@ -43597,11 +43597,11 @@
       "category": "bible",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Apple (fruit of the tree of knowledge)",
+      "answer": "Not specified in the Bible",
       "options": [
         "Mango",
-        "Apple (fruit of the tree of knowledge)",
-        "Orange",
+        "Apple",
+        "Not specified in the Bible",
         "Grape"
       ]
     },
@@ -43623,7 +43623,7 @@
     },
     {
       "id": "q1781181164271_200",
-      "question": "What was the name of the indigenous resistance leader of the Urhobo people who opposed British colonial rule in the Niger Delta in the late 19th century?",
+      "question": "What was the name of the indigenous resistance leader of the Itsekiri people who opposed British colonial rule in the Niger Delta in the late 19th century?",
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
@@ -43767,7 +43767,7 @@
     },
     {
       "id": "q1781181164271_209",
-      "question": "Which ancient empire, stretching from Spain to Central Asia, used a postal relay system called the 'Yam' and was founded by Genghis Khan?",
+      "question": "Which ancient empire, stretching from Eastern Europe to East Asia, used a postal relay system called the 'Yam' and was founded by Genghis Khan?",
       "category": "history",
       "difficulty": "hard",
       "type": "multiple",
@@ -43855,16 +43855,16 @@
     },
     {
       "id": "q1781181164271_214",
-      "question": "What is the name of Nigeria's dominant mobile payment transfer code used on all networks?",
+      "question": "Which Nigerian bank is associated with the popular *737# USSD quick-transfer code?",
       "category": "technology",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "*737# (GTB)",
+      "answer": "GTBank",
       "options": [
-        "*737#",
-        "*737# (GTB)",
-        "*901# (Airtel)",
-        "*894# (FirstBank)"
+        "GTBank",
+        "Access Bank",
+        "First Bank",
+        "Zenith Bank"
       ]
     },
     {
@@ -44945,7 +44945,7 @@
     },
     {
       "id": "q1781181164271_281",
-      "question": "What 4-digit number, when you multiply each digit together, gives 8? (digits must be non-zero)",
+      "question": "What is the smallest 4-digit number, when you multiply each digit together, gives 8? (digits must be non-zero)",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -44977,12 +44977,12 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "2",
+      "answer": "10",
       "options": [
         "2",
         "4",
         "6",
-        "8"
+        "10"
       ]
     },
     {
@@ -45583,7 +45583,7 @@
     },
     {
       "id": "q1781181164271_320",
-      "question": "I am the ten-letter word describing the condition of being all-powerful. Theologians use me to describe God's unlimited power. What word am I?",
+      "question": "I am the eleven-letter word describing the condition of being all-powerful. Theologians use me to describe God's unlimited power. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -45599,7 +45599,7 @@
     },
     {
       "id": "q1781181164271_322",
-      "question": "I am the 12-letter English word that means the state of being unclear or having more than one possible interpretation. Lawyers and writers frequently grapple with me. What word am I?",
+      "question": "I am the nine-letter English word that means the state of being unclear or having more than one possible interpretation. Lawyers and writers frequently grapple with me. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -45615,7 +45615,7 @@
     },
     {
       "id": "q1781181164271_324",
-      "question": "I am the 11-letter word used in medicine for a treatment that has no active ingredient but works because the patient believes it will. What word am I?",
+      "question": "I am the seven-letter word used in medicine for a treatment that has no active ingredient but works because the patient believes it will. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -45631,7 +45631,7 @@
     },
     {
       "id": "q1781181164271_326",
-      "question": "I am the economic concept describing a situation where increasing production leads to lower costs per unit. Large-scale Nigerian manufacturers seek me. I am two words. What am I?",
+      "question": "I am the economic concept describing a situation where increasing production leads to lower costs per unit. Large-scale Nigerian manufacturers seek me. I am three words. What am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -45695,7 +45695,7 @@
       "category": "lifestyle",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Maga",
+      "answer": "419",
       "options": [
         "Japa",
         "Dulling",
@@ -47971,7 +47971,7 @@
       "type": "multiple",
       "answer": "States (Creation and Transitional Provisions) Decree",
       "options": [
-        "Decree No. 14 of 1967",
+        "Decree No. 27 of 1967",
         "State Creation Decree",
         "Federal Unity Decree",
         "Gowon's Proclamation",
@@ -48287,9 +48287,9 @@
       "category": "history",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Treaty of Berlin",
+      "answer": "Berlin Conference",
       "options": [
-        "Treaty of Berlin",
+        "Berlin Conference",
         "Treaty of Paris",
         "Congress of Vienna",
         "Balfour Declaration"
@@ -49491,7 +49491,7 @@
       "category": "riddles",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "His son",
+      "answer": "His father",
       "options": [
         "His brother",
         "Himself",
@@ -49581,7 +49581,7 @@
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "5",
+      "answer": "10",
       "options": [
         "5",
         "8",
@@ -49623,12 +49623,12 @@
       "category": "brainteasers",
       "difficulty": "easy",
       "type": "multiple",
-      "answer": "Out",
+      "answer": "Fire",
       "options": [
         "Out",
         "Sun",
         "Day",
-        "Up"
+        "Fire"
       ]
     },
     {
@@ -49700,7 +49700,7 @@
         "₦430",
         "₦490",
         "₦500",
-        "₦490"
+        "₦450"
       ]
     },
     {
@@ -49712,9 +49712,9 @@
       "answer": "Able → Table",
       "options": [
         "Able → Table",
-        "Rain → Train",
-        "Ear → Bear",
-        "Over → Cover"
+        "Frog → Afrog",
+        "Milk → Smilk",
+        "Wind → Bwind"
       ]
     },
     {
@@ -49751,7 +49751,7 @@
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
-      "answer": "Thursday",
+      "answer": "Friday",
       "options": [
         "Wednesday",
         "Thursday",
@@ -49789,7 +49789,7 @@
     },
     {
       "id": "q1781185402505_287",
-      "question": "A car park has 3 rows of 8 spaces. Each row is 60% full. How many empty spaces are there?",
+      "question": "A car park has 3 rows of 8 spaces. Each row is 50% full. How many empty spaces are there?",
       "category": "brainteasers",
       "difficulty": "medium",
       "type": "multiple",
@@ -49851,9 +49851,9 @@
       "category": "brainteasers",
       "difficulty": "hard",
       "type": "multiple",
-      "answer": "Fill 5L, pour into 3L, empty 3L, pour remainder into 3L, fill 5L, top up 3L — 2L remain in 5L",
+      "answer": "Fill 5L, pour into 3L, empty 3L, pour remainder into 3L, fill 5L, top up 3L — 4L remain in 5L",
       "options": [
-        "Fill 5L, pour into 3L, empty 3L, pour remainder into 3L, fill 5L, top up 3L — 2L remain in 5L",
+        "Fill 5L, pour into 3L, empty 3L, pour remainder into 3L, fill 5L, top up 3L — 4L remain in 5L",
         "Fill both and combine",
         "Fill 3L twice into 5L — 1L left, impossible",
         "Fill 5L, pour all into 3L — impossible",
@@ -50343,11 +50343,11 @@
     },
     {
       "id": "q1781185402505_320",
-      "question": "I am the 13-letter word used in international law to describe the formal recognition by one country of another country's government or territorial claim. What word am I?",
+      "question": "I am the eleven-letter word used in international law to describe the formal recognition by one country of another country's government or territorial claim. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "Acknowledgement"
+      "answer": "Recognition"
     },
     {
       "id": "q1781185402505_321",
@@ -50391,7 +50391,7 @@
     },
     {
       "id": "q1781185402505_326",
-      "question": "I am the 11-letter word meaning a formal written charge of a serious crime, issued by a grand jury or prosecution. Nigerian courts use me. What word am I?",
+      "question": "I am the ten-letter word meaning a formal written charge of a serious crime, issued by a grand jury or prosecution. Nigerian courts use me. What word am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
@@ -50415,11 +50415,11 @@
     },
     {
       "id": "q1781185402505_329",
-      "question": "I am the name of the first Nigerian to win an Olympic gold medal, who triumphed in the 400 metres hurdles at the 1996 Atlanta Games. What is my surname?",
+      "question": "I am the name of the first Nigerian to win an individual Olympic gold medal, who triumphed in the long jump at the 1996 Atlanta Games. What is my surname?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
-      "answer": "Ezinwa"
+      "answer": "Ajunwa"
     },
     {
       "id": "q1781185402505_33",
@@ -51485,7 +51485,7 @@
     },
     {
       "id": "q1789996705851",
-      "question": "How many years did the man at the pool of Bethesda stay crippled",
+      "question": "How many years did the man at the pool of Bethesda stay crippled?",
       "category": "bible",
       "difficulty": "medium",
       "type": "multiple",
@@ -52361,7 +52361,7 @@
         "Kuda",
         "GTBank"
       ],
-      "answer": "Kuda"
+      "answer": "GTBank"
     },
     {
       "id": "tec_m9",
