@@ -1,0 +1,7 @@
+{
+  "name": "notify-scripts",
+  "private": true,
+  "dependencies": {
+    "google-auth-library": "^9.15.1"
+  }
+}

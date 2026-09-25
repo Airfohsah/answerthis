@@ -13,6 +13,7 @@ import AdminCategoriesScreen from '../screens/main/admin/AdminCategoriesScreen'
 import AdminCategoryEditScreen from '../screens/main/admin/AdminCategoryEditScreen'
 import AdminBulkImportScreen from '../screens/main/admin/AdminBulkImportScreen'
 import AdminBulkDeleteScreen from '../screens/main/admin/AdminBulkDeleteScreen'
+import AdminNotifyScreen from '../screens/main/admin/AdminNotifyScreen'
 import { colors } from '../theme'
 
 const Stack = createNativeStackNavigator()
@@ -46,6 +47,7 @@ export default function RootNavigator() {
         <Stack.Screen name="AdminCategoryEdit" component={AdminCategoryEditScreen} options={{ headerShown: true, title: 'Category', ...headerOptions }} />
         <Stack.Screen name="AdminBulkImport" component={AdminBulkImportScreen} options={{ headerShown: true, title: 'Bulk Import', ...headerOptions }} />
         <Stack.Screen name="AdminBulkDelete" component={AdminBulkDeleteScreen} options={{ headerShown: true, title: 'Bulk Delete', ...headerOptions }} />
+        <Stack.Screen name="AdminNotify" component={AdminNotifyScreen} options={{ headerShown: true, title: 'Send Notification', ...headerOptions }} />
       </Stack.Navigator>
     </NavigationContainer>
   )

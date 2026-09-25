@@ -106,6 +106,7 @@ export default function AdminHomeScreen({ navigation }) {
         <Button icon="grid-outline" title="Categories" variant="outline" onPress={() => navigation.navigate('AdminCategories')} style={{ marginTop: 10 }} />
         <Button icon="cloud-upload-outline" title="Bulk Import" variant="outline" onPress={() => navigation.navigate('AdminBulkImport')} style={{ marginTop: 10 }} />
         <Button icon="trash-outline" title="Bulk Delete" variant="outline" onPress={() => navigation.navigate('AdminBulkDelete')} style={{ marginTop: 10 }} />
+        <Button icon="megaphone-outline" title="Send Notification" variant="outline" onPress={() => navigation.navigate('AdminNotify')} style={{ marginTop: 10 }} />
 
         <Text style={styles.sectionTitle}>Per Category</Text>
         <View style={styles.table}>

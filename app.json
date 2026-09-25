@@ -14,6 +14,7 @@
     },
     "android": {
       "package": "com.answerthis.trivianaja",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "backgroundColor": "#0a0a0f",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -27,7 +28,8 @@
     "plugins": [
       "expo-font",
       "expo-sharing",
-      "expo-secure-store"
+      "expo-secure-store",
+      "@react-native-firebase/app"
     ],
     "extra": {
       "eas": {

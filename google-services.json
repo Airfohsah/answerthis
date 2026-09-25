@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "492257764862",
+    "project_id": "verified-844f4",
+    "storage_bucket": "verified-844f4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492257764862:android:9720632cf3f0ef9ae1ccaf",
+        "android_client_info": {
+          "package_name": "com.answerthis.trivianaja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVoR51P7DuBl-utSEqx-a06niytLFsAps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492257764862:android:2b56cb4c7c3de24ee1ccaf",
+        "android_client_info": {
+          "package_name": "com.verifiedapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVoR51P7DuBl-utSEqx-a06niytLFsAps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492257764862:android:c181d13824571c4be1ccaf",
+        "android_client_info": {
+          "package_name": "ng.com.workhub.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVoR51P7DuBl-utSEqx-a06niytLFsAps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

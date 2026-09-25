@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { View, ActivityIndicator, StyleSheet } from 'react-native'
 import { StatusBar } from 'expo-status-bar'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
@@ -9,11 +10,16 @@ import { AdminStatusProvider } from './src/context/AdminStatusProvider'
 import { DataProvider } from './src/context/DataProvider'
 import RootNavigator from './src/navigation/RootNavigator'
 import { colors } from './src/theme'
+import { initNotifications } from './src/lib/notifications'
 
 export default function App() {
   const [syneLoaded] = useSyneFonts({ Syne_700Bold, Syne_800ExtraBold })
   const [dmSansLoaded] = useDMSansFonts({ DMSans_400Regular, DMSans_500Medium })
   const [markerLoaded] = useMarkerFonts({ PermanentMarker_400Regular })
+
+  useEffect(() => {
+    initNotifications()
+  }, [])
 
   if (!syneLoaded || !dmSansLoaded || !markerLoaded) {
     return (

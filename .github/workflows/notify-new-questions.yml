@@ -1,0 +1,25 @@
+name: Notify - New Questions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'questions.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+        working-directory: .github/scripts
+      - run: node send-fcm.js
+        working-directory: .github/scripts
+        env:
+          FCM_SERVICE_ACCOUNT_JSON: ${{ secrets.FCM_SERVICE_ACCOUNT_JSON }}
+          NOTIFY_TOPIC: new_questions
+          NOTIFY_TITLE: New questions are live!
+          NOTIFY_BODY: Fresh trivia questions just dropped in Answer This. Go check them out!
