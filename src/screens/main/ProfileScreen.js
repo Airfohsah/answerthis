@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { View, Text, StyleSheet, Alert } from 'react-native'
+import { View, Text, Pressable, StyleSheet, Alert } from 'react-native'
 import { useFocusEffect } from '@react-navigation/native'
 import * as FileSystem from 'expo-file-system'
 import * as Sharing from 'expo-sharing'
@@ -19,9 +19,17 @@ const STAT_STYLE = [
   { key: 'bestScore', label: 'Best Score', icon: 'trophy', color: '#f5c518', set: 'ion', suffix: '%' },
 ]
 
+const ADMIN_REVEAL_TAPS = 5
+
 export default function ProfileScreen({ navigation }) {
   const [stats, setStats] = useState({ gamesPlayed: 0, accuracy: 0, correctAnswers: 0, bestScore: 0 })
-  const { isUnlocked } = useAdminStatus()
+  const [tapCount, setTapCount] = useState(0)
+  const { isUnlocked, isSetUp } = useAdminStatus()
+
+  // Admin entry point is hidden by default. Tapping the profile icon 5 times
+  // reveals it for first-time setup; once setup is complete on this device,
+  // isSetUp persists and the entry point stays visible without the taps.
+  const showAdminEntry = isSetUp || tapCount >= ADMIN_REVEAL_TAPS
 
   useFocusEffect(
     useCallback(() => {
@@ -47,7 +55,9 @@ export default function ProfileScreen({ navigation }) {
   return (
     <Screen>
       <View style={styles.titleRow}>
-        <Badge set="ion" icon="person" color={colors.gold} size={40} iconSize={20} />
+        <Pressable onPress={() => setTapCount((c) => Math.min(c + 1, ADMIN_REVEAL_TAPS))}>
+          <Badge set="ion" icon="person" color={colors.gold} size={40} iconSize={20} />
+        </Pressable>
         <Text style={styles.title}>Profile</Text>
       </View>
 
@@ -62,7 +72,7 @@ export default function ProfileScreen({ navigation }) {
       {isUnlocked && (
         <Button title="Admin" onPress={() => navigation.navigate('AdminHome')} style={{ marginTop: 12 }} />
       )}
-      {!isUnlocked && (
+      {!isUnlocked && showAdminEntry && (
         <Button title="Admin Login" variant="outline" onPress={() => navigation.navigate('AdminLogin')} style={{ marginTop: 12 }} />
       )}
     </Screen>

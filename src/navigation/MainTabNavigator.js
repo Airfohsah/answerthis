@@ -14,7 +14,7 @@ function TabIcon({ route, color, focused }) {
   return (
     <View style={styles.iconWrap}>
       <Ionicons name={focused ? ICONS[route.name] : `${ICONS[route.name]}-outline`} size={22} color={color} />
-      {focused && <View style={styles.underline} />}
+      <View style={[styles.underline, { opacity: focused ? 1 : 0, backgroundColor: colors.gold }]} />
     </View>
   )
 }
@@ -39,6 +39,6 @@ export default function MainTabNavigator() {
 }
 
 const styles = StyleSheet.create({
-  iconWrap: { alignItems: 'center', justifyContent: 'center', height: 22 },
-  underline: { position: 'absolute', bottom: -8, width: 18, height: 2, borderRadius: 1, backgroundColor: colors.gold },
+  iconWrap: { alignItems: 'center', justifyContent: 'center' },
+  underline: { marginTop: 4, width: 18, height: 2, borderRadius: 1 },
 })
