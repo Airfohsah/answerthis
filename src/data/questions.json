@@ -5704,20 +5704,6 @@
       ]
     },
     {
-      "id": "q1781095280390_135",
-      "question": "Which is the correct spelling?",
-      "category": "english",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Accommodate",
-      "options": [
-        "Accomodate",
-        "Accommodate",
-        "Acommodate",
-        "Accommadate"
-      ]
-    },
-    {
       "id": "q1781095280390_136",
       "question": "What is the literary device in 'the classroom was a zoo'?",
       "category": "english",
@@ -9710,20 +9696,6 @@
       ]
     },
     {
-      "id": "q1781110388445_163",
-      "question": "What does 'ECOWAS' stand for?",
-      "category": "government",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Economic Community of West African States",
-      "options": [
-        "Economic Community of West African States",
-        "East Coast of West Africa Summit",
-        "Economic Council of West African Societies",
-        "European Community of West African States"
-      ]
-    },
-    {
       "id": "q1781110388445_164",
       "question": "In which year was the current Nigerian constitution promulgated?",
       "category": "government",
@@ -12390,20 +12362,6 @@
       ]
     },
     {
-      "id": "q1781110388445_35",
-      "question": "What does SPF stand for on sunscreen?",
-      "category": "lifestyle",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Sun Protection Factor",
-      "options": [
-        "Sun Protection Formula",
-        "Sun Penetration Factor",
-        "Sun Protection Factor",
-        "Solar Power Formula"
-      ]
-    },
-    {
       "id": "q1781110388445_36",
       "question": "Which group of food provides the body with energy?",
       "category": "lifestyle",
@@ -13808,20 +13766,6 @@
       ]
     },
     {
-      "id": "q1781125622243_32",
-      "question": "What does SPF stand for on sunscreen?",
-      "category": "lifestyle",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Sun Protection Factor",
-      "options": [
-        "Sun Protection Factor",
-        "Skin Protection Formula",
-        "Solar Protection Frequency",
-        "Sun Proof Formula"
-      ]
-    },
-    {
       "id": "q1781125622243_33",
       "question": "How many minutes of moderate exercise per week does WHO recommend for adults?",
       "category": "lifestyle",
@@ -14290,20 +14234,6 @@
       ]
     },
     {
-      "id": "q1781125622243_62",
-      "question": "What is the unit of power?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Watt",
-      "options": [
-        "Joule",
-        "Newton",
-        "Pascal",
-        "Watt"
-      ]
-    },
-    {
       "id": "q1781125622243_63",
       "question": "Which of these is NOT a form of electromagnetic radiation?",
       "category": "physics",
@@ -14399,20 +14329,6 @@
         "Fahrenheit",
         "Kelvin",
         "Rankine"
-      ]
-    },
-    {
-      "id": "q1781125622243_7",
-      "question": "What did Jesus turn water into at the wedding in Cana?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Wine",
-      "options": [
-        "Milk",
-        "Honey",
-        "Oil",
-        "Wine"
       ]
     },
     {
@@ -14539,20 +14455,6 @@
         "Beta",
         "Gamma",
         "X-ray"
-      ]
-    },
-    {
-      "id": "q1781125622243_79",
-      "question": "What is the relationship between frequency and wavelength of a wave?",
-      "category": "physics",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "They are inversely proportional",
-      "options": [
-        "They are directly proportional",
-        "They are equal",
-        "They are inversely proportional",
-        "They have no relationship"
       ]
     },
     {
@@ -14744,20 +14646,6 @@
       ]
     },
     {
-      "id": "q1781125622243_90",
-      "question": "What is 12 × 12?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "144",
-      "options": [
-        "124",
-        "132",
-        "144",
-        "148"
-      ]
-    },
-    {
       "id": "q1781125622243_91",
       "question": "What is 20% of 500?",
       "category": "maths",
@@ -14769,20 +14657,6 @@
         "75",
         "100",
         "125"
-      ]
-    },
-    {
-      "id": "q1781125622243_92",
-      "question": "What is the square root of 81?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "9",
-      "options": [
-        "7",
-        "8",
-        "9",
-        "11"
       ]
     },
     {
@@ -14937,22 +14811,6 @@
         "₦1,000",
         "₦1,500",
         "₦2,000"
-      ]
-    },
-    {
-      "id": "q1781125622244_110",
-      "question": "What is the value of sin 30°?",
-      "category": "maths",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "0.5",
-      "options": [
-        "0",
-        "0.5",
-        "√2/2",
-        "√3/2",
-        "1",
-        "2"
       ]
     },
     {
@@ -15128,20 +14986,6 @@
       ]
     },
     {
-      "id": "q1781125622244_122",
-      "question": "What is the opposite of 'generous'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Stingy",
-      "options": [
-        "Stingy",
-        "Kind",
-        "Humble",
-        "Rude"
-      ]
-    },
-    {
       "id": "q1781125622244_123",
       "question": "Which word is spelled correctly?",
       "category": "english",
@@ -15223,20 +15067,6 @@
         "Beautiful",
         "Because",
         "Under"
-      ]
-    },
-    {
-      "id": "q1781125622244_129",
-      "question": "What is the past tense of 'run'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Ran",
-      "options": [
-        "Runned",
-        "Runed",
-        "Ran",
-        "Run"
       ]
     },
     {
@@ -16022,34 +15852,6 @@
       ]
     },
     {
-      "id": "q1781125622244_183",
-      "question": "In which year did the American Civil War end?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "1865",
-      "options": [
-        "1861",
-        "1863",
-        "1865",
-        "1867"
-      ]
-    },
-    {
-      "id": "q1781125622244_184",
-      "question": "Who was the first woman to win a Nobel Prize?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Marie Curie",
-      "options": [
-        "Florence Nightingale",
-        "Rosalind Franklin",
-        "Marie Curie",
-        "Harriet Tubman"
-      ]
-    },
-    {
       "id": "q1781125622244_185",
       "question": "Which empire was known as the 'Empire on which the sun never sets'?",
       "category": "history",
@@ -16420,20 +16222,6 @@
       ]
     },
     {
-      "id": "q1781125622244_210",
-      "question": "What does 'AI' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Artificial Intelligence",
-      "options": [
-        "Automated Internet",
-        "Artificial Intelligence",
-        "Advanced Integration",
-        "Applied Innovation"
-      ]
-    },
-    {
       "id": "q1781125622244_211",
       "question": "Which company created the Windows operating system?",
       "category": "technology",
@@ -16487,62 +16275,6 @@
         "Excel",
         "Chrome",
         "Outlook"
-      ]
-    },
-    {
-      "id": "q1781125622244_215",
-      "question": "What does 'GPS' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Global Positioning System",
-      "options": [
-        "General Positioning System",
-        "Global Positioning System",
-        "Geographic Proximity Sensor",
-        "Ground Position Signal"
-      ]
-    },
-    {
-      "id": "q1781125622244_216",
-      "question": "What is the name of the popular Nigerian ride-hailing app?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Bolt",
-      "options": [
-        "Uber",
-        "Bolt",
-        "Rida",
-        "InDriver"
-      ]
-    },
-    {
-      "id": "q1781125622244_217",
-      "question": "What does 'OS' stand for in computing?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Operating System",
-      "options": [
-        "Online System",
-        "Open Source",
-        "Operating System",
-        "Output Signal"
-      ]
-    },
-    {
-      "id": "q1781125622244_218",
-      "question": "Which company owns YouTube?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Google",
-      "options": [
-        "Meta",
-        "Microsoft",
-        "Amazon",
-        "Google"
       ]
     },
     {
@@ -16641,20 +16373,6 @@
         "Decentralised record keeping",
         "Social networking",
         "Cloud storage"
-      ]
-    },
-    {
-      "id": "q1781125622244_226",
-      "question": "What does 'IoT' stand for?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Internet of Things",
-      "options": [
-        "Internet of Technology",
-        "Integration of Things",
-        "Internet of Things",
-        "Input Output Technology"
       ]
     },
     {
@@ -17268,22 +16986,6 @@
       ]
     },
     {
-      "id": "q1781125622244_268",
-      "question": "I have cities but no houses. I have mountains but no trees. I have water but no fish. I have roads but no cars. What am I?",
-      "category": "riddles",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "A map",
-      "options": [
-        "A painting",
-        "A dream",
-        "A map",
-        "A globe",
-        "A desert",
-        "A photograph"
-      ]
-    },
-    {
       "id": "q1781125622244_269",
       "question": "You walk into a room with a match. There is a candle, a lamp, and a fireplace. Which do you light first?",
       "category": "riddles",
@@ -17339,20 +17041,6 @@
         "Benin Republic",
         "Both countries",
         "You don't bury survivors"
-      ]
-    },
-    {
-      "id": "q1781125622244_273",
-      "question": "How many months have 28 days?",
-      "category": "brainteasers",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "12",
-      "options": [
-        "1",
-        "2",
-        "6",
-        "12"
       ]
     },
     {
@@ -17479,20 +17167,6 @@
         "₦400",
         "₦450",
         "₦600"
-      ]
-    },
-    {
-      "id": "q1781125622244_283",
-      "question": "What comes next: J, F, M, A, M, J, __?",
-      "category": "brainteasers",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "J",
-      "options": [
-        "A",
-        "J",
-        "S",
-        "O"
       ]
     },
     {
@@ -18102,20 +17776,6 @@
       "answer": "Harmattan"
     },
     {
-      "id": "q1781125622244_94",
-      "question": "How many degrees are in a right angle?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "90°",
-      "options": [
-        "45°",
-        "60°",
-        "90°",
-        "180°"
-      ]
-    },
-    {
       "id": "q1781125622244_95",
       "question": "What is 1000 - 357?",
       "category": "maths",
@@ -18183,20 +17843,6 @@
         "33cm",
         "44cm",
         "66cm"
-      ]
-    },
-    {
-      "id": "q1781127731190_0",
-      "question": "Who was the first man created by God?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Adam",
-      "options": [
-        "Cain",
-        "Abel",
-        "Adam",
-        "Noah"
       ]
     },
     {
@@ -18284,20 +17930,6 @@
       ]
     },
     {
-      "id": "q1781127731190_104",
-      "question": "Expand: (x + 3)(x - 2)",
-      "category": "maths",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "x² + x - 6",
-      "options": [
-        "x² + x - 6",
-        "x² - x - 6",
-        "x² + 5x - 6",
-        "x² - 5x + 6"
-      ]
-    },
-    {
       "id": "q1781127731190_105",
       "question": "A trader buys goods for ₦12,000 and sells for ₦15,000. What is the profit percentage?",
       "category": "maths",
@@ -18365,20 +17997,6 @@
         "10.5",
         "12",
         "13"
-      ]
-    },
-    {
-      "id": "q1781127731190_11",
-      "question": "What gift did the Queen of Sheba bring to Solomon?",
-      "category": "bible",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Gold, spices and precious stones",
-      "options": [
-        "An army",
-        "Gold, spices and precious stones",
-        "Horses and chariots",
-        "Precious stones only"
       ]
     },
     {
@@ -18556,48 +18174,6 @@
       ]
     },
     {
-      "id": "q1781127731190_120",
-      "question": "What is the plural of 'tooth'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Teeth",
-      "options": [
-        "Tooths",
-        "Teethes",
-        "Teeth",
-        "Toothe"
-      ]
-    },
-    {
-      "id": "q1781127731190_121",
-      "question": "Which of these is a preposition?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Under",
-      "options": [
-        "Run",
-        "Beautiful",
-        "Under",
-        "Quickly"
-      ]
-    },
-    {
-      "id": "q1781127731190_122",
-      "question": "What is the comparative form of 'good'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Better",
-      "options": [
-        "Gooder",
-        "More good",
-        "Better",
-        "Best"
-      ]
-    },
-    {
       "id": "q1781127731190_123",
       "question": "Which word is a conjunction?",
       "category": "english",
@@ -18654,20 +18230,6 @@
       ]
     },
     {
-      "id": "q1781127731190_127",
-      "question": "What type of word is 'slowly'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Adverb",
-      "options": [
-        "Noun",
-        "Verb",
-        "Adjective",
-        "Adverb"
-      ]
-    },
-    {
       "id": "q1781127731190_128",
       "question": "Which is the correct plural of 'ox'?",
       "category": "english",
@@ -18707,20 +18269,6 @@
         "2",
         "3",
         "4"
-      ]
-    },
-    {
-      "id": "q1781127731190_130",
-      "question": "What is an alliteration?",
-      "category": "english",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Repetition of the same initial consonant sound",
-      "options": [
-        "Words that rhyme at the end of lines",
-        "Repetition of the same initial consonant sound",
-        "A figure of speech comparing using like",
-        "Exaggerating for effect"
       ]
     },
     {
@@ -19077,20 +18625,6 @@
         "The fundamental law governing a country",
         "A military document",
         "A list of criminals"
-      ]
-    },
-    {
-      "id": "q1781127731190_153",
-      "question": "What is the minimum voting age in Nigeria?",
-      "category": "government",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "18",
-      "options": [
-        "16",
-        "18",
-        "21",
-        "25"
       ]
     },
     {
@@ -19534,20 +19068,6 @@
       ]
     },
     {
-      "id": "q1781127731190_181",
-      "question": "Who was the first woman to win a Nobel Prize?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Marie Curie",
-      "options": [
-        "Mother Teresa",
-        "Marie Curie",
-        "Rosa Parks",
-        "Florence Nightingale"
-      ]
-    },
-    {
       "id": "q1781127731190_182",
       "question": "In which year did the First World War begin?",
       "category": "history",
@@ -19576,20 +19096,6 @@
       ]
     },
     {
-      "id": "q1781127731190_184",
-      "question": "What was the name of the first artificial satellite launched into space?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Sputnik",
-      "options": [
-        "Explorer 1",
-        "Vostok",
-        "Apollo",
-        "Sputnik"
-      ]
-    },
-    {
       "id": "q1781127731190_185",
       "question": "Which city was the capital of the Nigerian colonial administration before Abuja?",
       "category": "history",
@@ -19601,20 +19107,6 @@
         "Ibadan",
         "Enugu",
         "Lagos"
-      ]
-    },
-    {
-      "id": "q1781127731190_186",
-      "question": "Who was the first Black American president of the United States?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Barack Obama",
-      "options": [
-        "Malcolm X",
-        "Colin Powell",
-        "Barack Obama",
-        "Jesse Jackson"
       ]
     },
     {
@@ -19699,20 +19191,6 @@
         "Herbert Macaulay",
         "Obafemi Awolowo",
         "Aminu Kano"
-      ]
-    },
-    {
-      "id": "q1781127731190_192",
-      "question": "The French Revolution began in which year?",
-      "category": "history",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "1789",
-      "options": [
-        "1776",
-        "1783",
-        "1789",
-        "1799"
       ]
     },
     {
@@ -20020,20 +19498,6 @@
       ]
     },
     {
-      "id": "q1781127731190_210",
-      "question": "What does 'AI' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Artificial Intelligence",
-      "options": [
-        "Automated Intelligence",
-        "Artificial Interface",
-        "Artificial Intelligence",
-        "Advanced Integration"
-      ]
-    },
-    {
       "id": "q1781127731190_211",
       "question": "What is the function of a mouse in computing?",
       "category": "technology",
@@ -20090,20 +19554,6 @@
       ]
     },
     {
-      "id": "q1781127731190_215",
-      "question": "What does 'GPS' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Global Positioning System",
-      "options": [
-        "General Positioning Software",
-        "Global Positioning System",
-        "Geographic Processing System",
-        "Global Program Satellite"
-      ]
-    },
-    {
       "id": "q1781127731190_216",
       "question": "What is the name of Nigeria's biggest e-commerce website?",
       "category": "technology",
@@ -20129,34 +19579,6 @@
         "Space",
         "Backspace",
         "Escape"
-      ]
-    },
-    {
-      "id": "q1781127731190_218",
-      "question": "What does 'URL' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Uniform Resource Locator",
-      "options": [
-        "Universal Resource Link",
-        "Unified Remote Locator",
-        "Uniform Resource Locator",
-        "Universal Remote Link"
-      ]
-    },
-    {
-      "id": "q1781127731190_219",
-      "question": "What is Bluetooth used for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Short-range wireless data transfer",
-      "options": [
-        "Charging devices",
-        "Short-range wireless data transfer",
-        "Connecting to the internet",
-        "Storing files"
       ]
     },
     {
@@ -20260,20 +19682,6 @@
       ]
     },
     {
-      "id": "q1781127731190_226",
-      "question": "What does IoT stand for?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Internet of Things",
-      "options": [
-        "Internet of Things",
-        "Integration of Technology",
-        "Interface of Tools",
-        "Internet of Transmission"
-      ]
-    },
-    {
       "id": "q1781127731190_227",
       "question": "What is the difference between a compiler and an interpreter?",
       "category": "technology",
@@ -20285,20 +19693,6 @@
         "A compiler translates all code at once; an interpreter does it line by line",
         "A compiler is faster at runtime",
         "An interpreter is used for web development only"
-      ]
-    },
-    {
-      "id": "q1781127731190_228",
-      "question": "What does UX stand for in design?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "User Experience",
-      "options": [
-        "User Experience",
-        "Universal Exchange",
-        "User Extension",
-        "Unified Execution"
       ]
     },
     {
@@ -20329,22 +19723,6 @@
         "Elimelech",
         "Ploni Almoni",
         "Nahor"
-      ]
-    },
-    {
-      "id": "q1781127731190_230",
-      "question": "What is the time complexity of binary search?",
-      "category": "technology",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "O(log n)",
-      "options": [
-        "O(1)",
-        "O(n)",
-        "O(n²)",
-        "O(log n)",
-        "O(n log n)",
-        "O(2^n)"
       ]
     },
     {
@@ -20473,22 +19851,6 @@
         "Build responsive websites",
         "Manage databases",
         "Handle email routing"
-      ]
-    },
-    {
-      "id": "q1781127731190_239",
-      "question": "What does CORS stand for in web development?",
-      "category": "technology",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Cross-Origin Resource Sharing",
-      "options": [
-        "Cross-Origin Resource Sharing",
-        "Client-Origin Request System",
-        "Cross-Object Rendering Service",
-        "Content-Origin Routing System",
-        "Client-Only Resource Sync",
-        "Cached Object Request Service"
       ]
     },
     {
@@ -20678,34 +20040,6 @@
       ]
     },
     {
-      "id": "q1781127731190_251",
-      "question": "What has one head one foot and four legs?",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "A bed",
-      "options": [
-        "A table",
-        "A bed",
-        "A chair",
-        "A dog"
-      ]
-    },
-    {
-      "id": "q1781127731190_252",
-      "question": "I have no life but I can die. What am I?",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "A battery",
-      "options": [
-        "A battery",
-        "A tree",
-        "A rock",
-        "A river"
-      ]
-    },
-    {
       "id": "q1781127731190_253",
       "question": "If two is company and three is a crowd, what is four and five?",
       "category": "riddles",
@@ -20759,20 +20093,6 @@
         "The wind",
         "A road",
         "A cloud"
-      ]
-    },
-    {
-      "id": "q1781127731190_257",
-      "question": "What can you catch but not throw?",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "A cold",
-      "options": [
-        "A ball",
-        "A cold",
-        "A fish",
-        "A train"
       ]
     },
     {
@@ -20849,22 +20169,6 @@
         "They are all below deck",
         "The people are invisible",
         "They are all asleep"
-      ]
-    },
-    {
-      "id": "q1781127731190_262",
-      "question": "What word in the English language is always spelled incorrectly?",
-      "category": "riddles",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Incorrectly",
-      "options": [
-        "Wrong",
-        "Incorrectly",
-        "Never",
-        "Always",
-        "Misspelled",
-        "Error"
       ]
     },
     {
@@ -21091,20 +20395,6 @@
         "Four",
         "Six",
         "Zero"
-      ]
-    },
-    {
-      "id": "q1781127731190_277",
-      "question": "What is the next number in the sequence: 2, 4, 8, 16, __?",
-      "category": "brainteasers",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "32",
-      "options": [
-        "18",
-        "24",
-        "32",
-        "64"
       ]
     },
     {
@@ -22080,20 +21370,6 @@
       ]
     },
     {
-      "id": "q1781127731190_46",
-      "question": "What is the main ingredient in Nigerian egusi soup?",
-      "category": "lifestyle",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Melon seeds",
-      "options": [
-        "Melon seeds",
-        "Locust beans",
-        "Dried fish",
-        "Palm oil"
-      ]
-    },
-    {
       "id": "q1781127731190_47",
       "question": "What is the recommended daily step count for a healthy lifestyle?",
       "category": "lifestyle",
@@ -22147,22 +21423,6 @@
         "Samson",
         "Daniel",
         "Paul"
-      ]
-    },
-    {
-      "id": "q1781127731190_50",
-      "question": "What is the glycaemic index used to measure?",
-      "category": "lifestyle",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "How quickly food raises blood sugar",
-      "options": [
-        "Calorie content of food",
-        "How quickly food raises blood sugar",
-        "Fat content in food",
-        "Fibre content of food",
-        "Protein quality score",
-        "Antioxidant level"
       ]
     },
     {
@@ -22324,20 +21584,6 @@
       ]
     },
     {
-      "id": "q1781127731190_60",
-      "question": "What is the unit of energy?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Joule",
-      "options": [
-        "Newton",
-        "Watt",
-        "Joule",
-        "Pascal"
-      ]
-    },
-    {
       "id": "q1781127731190_61",
       "question": "What does a thermometer measure?",
       "category": "physics",
@@ -22366,20 +21612,6 @@
       ]
     },
     {
-      "id": "q1781127731190_63",
-      "question": "What is the freezing point of water in Celsius?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "0°C",
-      "options": [
-        "-10°C",
-        "0°C",
-        "10°C",
-        "32°C"
-      ]
-    },
-    {
       "id": "q1781127731190_64",
       "question": "What form of energy does a battery store?",
       "category": "physics",
@@ -22405,20 +21637,6 @@
         "Neptune",
         "Mars",
         "Jupiter"
-      ]
-    },
-    {
-      "id": "q1781127731190_66",
-      "question": "What is the unit of power?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Watt",
-      "options": [
-        "Joule",
-        "Newton",
-        "Watt",
-        "Volt"
       ]
     },
     {
@@ -22618,20 +21836,6 @@
       ]
     },
     {
-      "id": "q1781127731190_8",
-      "question": "Who was the wisest king in the Bible?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Solomon",
-      "options": [
-        "David",
-        "Saul",
-        "Solomon",
-        "Hezekiah"
-      ]
-    },
-    {
       "id": "q1781127731190_80",
       "question": "What is the value of Planck's constant?",
       "category": "physics",
@@ -22645,22 +21849,6 @@
         "3 × 10⁸ m/s",
         "6.02 × 10²³",
         "8.85 × 10⁻¹² F/m"
-      ]
-    },
-    {
-      "id": "q1781127731190_81",
-      "question": "What is the formula for gravitational potential energy?",
-      "category": "physics",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "GPE = mgh",
-      "options": [
-        "GPE = mv²",
-        "GPE = mgh",
-        "GPE = Fd",
-        "GPE = ½mv²",
-        "GPE = ma",
-        "GPE = P/t"
       ]
     },
     {
@@ -22709,22 +21897,6 @@
         "The angle of polarisation",
         "The Brewster angle",
         "The angle of diffraction"
-      ]
-    },
-    {
-      "id": "q1781127731190_85",
-      "question": "What is the SI unit of capacitance?",
-      "category": "physics",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Farad",
-      "options": [
-        "Henry",
-        "Weber",
-        "Tesla",
-        "Farad",
-        "Ohm",
-        "Siemens"
       ]
     },
     {
@@ -22834,20 +22006,6 @@
       ]
     },
     {
-      "id": "q1781127731190_92",
-      "question": "How many degrees are in a right angle?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "90°",
-      "options": [
-        "45°",
-        "60°",
-        "90°",
-        "180°"
-      ]
-    },
-    {
       "id": "q1781127731190_93",
       "question": "What is 1000 minus 357?",
       "category": "maths",
@@ -22887,20 +22045,6 @@
         "22",
         "37",
         "50"
-      ]
-    },
-    {
-      "id": "q1781127731190_96",
-      "question": "How many centimetres are in one metre?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "100",
-      "options": [
-        "10",
-        "50",
-        "100",
-        "1000"
       ]
     },
     {
@@ -23397,20 +22541,6 @@
         "Adjective",
         "Conjunction",
         "Preposition"
-      ]
-    },
-    {
-      "id": "q1781135278153_126",
-      "question": "Which word is spelled correctly?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Believe",
-      "options": [
-        "Beleive",
-        "Beleve",
-        "Believe",
-        "Beleave"
       ]
     },
     {
@@ -24476,20 +23606,6 @@
       ]
     },
     {
-      "id": "q1781135278153_193",
-      "question": "Which Nigerian military ruler handed power to a civilian government in 1979?",
-      "category": "history",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Olusegun Obasanjo",
-      "options": [
-        "Yakubu Gowon",
-        "Murtala Mohammed",
-        "Olusegun Obasanjo",
-        "Ibrahim Babangida"
-      ]
-    },
-    {
       "id": "q1781135278153_194",
       "question": "What was the name of the trade agreement signed at the end of World War I in 1919?",
       "category": "history",
@@ -24631,22 +23747,6 @@
         "1500 BC - 1000 BC",
         "800 AD - 1200 AD",
         "3000 BC - 2000 BC"
-      ]
-    },
-    {
-      "id": "q1781135278153_202",
-      "question": "Which pre-colonial Nigerian kingdom is credited with producing some of the world's finest terracotta sculptures discovered at Nok?",
-      "category": "history",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Nok Culture",
-      "options": [
-        "Benin Kingdom",
-        "Oyo Empire",
-        "Nok Culture",
-        "Kanem-Bornu",
-        "Arochukwu",
-        "Nri Kingdom"
       ]
     },
     {
@@ -24872,20 +23972,6 @@
       ]
     },
     {
-      "id": "q1781135278153_217",
-      "question": "What does 'URL' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Uniform Resource Locator",
-      "options": [
-        "Universal Resource Locator",
-        "Uniform Resource Locator",
-        "United Reference Link",
-        "Universal Remote Location"
-      ]
-    },
-    {
       "id": "q1781135278153_218",
       "question": "What is the name of Apple's laptop computer line?",
       "category": "technology",
@@ -24942,20 +24028,6 @@
       ]
     },
     {
-      "id": "q1781135278153_221",
-      "question": "What does 'CSS' stand for in web development?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Cascading Style Sheets",
-      "options": [
-        "Computer Style Sheets",
-        "Cascading Style Sheets",
-        "Creative Style System",
-        "Central Styling Service"
-      ]
-    },
-    {
       "id": "q1781135278153_222",
       "question": "What is 'two-factor authentication'?",
       "category": "technology",
@@ -24984,20 +24056,6 @@
       ]
     },
     {
-      "id": "q1781135278153_224",
-      "question": "Which Nigerian telecom company uses the slogan 'Everywhere you go'?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "MTN",
-      "options": [
-        "MTN",
-        "Airtel",
-        "Glo",
-        "9mobile"
-      ]
-    },
-    {
       "id": "q1781135278153_225",
       "question": "What programming concept allows a function to call itself?",
       "category": "technology",
@@ -25009,48 +24067,6 @@
         "Polymorphism",
         "Recursion",
         "Encapsulation"
-      ]
-    },
-    {
-      "id": "q1781135278153_226",
-      "question": "What does 'IoT' stand for?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Internet of Things",
-      "options": [
-        "Internet of Technology",
-        "Internet of Things",
-        "Interconnected Online Tools",
-        "Integrated Operating Technologies"
-      ]
-    },
-    {
-      "id": "q1781135278153_227",
-      "question": "What is the full meaning of OTP as used in Nigerian banking apps?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "One Time Password",
-      "options": [
-        "Online Transfer Protocol",
-        "One Time Password",
-        "Official Transaction Pin",
-        "Outgoing Transfer Permission"
-      ]
-    },
-    {
-      "id": "q1781135278153_228",
-      "question": "Which of these is a NoSQL database?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "MongoDB",
-      "options": [
-        "MySQL",
-        "PostgreSQL",
-        "Oracle",
-        "MongoDB"
       ]
     },
     {
@@ -25159,22 +24175,6 @@
         "SHA-512",
         "AES-128",
         "RSA-2048"
-      ]
-    },
-    {
-      "id": "q1781135278153_235",
-      "question": "What does 'CORS' stand for in web development?",
-      "category": "technology",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Cross-Origin Resource Sharing",
-      "options": [
-        "Cross-Origin Resource Sharing",
-        "Central Origin Request System",
-        "Core Object Routing Service",
-        "Cross-Origin Request Security",
-        "Combined Online Resource Sharing",
-        "Client-Origin Routing Standard"
       ]
     },
     {
@@ -25708,22 +24708,6 @@
       ]
     },
     {
-      "id": "q1781135278153_269",
-      "question": "What word in the English language is always spelled incorrectly?",
-      "category": "riddles",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Incorrectly",
-      "options": [
-        "Incorrectly",
-        "Wrong",
-        "Misspelled",
-        "Error",
-        "Badly",
-        "False"
-      ]
-    },
-    {
       "id": "q1781135278153_27",
       "question": "In Revelation, what are the four living creatures around the throne described as?",
       "category": "bible",
@@ -25794,20 +24778,6 @@
       ]
     },
     {
-      "id": "q1781135278153_274",
-      "question": "Tom's mother has three children: Monday, Tuesday and ___?",
-      "category": "brainteasers",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Tom",
-      "options": [
-        "Wednesday",
-        "Thursday",
-        "Tom",
-        "Friday"
-      ]
-    },
-    {
       "id": "q1781135278153_275",
       "question": "What is bigger than God, more evil than the devil, the poor have it, the rich need it, and if you eat it you die?",
       "category": "brainteasers",
@@ -25861,20 +24831,6 @@
         "Tomorrow",
         "The future",
         "New Year"
-      ]
-    },
-    {
-      "id": "q1781135278153_279",
-      "question": "What has to be broken before you can use it?",
-      "category": "brainteasers",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "An egg",
-      "options": [
-        "A door",
-        "An egg",
-        "A seal",
-        "A record"
       ]
     },
     {
@@ -25976,20 +24932,6 @@
       ]
     },
     {
-      "id": "q1781135278153_286",
-      "question": "A father is 4 times as old as his son. In 20 years, he will be twice as old. How old is the son now?",
-      "category": "brainteasers",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "10",
-      "options": [
-        "5",
-        "10",
-        "15",
-        "20"
-      ]
-    },
-    {
       "id": "q1781135278153_287",
       "question": "What do the numbers 11, 69 and 88 all have in common?",
       "category": "brainteasers",
@@ -26015,20 +24957,6 @@
         "All 5 are boys",
         "2.5 is rounded down",
         "All 5 are boys and girls"
-      ]
-    },
-    {
-      "id": "q1781135278153_289",
-      "question": "If ABUJA = 5, LAGOS = 5, KANO = 4, then ENUGU = ?",
-      "category": "brainteasers",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "5",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7"
       ]
     },
     {
@@ -26416,20 +25344,6 @@
       ]
     },
     {
-      "id": "q1781135278153_312",
-      "question": "I am a figure of speech where human qualities are given to non-human things. What am I?",
-      "category": "guesstheword",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Personification",
-      "options": [
-        "Simile",
-        "Metaphor",
-        "Personification",
-        "Hyperbole"
-      ]
-    },
-    {
       "id": "q1781135278153_313",
       "question": "I am the traditional Nigerian instrument made from a gourd with beads on the outside, shaken to make music. What am I?",
       "category": "guesstheword",
@@ -26455,20 +25369,6 @@
         "Fixed deposit",
         "Compound interest account",
         "Savings account"
-      ]
-    },
-    {
-      "id": "q1781135278153_315",
-      "question": "I am the gas that plants absorb from the air during photosynthesis. What am I?",
-      "category": "guesstheword",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Carbon dioxide",
-      "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Carbon dioxide",
-        "Hydrogen"
       ]
     },
     {
@@ -26590,28 +25490,12 @@
       "answer": "Anadiplosis"
     },
     {
-      "id": "q1781135278153_326",
-      "question": "I am the financial term for when a company's total debts exceed its total assets and it cannot meet its financial obligations. What am I?",
-      "category": "guesstheword",
-      "difficulty": "hard",
-      "type": "text",
-      "answer": "Insolvency"
-    },
-    {
       "id": "q1781135278153_327",
       "question": "I am the Igbo philosophy meaning 'I am because we are', emphasising the interconnectedness of community and individuals. What am I?",
       "category": "guesstheword",
       "difficulty": "hard",
       "type": "text",
       "answer": "Igwebuike"
-    },
-    {
-      "id": "q1781135278153_328",
-      "question": "I am the economic term for the minimum price at which something can be sold, set by the government to protect producers. What am I?",
-      "category": "guesstheword",
-      "difficulty": "hard",
-      "type": "text",
-      "answer": "Price floor"
     },
     {
       "id": "q1781135278153_329",
@@ -27255,20 +26139,6 @@
         "The angle at which total internal reflection begins",
         "The angle of incidence equal to 90°",
         "The minimum angle for refraction"
-      ]
-    },
-    {
-      "id": "q1781135278153_73",
-      "question": "What is the unit of inductance?",
-      "category": "physics",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Henry",
-      "options": [
-        "Farad",
-        "Tesla",
-        "Henry",
-        "Weber"
       ]
     },
     {
@@ -29842,20 +28712,6 @@
       ]
     },
     {
-      "id": "q1781172321706_60",
-      "question": "What type of energy does a compressed spring possess?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Elastic potential energy",
-      "options": [
-        "Kinetic energy",
-        "Thermal energy",
-        "Elastic potential energy",
-        "Chemical energy"
-      ]
-    },
-    {
       "id": "q1781172321706_61",
       "question": "What is the name of the force that pulls objects toward the centre of the Earth?",
       "category": "physics",
@@ -29898,34 +28754,6 @@
       ]
     },
     {
-      "id": "q1781172321706_64",
-      "question": "What type of charge do protons carry?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Positive",
-      "options": [
-        "Negative",
-        "Neutral",
-        "Positive",
-        "Variable"
-      ]
-    },
-    {
-      "id": "q1781172321706_65",
-      "question": "What is the unit of measuring sound intensity?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Decibel",
-      "options": [
-        "Hertz",
-        "Joule",
-        "Decibel",
-        "Newton"
-      ]
-    },
-    {
       "id": "q1781172321706_66",
       "question": "In which medium does light travel fastest?",
       "category": "physics",
@@ -29965,20 +28793,6 @@
         "It stays the same",
         "It increases",
         "It becomes solid"
-      ]
-    },
-    {
-      "id": "q1781172321706_69",
-      "question": "What is the SI unit of mass?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Kilogram",
-      "options": [
-        "Newton",
-        "Kilogram",
-        "Gram",
-        "Pound"
       ]
     },
     {
@@ -31470,20 +30284,6 @@
       ]
     },
     {
-      "id": "q1781172321707_259",
-      "question": "I am the beginning of the end and the end of time and space. I am essential to creation and I surround every place. What am I?",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "The letter E",
-      "options": [
-        "God",
-        "Darkness",
-        "The letter E",
-        "The universe"
-      ]
-    },
-    {
       "id": "q1781172321707_260",
       "question": "A man is found hanged in the centre of a large empty room. The floor is wet. There are no objects in the room except the man. How did he hang himself?",
       "category": "riddles",
@@ -32909,20 +31709,6 @@
         "Baddest",
         "Worse",
         "Worst"
-      ]
-    },
-    {
-      "id": "q1781174854220_127",
-      "question": "Which word is spelled correctly?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Receive",
-      "options": [
-        "Recieve",
-        "Receive",
-        "Recive",
-        "Receve"
       ]
     },
     {
@@ -37232,20 +36018,6 @@
       ]
     },
     {
-      "id": "q1781177327285_10",
-      "question": "How many chapters are in the book of Psalms?",
-      "category": "bible",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "150",
-      "options": [
-        "100",
-        "120",
-        "150",
-        "175"
-      ]
-    },
-    {
       "id": "q1781177327285_100",
       "question": "A Kano trader marks up goods by 35% then offers a 10% discount. What is the overall percentage gain?",
       "category": "maths",
@@ -37767,20 +36539,6 @@
         "She had one goal: to pass WAEC",
         "She was: happy to see him",
         "She arrived: before noon"
-      ]
-    },
-    {
-      "id": "q1781177327285_133",
-      "question": "What is the meaning of the idiom 'to beat around the bush'?",
-      "category": "english",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "To avoid the main topic",
-      "options": [
-        "To garden enthusiastically",
-        "To avoid the main topic",
-        "To win an argument",
-        "To search carefully"
       ]
     },
     {
@@ -39382,22 +38140,6 @@
       ]
     },
     {
-      "id": "q1781177327285_232",
-      "question": "What does 'ACID' stand for in database transactions?",
-      "category": "technology",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "Atomicity, Consistency, Isolation, Durability",
-      "options": [
-        "Atomicity, Consistency, Isolation, Durability",
-        "Accuracy, Consistency, Integrity, Data",
-        "Atomicity, Concurrency, Integrity, Durability",
-        "Access, Consistency, Isolation, Data",
-        "Atomicity, Correctness, Integrity, Durability",
-        "Availability, Consistency, Isolation, Durability"
-      ]
-    },
-    {
       "id": "q1781177327285_233",
       "question": "In machine learning, what is the 'bias-variance tradeoff'?",
       "category": "technology",
@@ -39777,20 +38519,6 @@
         "A pillow",
         "A table",
         "A lamp"
-      ]
-    },
-    {
-      "id": "q1781177327285_257",
-      "question": "The more you share me, the more of me there is. What am I?",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Knowledge",
-      "options": [
-        "Money",
-        "Knowledge",
-        "Food",
-        "Water"
       ]
     },
     {
@@ -41342,20 +40070,6 @@
       ]
     },
     {
-      "id": "q1781177327285_60",
-      "question": "What is the SI unit of temperature?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Kelvin",
-      "options": [
-        "Celsius",
-        "Fahrenheit",
-        "Kelvin",
-        "Rankine"
-      ]
-    },
-    {
       "id": "q1781177327285_61",
       "question": "Which type of mirror is used in security cameras and supermarkets to give a wide field of view?",
       "category": "physics",
@@ -41866,20 +40580,6 @@
       ]
     },
     {
-      "id": "q1781177327285_93",
-      "question": "How many degrees are in a straight angle?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "180°",
-      "options": [
-        "45°",
-        "90°",
-        "180°",
-        "360°"
-      ]
-    },
-    {
       "id": "q1781177327285_94",
       "question": "What is the square root of 256?",
       "category": "maths",
@@ -42062,20 +40762,6 @@
       ]
     },
     {
-      "id": "q1781181164271_104",
-      "question": "What is the mean of 5, 10, 15, 20, 25?",
-      "category": "maths",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "15",
-      "options": [
-        "10",
-        "12",
-        "15",
-        "20"
-      ]
-    },
-    {
       "id": "q1781181164271_105",
       "question": "What is the volume of a cylinder with radius 7cm and height 10cm? (use π = 22/7)",
       "category": "maths",
@@ -42118,20 +40804,6 @@
       ]
     },
     {
-      "id": "q1781181164271_108",
-      "question": "What is the exterior angle of a regular hexagon?",
-      "category": "maths",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "60°",
-      "options": [
-        "45°",
-        "54°",
-        "60°",
-        "72°"
-      ]
-    },
-    {
       "id": "q1781181164271_109",
       "question": "In a bag of 4 red, 3 blue, and 3 green balls, what is the probability of picking a blue ball?",
       "category": "maths",
@@ -42160,22 +40832,6 @@
       ]
     },
     {
-      "id": "q1781181164271_110",
-      "question": "What is the integral of 2x with respect to x?",
-      "category": "maths",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "x²+ C",
-      "options": [
-        "2",
-        "x²+ C",
-        "2x² + C",
-        "x + C",
-        "2x + C",
-        "x²"
-      ]
-    },
-    {
       "id": "q1781181164271_111",
       "question": "How many permutations can be made from the letters of the word 'ABUJA'?",
       "category": "maths",
@@ -42189,22 +40845,6 @@
         "720",
         "20",
         "48"
-      ]
-    },
-    {
-      "id": "q1781181164271_112",
-      "question": "What is the value of log₂(64)?",
-      "category": "maths",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "6",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "3"
       ]
     },
     {
@@ -42334,20 +40974,6 @@
       ]
     },
     {
-      "id": "q1781181164271_120",
-      "question": "What is the plural of 'ox'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Oxen",
-      "options": [
-        "Oxes",
-        "Ox",
-        "Oxen",
-        "Oxs"
-      ]
-    },
-    {
       "id": "q1781181164271_121",
       "question": "Which of the following is a preposition?",
       "category": "english",
@@ -42390,20 +41016,6 @@
       ]
     },
     {
-      "id": "q1781181164271_124",
-      "question": "What is the synonym of 'enormous'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Huge",
-      "options": [
-        "Tiny",
-        "Huge",
-        "Average",
-        "Slim"
-      ]
-    },
-    {
       "id": "q1781181164271_125",
       "question": "Which of these words is a conjunction?",
       "category": "english",
@@ -42429,20 +41041,6 @@
         "Going",
         "Went",
         "Gone"
-      ]
-    },
-    {
-      "id": "q1781181164271_127",
-      "question": "What is the superlative form of 'bad'?",
-      "category": "english",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Worst",
-      "options": [
-        "Badder",
-        "More bad",
-        "Worst",
-        "Baddest"
       ]
     },
     {
@@ -42872,20 +41470,6 @@
       ]
     },
     {
-      "id": "q1781181164271_154",
-      "question": "What is the name of Nigeria's national anthem's first line?",
-      "category": "government",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Arise O Compatriots",
-      "options": [
-        "Nigeria we hail thee",
-        "Arise O Compatriots",
-        "We are one Nigeria",
-        "God bless Nigeria"
-      ]
-    },
-    {
       "id": "q1781181164271_155",
       "question": "Which body in Nigeria is responsible for conducting elections?",
       "category": "government",
@@ -42897,34 +41481,6 @@
         "CBN",
         "INEC",
         "EFCC"
-      ]
-    },
-    {
-      "id": "q1781181164271_156",
-      "question": "What is the minimum voting age in Nigeria?",
-      "category": "government",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "18",
-      "options": [
-        "16",
-        "18",
-        "21",
-        "25"
-      ]
-    },
-    {
-      "id": "q1781181164271_157",
-      "question": "What is a 'constitution'?",
-      "category": "government",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "The fundamental law of a country",
-      "options": [
-        "A type of tax",
-        "The fundamental law of a country",
-        "A government budget",
-        "An election result"
       ]
     },
     {
@@ -43298,34 +41854,6 @@
       ]
     },
     {
-      "id": "q1781181164271_180",
-      "question": "Which country gifted the Statue of Liberty to the United States?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "France",
-      "options": [
-        "Britain",
-        "France",
-        "Germany",
-        "Spain"
-      ]
-    },
-    {
-      "id": "q1781181164271_181",
-      "question": "Who was the first woman to win a Nobel Prize?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Marie Curie",
-      "options": [
-        "Florence Nightingale",
-        "Mother Teresa",
-        "Marie Curie",
-        "Rosa Parks"
-      ]
-    },
-    {
       "id": "q1781181164271_182",
       "question": "In which city was the first Olympic Games of the modern era held in 1896?",
       "category": "history",
@@ -43365,20 +41893,6 @@
         "1960s",
         "1970s",
         "1980s"
-      ]
-    },
-    {
-      "id": "q1781181164271_185",
-      "question": "Who was the first President of the United States?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "George Washington",
-      "options": [
-        "Abraham Lincoln",
-        "Thomas Jefferson",
-        "George Washington",
-        "Benjamin Franklin"
       ]
     },
     {
@@ -43491,20 +42005,6 @@
         "Olusegun Obasanjo",
         "Yakubu Gowon",
         "Chukwuemeka Ojukwu"
-      ]
-    },
-    {
-      "id": "q1781181164271_193",
-      "question": "The French Revolution began in which year?",
-      "category": "history",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "1789",
-      "options": [
-        "1776",
-        "1789",
-        "1799",
-        "1815"
       ]
     },
     {
@@ -43798,20 +42298,6 @@
       ]
     },
     {
-      "id": "q1781181164271_210",
-      "question": "What does 'AI' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Artificial Intelligence",
-      "options": [
-        "Automated Interface",
-        "Artificial Intelligence",
-        "Advanced Integration",
-        "Automated Information"
-      ]
-    },
-    {
       "id": "q1781181164271_211",
       "question": "What is the function of a 'keyboard' on a computer?",
       "category": "technology",
@@ -43865,34 +42351,6 @@
         "Access Bank",
         "First Bank",
         "Zenith Bank"
-      ]
-    },
-    {
-      "id": "q1781181164271_215",
-      "question": "Which of these is a web browser?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Chrome",
-      "options": [
-        "Windows",
-        "Excel",
-        "Chrome",
-        "Photoshop"
-      ]
-    },
-    {
-      "id": "q1781181164271_216",
-      "question": "What does 'SMS' stand for?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Short Message Service",
-      "options": [
-        "Short Mail Service",
-        "Simple Message Standard",
-        "Short Message Service",
-        "Social Media Share"
       ]
     },
     {
@@ -43968,20 +42426,6 @@
       ]
     },
     {
-      "id": "q1781181164271_221",
-      "question": "What is 'cloud computing'?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Delivering computing services over the internet",
-      "options": [
-        "Weather-based computer cooling",
-        "Delivering computing services over the internet",
-        "A type of wireless network",
-        "Computer graphics rendering"
-      ]
-    },
-    {
       "id": "q1781181164271_222",
       "question": "Which Nigerian startup became Africa's first fintech unicorn (valued at over $1 billion)?",
       "category": "technology",
@@ -43993,34 +42437,6 @@
         "Kuda",
         "Interswitch",
         "OPay"
-      ]
-    },
-    {
-      "id": "q1781181164271_223",
-      "question": "What programming concept allows a function to call itself?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Recursion",
-      "options": [
-        "Iteration",
-        "Inheritance",
-        "Recursion",
-        "Polymorphism"
-      ]
-    },
-    {
-      "id": "q1781181164271_224",
-      "question": "What does 'IoT' stand for?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Internet of Things",
-      "options": [
-        "Internet of Things",
-        "Integration of Technology",
-        "Input-Output Terminal",
-        "Integrated Online Tools"
       ]
     },
     {
@@ -44063,20 +42479,6 @@
         "A decentralised, tamper-resistant distributed ledger",
         "A type of computer virus",
         "Artificial intelligence processing"
-      ]
-    },
-    {
-      "id": "q1781181164271_228",
-      "question": "What does 'SEO' stand for in digital marketing?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Search Engine Optimisation",
-      "options": [
-        "Social Engagement Optimisation",
-        "Search Engine Optimisation",
-        "System Error Output",
-        "Social Event Organisation"
       ]
     },
     {
@@ -44356,20 +42758,6 @@
       ]
     },
     {
-      "id": "q1781181164271_245",
-      "question": "What can you catch but not throw?",
-      "category": "riddles",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "A cold",
-      "options": [
-        "A ball",
-        "A cold",
-        "Sunlight",
-        "A shadow"
-      ]
-    },
-    {
       "id": "q1781181164271_246",
       "question": "I have cities but no houses live there. What am I?",
       "category": "riddles",
@@ -44409,20 +42797,6 @@
         "The sun",
         "Sunlight",
         "Electricity"
-      ]
-    },
-    {
-      "id": "q1781181164271_249",
-      "question": "What do you throw out when you want to use it and take in when you don't want to use it?",
-      "category": "riddles",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "An anchor",
-      "options": [
-        "Rubbish",
-        "An anchor",
-        "A ball",
-        "Your breath"
       ]
     },
     {
@@ -44537,20 +42911,6 @@
         "4",
         "7",
         "3"
-      ]
-    },
-    {
-      "id": "q1781181164271_257",
-      "question": "What word becomes shorter when you add two letters to it?",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Short",
-      "options": [
-        "Expand",
-        "Word",
-        "Short",
-        "Brief"
       ]
     },
     {
@@ -45099,22 +43459,6 @@
         "2",
         "25",
         "10"
-      ]
-    },
-    {
-      "id": "q1781181164271_291",
-      "question": "What is the sum of all numbers from 1 to 100?",
-      "category": "brainteasers",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "5,050",
-      "options": [
-        "4,500",
-        "5,000",
-        "5,050",
-        "5,100",
-        "4,950",
-        "5,500"
       ]
     },
     {
@@ -45760,20 +44104,6 @@
       ]
     },
     {
-      "id": "q1781181164271_4",
-      "question": "Which disciple betrayed Jesus for 30 pieces of silver?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Judas Iscariot",
-      "options": [
-        "Peter",
-        "Thomas",
-        "Judas Iscariot",
-        "James"
-      ]
-    },
-    {
       "id": "q1781181164271_40",
       "question": "What is the Igbo practice called when older women help new mothers with childcare after birth?",
       "category": "lifestyle",
@@ -46130,20 +44460,6 @@
       ]
     },
     {
-      "id": "q1781181164271_62",
-      "question": "What is the freezing point of water in Celsius?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "0°C",
-      "options": [
-        "-10°C",
-        "0°C",
-        "4°C",
-        "10°C"
-      ]
-    },
-    {
       "id": "q1781181164271_63",
       "question": "What force do two magnets exert on each other when opposite poles face?",
       "category": "physics",
@@ -46197,20 +44513,6 @@
         "Convex",
         "Plane",
         "Diverging"
-      ]
-    },
-    {
-      "id": "q1781181164271_67",
-      "question": "What is the SI unit of mass?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Kilogram",
-      "options": [
-        "Gram",
-        "Pound",
-        "Kilogram",
-        "Newton"
       ]
     },
     {
@@ -46598,20 +44900,6 @@
       ]
     },
     {
-      "id": "q1781181164271_91",
-      "question": "What is the square root of 81?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "9",
-      "options": [
-        "7",
-        "8",
-        "9",
-        "10"
-      ]
-    },
-    {
       "id": "q1781181164271_92",
       "question": "What is 30% of 300?",
       "category": "maths",
@@ -46626,20 +44914,6 @@
       ]
     },
     {
-      "id": "q1781181164271_93",
-      "question": "How many sides does an octagon have?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "8",
-      "options": [
-        "6",
-        "7",
-        "8",
-        "9"
-      ]
-    },
-    {
       "id": "q1781181164271_94",
       "question": "What is 500 ÷ 25?",
       "category": "maths",
@@ -46651,20 +44925,6 @@
         "20",
         "25",
         "30"
-      ]
-    },
-    {
-      "id": "q1781181164271_95",
-      "question": "What is the value of 3³?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "27",
-      "options": [
-        "6",
-        "9",
-        "18",
-        "27"
       ]
     },
     {
@@ -46696,20 +44956,6 @@
       ]
     },
     {
-      "id": "q1781181164271_98",
-      "question": "What is the next prime number after 13?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "17",
-      "options": [
-        "14",
-        "15",
-        "16",
-        "17"
-      ]
-    },
-    {
       "id": "q1781181164271_99",
       "question": "What is 3/5 expressed as a decimal?",
       "category": "maths",
@@ -46738,20 +44984,6 @@
       ]
     },
     {
-      "id": "q1781185402505_1",
-      "question": "What was the name of the first woman in the Bible?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Eve",
-      "options": [
-        "Sarah",
-        "Mary",
-        "Eve",
-        "Ruth"
-      ]
-    },
-    {
       "id": "q1781185402505_10",
       "question": "In which city did Pentecost occur, where the Holy Spirit descended on the disciples?",
       "category": "bible",
@@ -46763,20 +44995,6 @@
         "Bethlehem",
         "Jerusalem",
         "Capernaum"
-      ]
-    },
-    {
-      "id": "q1781185402505_100",
-      "question": "What is the value of cos(0°)?",
-      "category": "maths",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "1",
-      "options": [
-        "0",
-        "0.5",
-        "1",
-        "√2/2"
       ]
     },
     {
@@ -46997,22 +45215,6 @@
         "x = 1 and x = 12",
         "x = 3 and x = -4",
         "x = 4 and x = -3"
-      ]
-    },
-    {
-      "id": "q1781185402505_115",
-      "question": "What is the value of sin²(θ) + cos²(θ)?",
-      "category": "maths",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "1",
-      "options": [
-        "0",
-        "2",
-        "sin(2θ)",
-        "1",
-        "tan²(θ)",
-        "cos(2θ)"
       ]
     },
     {
@@ -47273,20 +45475,6 @@
         "Excessively eager to please or serve",
         "Extremely intelligent",
         "Calm and composed"
-      ]
-    },
-    {
-      "id": "q1781185402505_132",
-      "question": "Which is the correct spelling?",
-      "category": "english",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Accommodate",
-      "options": [
-        "Accomodate",
-        "Accommodate",
-        "Acommodate",
-        "Acomodate"
       ]
     },
     {
@@ -48086,20 +46274,6 @@
       ]
     },
     {
-      "id": "q1781185402505_182",
-      "question": "Which ancient wonder of the world still exists today?",
-      "category": "history",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Great Pyramid of Giza",
-      "options": [
-        "Hanging Gardens of Babylon",
-        "Colossus of Rhodes",
-        "Lighthouse of Alexandria",
-        "Great Pyramid of Giza"
-      ]
-    },
-    {
       "id": "q1781185402505_183",
       "question": "Who was the Nigerian military head of state who handed power to a civilian government in 1999?",
       "category": "history",
@@ -48352,20 +46526,6 @@
       ]
     },
     {
-      "id": "q1781185402505_2",
-      "question": "How many days did God take to create the world?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "6",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ]
-    },
-    {
       "id": "q1781185402505_20",
       "question": "What were the names of the two sons of Aaron who offered strange fire before the Lord and were killed?",
       "category": "bible",
@@ -48558,34 +46718,6 @@
       ]
     },
     {
-      "id": "q1781185402505_210",
-      "question": "What does 'PNG' stand for in image file formats?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Portable Network Graphics",
-      "options": [
-        "Portable Network Graphics",
-        "Picture and Noise Generator",
-        "Pixel Number Grid",
-        "Portable Native Graphic"
-      ]
-    },
-    {
-      "id": "q1781185402505_211",
-      "question": "What is the name of Apple's mobile operating system?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "iOS",
-      "options": [
-        "Android",
-        "Windows Mobile",
-        "iOS",
-        "HarmonyOS"
-      ]
-    },
-    {
       "id": "q1781185402505_212",
       "question": "What does 'CC' mean in an email?",
       "category": "technology",
@@ -48670,20 +46802,6 @@
       ]
     },
     {
-      "id": "q1781185402505_218",
-      "question": "What does 'OS' stand for in computing?",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Operating System",
-      "options": [
-        "Online System",
-        "Operating System",
-        "Output Software",
-        "Open Source"
-      ]
-    },
-    {
       "id": "q1781185402505_219",
       "question": "What is the name of the most popular coding language used to build websites on the front end?",
       "category": "technology",
@@ -48725,20 +46843,6 @@
         "A design that adapts to different screen sizes and devices",
         "A website that responds to voice commands",
         "A design using animated elements"
-      ]
-    },
-    {
-      "id": "q1781185402505_221",
-      "question": "What does 'API' stand for in software development?",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "answer": "Application Programming Interface",
-      "options": [
-        "Application Programming Interface",
-        "Automated Process Integration",
-        "Advanced Programming Index",
-        "Application Process Instruction"
       ]
     },
     {
@@ -49102,20 +47206,6 @@
       ]
     },
     {
-      "id": "q1781185402505_244",
-      "question": "What goes up when rain comes down?",
-      "category": "riddles",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "An umbrella",
-      "options": [
-        "Sunshine",
-        "An umbrella",
-        "Temperature",
-        "Humidity"
-      ]
-    },
-    {
       "id": "q1781185402505_245",
       "question": "What belongs to you but other people use it more than you do?",
       "category": "riddles",
@@ -49169,20 +47259,6 @@
         "The letter M",
         "Silence",
         "A heartbeat"
-      ]
-    },
-    {
-      "id": "q1781185402505_249",
-      "question": "I have a thumb and four fingers but I am not a hand. What am I?",
-      "category": "riddles",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "A glove",
-      "options": [
-        "A glove",
-        "A puppet",
-        "A starfish",
-        "A fork"
       ]
     },
     {
@@ -49515,22 +47591,6 @@
         "9",
         "4",
         "6"
-      ]
-    },
-    {
-      "id": "q1781185402505_27",
-      "question": "How many books are in the Old Testament?",
-      "category": "bible",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "39",
-      "options": [
-        "27",
-        "33",
-        "36",
-        "39",
-        "42",
-        "45"
       ]
     },
     {
@@ -49923,22 +47983,6 @@
         "21",
         "18",
         "11"
-      ]
-    },
-    {
-      "id": "q1781185402505_295",
-      "question": "What is the next number: 1, 2, 6, 24, 120, ___?",
-      "category": "brainteasers",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "720",
-      "options": [
-        "240",
-        "360",
-        "600",
-        "720",
-        "840",
-        "480"
       ]
     },
     {
@@ -50422,20 +48466,6 @@
       "answer": "Ajunwa"
     },
     {
-      "id": "q1781185402505_33",
-      "question": "Which fruit is highest in Vitamin C?",
-      "category": "lifestyle",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Guava",
-      "options": [
-        "Banana",
-        "Orange",
-        "Mango",
-        "Guava"
-      ]
-    },
-    {
       "id": "q1781185402505_34",
       "question": "What does 'OAP' stand for in Nigerian radio and TV culture?",
       "category": "lifestyle",
@@ -50517,20 +48547,6 @@
         "TikTok",
         "LinkedIn",
         "Snapchat"
-      ]
-    },
-    {
-      "id": "q1781185402505_4",
-      "question": "What did Jesus turn water into at the wedding in Cana?",
-      "category": "bible",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Wine",
-      "options": [
-        "Milk",
-        "Juice",
-        "Wine",
-        "Oil"
       ]
     },
     {
@@ -50876,20 +48892,6 @@
       ]
     },
     {
-      "id": "q1781185402505_61",
-      "question": "What does a thermometer measure?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Temperature",
-      "options": [
-        "Pressure",
-        "Humidity",
-        "Temperature",
-        "Wind speed"
-      ]
-    },
-    {
       "id": "q1781185402505_62",
       "question": "Which of these is an example of potential energy?",
       "category": "physics",
@@ -50929,20 +48931,6 @@
         "Newton",
         "Joule",
         "Pascal"
-      ]
-    },
-    {
-      "id": "q1781185402505_65",
-      "question": "Which planet in our solar system has the most moons?",
-      "category": "physics",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "Saturn",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptune"
       ]
     },
     {
@@ -51170,22 +49158,6 @@
       ]
     },
     {
-      "id": "q1781185402505_80",
-      "question": "What is the Pauli Exclusion Principle?",
-      "category": "physics",
-      "difficulty": "hard",
-      "type": "multiple",
-      "answer": "No two identical fermions can occupy the same quantum state simultaneously",
-      "options": [
-        "No two photons can occupy the same space",
-        "No two identical fermions can occupy the same quantum state simultaneously",
-        "All bosons must have zero spin",
-        "Electrons repel each other due to charge",
-        "Energy levels in atoms are discrete",
-        "Magnetic fields repel like poles"
-      ]
-    },
-    {
       "id": "q1781185402505_81",
       "question": "What is the approximate age of the universe according to current cosmological models?",
       "category": "physics",
@@ -51344,20 +49316,6 @@
       ]
     },
     {
-      "id": "q1781185402505_90",
-      "question": "What is 25% of 400?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "100",
-      "options": [
-        "75",
-        "100",
-        "125",
-        "150"
-      ]
-    },
-    {
       "id": "q1781185402505_91",
       "question": "How many minutes are in 3 hours?",
       "category": "maths",
@@ -51442,20 +49400,6 @@
       ]
     },
     {
-      "id": "q1781185402505_97",
-      "question": "What is the smallest prime number?",
-      "category": "maths",
-      "difficulty": "easy",
-      "type": "multiple",
-      "answer": "2",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ]
-    },
-    {
       "id": "q1781185402505_98",
       "question": "What is 7/10 expressed as a decimal?",
       "category": "maths",
@@ -51510,20 +49454,6 @@
         "A puppet"
       ],
       "answer": "A clock"
-    },
-    {
-      "id": "rid_e10",
-      "category": "riddles",
-      "difficulty": "easy",
-      "type": "multiple",
-      "question": "What goes up but never comes down?",
-      "options": [
-        "A balloon",
-        "Your age",
-        "A rocket",
-        "Rain"
-      ],
-      "answer": "Your age"
     },
     {
       "id": "rid_e2",
@@ -51910,20 +49840,6 @@
       "answer": "Teapot"
     },
     {
-      "id": "rid_m8",
-      "category": "riddles",
-      "difficulty": "medium",
-      "type": "multiple",
-      "question": "What is always coming but never arrives?",
-      "options": [
-        "Tomorrow",
-        "The future",
-        "Death",
-        "Rain"
-      ],
-      "answer": "Tomorrow"
-    },
-    {
       "id": "rid_m9",
       "category": "riddles",
       "difficulty": "medium",
@@ -52008,20 +49924,6 @@
       "answer": "Twitter/X"
     },
     {
-      "id": "tec_e5",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "question": "What does USB stand for?",
-      "options": [
-        "Universal Serial Bus",
-        "United System Board",
-        "Universal Storage Base",
-        "Unified Serial Block"
-      ],
-      "answer": "Universal Serial Bus"
-    },
-    {
       "id": "tec_e6",
       "category": "technology",
       "difficulty": "easy",
@@ -52062,20 +49964,6 @@
         "Wikipedia"
       ],
       "answer": "Google"
-    },
-    {
-      "id": "tec_e9",
-      "category": "technology",
-      "difficulty": "easy",
-      "type": "multiple",
-      "question": "What does PDF stand for?",
-      "options": [
-        "Portable Document Format",
-        "Printed Document File",
-        "Personal Data Format",
-        "Public Document File"
-      ],
-      "answer": "Portable Document Format"
     },
     {
       "id": "tec_h1",
@@ -52264,20 +50152,6 @@
         "Cool the computer"
       ],
       "answer": "Block unauthorised network access"
-    },
-    {
-      "id": "tec_m2",
-      "category": "technology",
-      "difficulty": "medium",
-      "type": "multiple",
-      "question": "What does HTML stand for?",
-      "options": [
-        "Hyper Text Markup Language",
-        "High Text Machine Language",
-        "Hyper Transfer Markup Language",
-        "Home Tool Markup Language"
-      ],
-      "answer": "Hyper Text Markup Language"
     },
     {
       "id": "tec_m3",
@@ -90318,6 +88192,1680 @@
       "type": "text",
       "question": "What law, formulated by Ethernet co-inventor Robert Metcalfe, states that a network's value is proportional to the square of the number of connected users?",
       "answer": "Metcalfe's Law"
+    },
+    {
+      "id": "fill_bible_easy_1",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What form did the Holy Spirit take when it descended on Jesus at his baptism?",
+      "options": [
+        "A dove",
+        "A flame of fire",
+        "A cloud",
+        "An eagle"
+      ],
+      "answer": "A dove"
+    },
+    {
+      "id": "fill_bible_easy_2",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Whose extraordinary patience amid great suffering is referenced in the biblical phrase 'the patience of Job'?",
+      "options": [
+        "Job",
+        "Jonah",
+        "Joseph",
+        "Jeremiah"
+      ],
+      "answer": "Job"
+    },
+    {
+      "id": "fill_bible_easy_3",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "In Genesis, what tree did God forbid Adam and Eve from eating from in the Garden of Eden?",
+      "answer": "The tree of the knowledge of good and evil"
+    },
+    {
+      "id": "fill_bible_easy_4",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which Old Testament book, traditionally attributed to Solomon, is a poetic love song between a bride and groom?",
+      "options": [
+        "Song of Solomon",
+        "Ecclesiastes",
+        "Proverbs",
+        "Lamentations"
+      ],
+      "answer": "Song of Solomon"
+    },
+    {
+      "id": "fill_bible_easy_5",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "According to Genesis, on which day of creation did God make the birds and sea creatures?",
+      "options": [
+        "The fifth day",
+        "The third day",
+        "The fourth day",
+        "The sixth day"
+      ],
+      "answer": "The fifth day"
+    },
+    {
+      "id": "fill_bible_easy_6",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "How many years did it take King Solomon to build the Temple in Jerusalem?",
+      "answer": "Seven years"
+    },
+    {
+      "id": "fill_bible_easy_7",
+      "category": "bible",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "In the Lord's Prayer, what do believers ask God to give them 'this day'?",
+      "answer": "Our daily bread"
+    },
+    {
+      "id": "fill_bible_medium_1",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What was the name of the blind beggar near Jericho whom Jesus healed after he cried out, 'Son of David, have mercy on me'?",
+      "answer": "Bartimaeus"
+    },
+    {
+      "id": "fill_bible_medium_2",
+      "category": "bible",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What was the name of the son born to Ruth and Boaz, who became the grandfather of King David?",
+      "options": [
+        "Obed",
+        "Jesse",
+        "Mahlon",
+        "Chilion"
+      ],
+      "answer": "Obed"
+    },
+    {
+      "id": "fill_bible_hard_1",
+      "category": "bible",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "In Matthew 17, Jesus told Peter to catch a fish with a coin in its mouth to pay what?",
+      "answer": "The temple tax"
+    },
+    {
+      "id": "fill_brainteasers_easy_1",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What can you catch but never throw?",
+      "answer": "A cold"
+    },
+    {
+      "id": "fill_brainteasers_easy_2",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Riddle: Which building has the most stories, even though it has no upper floors?",
+      "options": [
+        "A library",
+        "A skyscraper",
+        "A hospital",
+        "A school"
+      ],
+      "answer": "A library"
+    },
+    {
+      "id": "fill_brainteasers_easy_3",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "I am an odd number. Take away one letter from my name and I become even. What number am I?",
+      "options": [
+        "Three",
+        "Five",
+        "Seven",
+        "Nine"
+      ],
+      "answer": "Seven"
+    },
+    {
+      "id": "fill_brainteasers_easy_4",
+      "category": "brainteasers",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which English word contains all five vowels (a, e, i, o, u) in alphabetical order, each appearing exactly once?",
+      "options": [
+        "Facetious",
+        "Sequoia",
+        "Education",
+        "Onomatopoeia"
+      ],
+      "answer": "Facetious"
+    },
+    {
+      "id": "fill_brainteasers_medium_1",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "Ada is the mother of Bimbo. Bimbo is the mother of Chioma. What is Ada to Chioma?",
+      "answer": "Grandmother"
+    },
+    {
+      "id": "fill_brainteasers_medium_2",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "A fair six-sided die is rolled once. What is the probability of rolling an even number greater than 2?",
+      "answer": "1/3"
+    },
+    {
+      "id": "fill_brainteasers_medium_3",
+      "category": "brainteasers",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Four friends each own a different pet: a dog, a cat, a bird, and a fish. Bayo owns the fish. Chika owns the dog. Ada does not own the cat. What pet does Ada own?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Bird",
+        "Fish"
+      ],
+      "answer": "Bird"
+    },
+    {
+      "id": "fill_brainteasers_hard_1",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "How many trailing zeros are there at the end of 100! (100 factorial) when written out in full?",
+      "answer": "24"
+    },
+    {
+      "id": "fill_brainteasers_hard_2",
+      "category": "brainteasers",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "A number is called a 'happy number' if repeatedly summing the squares of its digits eventually reaches 1. Is 7 a happy number?",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined",
+        "Only for even numbers"
+      ],
+      "answer": "Yes"
+    },
+    {
+      "id": "fill_english_easy_1",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the plural of 'wolf'?",
+      "answer": "Wolves"
+    },
+    {
+      "id": "fill_english_easy_2",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the plural of 'person'?",
+      "answer": "People"
+    },
+    {
+      "id": "fill_english_easy_3",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which of these words is a verb?",
+      "options": [
+        "Jump",
+        "Quickly",
+        "Blue",
+        "Under"
+      ],
+      "answer": "Jump"
+    },
+    {
+      "id": "fill_english_easy_4",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which of these words is an adjective?",
+      "options": [
+        "Golden",
+        "Quickly",
+        "Under",
+        "Dance"
+      ],
+      "answer": "Golden"
+    },
+    {
+      "id": "fill_english_easy_5",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which of these words is a noun?",
+      "options": [
+        "Happiness",
+        "Quickly",
+        "Under",
+        "Jump"
+      ],
+      "answer": "Happiness"
+    },
+    {
+      "id": "fill_english_easy_6",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the antonym of 'polite'?",
+      "answer": "Rude"
+    },
+    {
+      "id": "fill_english_easy_7",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the synonym of 'tired'?",
+      "answer": "Exhausted"
+    },
+    {
+      "id": "fill_english_easy_8",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which word is spelled correctly?",
+      "options": [
+        "Vaccum",
+        "Vacume",
+        "Vacuum",
+        "Vaccuum"
+      ],
+      "answer": "Vacuum"
+    },
+    {
+      "id": "fill_english_easy_9",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the past tense of 'fly'?",
+      "answer": "Flew"
+    },
+    {
+      "id": "fill_english_easy_10",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which of these is a collective noun?",
+      "options": [
+        "Herd",
+        "Quickly",
+        "Under",
+        "Jump"
+      ],
+      "answer": "Herd"
+    },
+    {
+      "id": "fill_english_easy_11",
+      "category": "english",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the plural of 'deer'?",
+      "answer": "Deer"
+    },
+    {
+      "id": "fill_english_medium_1",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is the meaning of 'gregarious'?",
+      "answer": "Fond of company; sociable"
+    },
+    {
+      "id": "fill_english_medium_2",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What literary device is used in 'Time is a thief'?",
+      "options": [
+        "Metaphor",
+        "Simile",
+        "Onomatopoeia",
+        "Alliteration"
+      ],
+      "answer": "Metaphor"
+    },
+    {
+      "id": "fill_english_medium_3",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What does the idiom 'to let sleeping dogs lie' mean?",
+      "answer": "To avoid interfering with a situation that could cause trouble"
+    },
+    {
+      "id": "fill_english_medium_4",
+      "category": "english",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Which word correctly completes: 'Physics ___ a fascinating subject.'?",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "answer": "is"
+    },
+    {
+      "id": "fill_government_easy_1",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "Who is the current President of Nigeria (as of 2025)?",
+      "answer": "Bola Ahmed Tinubu"
+    },
+    {
+      "id": "fill_government_easy_2",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "Who is the current Vice President of Nigeria (as of 2025)?",
+      "answer": "Kashim Shettima"
+    },
+    {
+      "id": "fill_government_easy_3",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which Nigerian political party uses a broom as its logo?",
+      "options": [
+        "All Progressives Congress",
+        "People's Democratic Party",
+        "Labour Party",
+        "New Nigeria Peoples Party"
+      ],
+      "answer": "All Progressives Congress"
+    },
+    {
+      "id": "fill_government_easy_4",
+      "category": "government",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which Nigerian political party uses an umbrella as its logo?",
+      "options": [
+        "People's Democratic Party",
+        "All Progressives Congress",
+        "Labour Party",
+        "All Progressives Grand Alliance"
+      ],
+      "answer": "People's Democratic Party"
+    },
+    {
+      "id": "fill_government_medium_1",
+      "category": "government",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Which Nigerian regulatory agency was created by the Petroleum Industry Act 2021 to oversee upstream oil and gas operations?",
+      "options": [
+        "Nigerian Upstream Petroleum Regulatory Commission (NUPRC)",
+        "Nigerian National Petroleum Corporation (NNPC)",
+        "Department of Petroleum Resources (DPR)",
+        "Nigerian Midstream and Downstream Petroleum Regulatory Authority (NMDPRA)"
+      ],
+      "answer": "Nigerian Upstream Petroleum Regulatory Commission (NUPRC)"
+    },
+    {
+      "id": "fill_guesstheword_medium_1",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "I am the Nigerian Pidgin word meaning 'to know something well' or 'to be skilled at something'. Nigerians say 'you no sabi' to mean you don't understand. What am I?",
+      "answer": "Sabi"
+    },
+    {
+      "id": "fill_guesstheword_medium_2",
+      "category": "guesstheword",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "I am the biological process by which blood changes from a liquid into a gel, sealing a wound and stopping bleeding. What am I?",
+      "answer": "Coagulation"
+    },
+    {
+      "id": "fill_guesstheword_hard_1",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "I am the Igbo trade apprenticeship system, especially practised by Nnewi and Onitsha traders, where a young person serves a master for years before being settled with capital to start their own business. What am I called?",
+      "answer": "Igba boi"
+    },
+    {
+      "id": "fill_guesstheword_hard_2",
+      "category": "guesstheword",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "I am the economic term for a rare condition in which an economy suffers slow growth and high unemployment at the same time as rising prices. My name blends 'stagnation' and 'inflation'. What am I?",
+      "answer": "Stagflation"
+    },
+    {
+      "id": "fill_history_easy_1",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which country was formerly known as Upper Volta before renaming itself in 1984?",
+      "options": [
+        "Burkina Faso",
+        "Mali",
+        "Niger",
+        "Chad"
+      ],
+      "answer": "Burkina Faso"
+    },
+    {
+      "id": "fill_history_easy_2",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What was the name of the legendary library in ancient Egypt, renowned as one of the largest and most significant libraries of the ancient world?",
+      "answer": "Library of Alexandria"
+    },
+    {
+      "id": "fill_history_easy_3",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "In which year did Elizabeth II become Queen of the United Kingdom?",
+      "options": [
+        "1947",
+        "1952",
+        "1953",
+        "1956"
+      ],
+      "answer": "1952"
+    },
+    {
+      "id": "fill_history_easy_4",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the name of the defensive wall built by the Romans across northern Britain in the 2nd century AD?",
+      "answer": "Hadrian's Wall"
+    },
+    {
+      "id": "fill_history_easy_5",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which Nigerian city is historically nicknamed the 'Coal City' because of its colonial-era coal mining industry?",
+      "options": [
+        "Enugu",
+        "Jos",
+        "Kaduna",
+        "Port Harcourt"
+      ],
+      "answer": "Enugu"
+    },
+    {
+      "id": "fill_history_easy_6",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "Which Nigerian city on the Jos Plateau is historically nicknamed the 'Tin City' due to its tin mining industry?",
+      "answer": "Jos"
+    },
+    {
+      "id": "fill_history_easy_7",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which 5th-century king of the Huns led devastating invasions into the Roman Empire and was nicknamed the 'Scourge of God'?",
+      "options": [
+        "Attila",
+        "Alaric",
+        "Genghis Khan",
+        "Theodoric"
+      ],
+      "answer": "Attila"
+    },
+    {
+      "id": "fill_history_easy_8",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "Which Portuguese prince, though he rarely sailed himself, sponsored the voyages of exploration along the African coast that launched Europe's Age of Exploration?",
+      "answer": "Henry the Navigator"
+    },
+    {
+      "id": "fill_history_easy_9",
+      "category": "history",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "The colourful Durbar festival, featuring horse parades and traditional pageantry to mark Islamic holidays, is a tradition of which part of Nigeria?",
+      "options": [
+        "Northern Nigeria",
+        "South-East Nigeria",
+        "Niger Delta",
+        "South-West Nigeria"
+      ],
+      "answer": "Northern Nigeria"
+    },
+    {
+      "id": "fill_history_medium_1",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Which ruler seized power in the Songhai Empire in 1493, adopted the title 'Askia', and greatly expanded and consolidated the empire?",
+      "options": [
+        "Askia Muhammad",
+        "Sunni Ali",
+        "Mansa Musa",
+        "Sundiata Keita"
+      ],
+      "answer": "Askia Muhammad"
+    },
+    {
+      "id": "fill_history_medium_2",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What was the name of the 1958 Accra conference, hosted by Kwame Nkrumah, that for the first time brought together the era's independent African states?",
+      "answer": "Conference of Independent African States"
+    },
+    {
+      "id": "fill_history_medium_3",
+      "category": "history",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "The Nigerian Tribune, one of Nigeria's oldest surviving newspapers, was founded in 1949 by which nationalist leader?",
+      "options": [
+        "Obafemi Awolowo",
+        "Nnamdi Azikiwe",
+        "Herbert Macaulay",
+        "Ahmadu Bello"
+      ],
+      "answer": "Obafemi Awolowo"
+    },
+    {
+      "id": "fill_history_hard_1",
+      "category": "history",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "The 1938 Munich Agreement, which allowed Nazi Germany to annex the Sudetenland region of Czechoslovakia, was signed by Germany, Italy, France and which other country?",
+      "options": [
+        "Britain",
+        "United States",
+        "Soviet Union",
+        "Poland"
+      ],
+      "answer": "Britain"
+    },
+    {
+      "id": "fill_lifestyle_easy_1",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the name of Nigeria's busiest airport, located in Lagos?",
+      "options": [
+        "Murtala Muhammed International Airport",
+        "Nnamdi Azikiwe International Airport",
+        "Port Harcourt International Airport",
+        "Mallam Aminu Kano International Airport"
+      ],
+      "answer": "Murtala Muhammed International Airport"
+    },
+    {
+      "id": "fill_lifestyle_easy_2",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the popular Nigerian term for second-hand clothes imported from abroad?",
+      "answer": "Okrika"
+    },
+    {
+      "id": "fill_lifestyle_easy_3",
+      "category": "lifestyle",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is a scented liquid applied to the skin or clothing to create a pleasant smell commonly called?",
+      "options": [
+        "Perfume",
+        "Deodorant",
+        "Lotion",
+        "Shampoo"
+      ],
+      "answer": "Perfume"
+    },
+    {
+      "id": "fill_lifestyle_medium_1",
+      "category": "lifestyle",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What does the abbreviation 'IoT', used to describe smart home devices connected to the internet, stand for?",
+      "answer": "Internet of Things"
+    },
+    {
+      "id": "fill_lifestyle_hard_1",
+      "category": "lifestyle",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "What does the acronym 'JOMO', a wellness trend that is the opposite of FOMO, stand for?",
+      "answer": "Joy Of Missing Out"
+    },
+    {
+      "id": "fill_maths_easy_1",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Who is known as the 'Father of Geometry'?",
+      "options": [
+        "Euclid",
+        "Pythagoras",
+        "Archimedes",
+        "Isaac Newton"
+      ],
+      "answer": "Euclid"
+    },
+    {
+      "id": "fill_maths_easy_2",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is 6 × 12?",
+      "options": [
+        "72",
+        "66",
+        "78",
+        "68"
+      ],
+      "answer": "72"
+    },
+    {
+      "id": "fill_maths_easy_3",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is 63 ÷ 9?",
+      "answer": "7"
+    },
+    {
+      "id": "fill_maths_easy_4",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is 15% of 80?",
+      "answer": "12"
+    },
+    {
+      "id": "fill_maths_easy_5",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the square root of 441?",
+      "options": [
+        "21",
+        "19",
+        "23",
+        "20"
+      ],
+      "answer": "21"
+    },
+    {
+      "id": "fill_maths_easy_6",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the Roman numeral for 40?",
+      "answer": "XL"
+    },
+    {
+      "id": "fill_maths_easy_7",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is 9/20 expressed as a decimal?",
+      "answer": "0.45"
+    },
+    {
+      "id": "fill_maths_easy_8",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the perimeter of a rectangle 12cm by 7cm?",
+      "options": [
+        "38cm",
+        "36cm",
+        "40cm",
+        "42cm"
+      ],
+      "answer": "38cm"
+    },
+    {
+      "id": "fill_maths_easy_9",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the smallest odd prime number?",
+      "options": [
+        "3",
+        "1",
+        "5",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "fill_maths_easy_10",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which mathematician is credited with developing calculus alongside Isaac Newton?",
+      "options": [
+        "Gottfried Leibniz",
+        "Euclid",
+        "Pythagoras",
+        "Fibonacci"
+      ],
+      "answer": "Gottfried Leibniz"
+    },
+    {
+      "id": "fill_maths_easy_11",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "A trader has ₦1,000 and spends ₦425 on foodstuff. How much money does she have left?",
+      "answer": "₦575"
+    },
+    {
+      "id": "fill_maths_easy_12",
+      "category": "maths",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "How many hours are in 5 days?",
+      "answer": "120"
+    },
+    {
+      "id": "fill_maths_medium_1",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "A cyclist travels 54km in 2 hours 15 minutes. What is her average speed in km/h?",
+      "answer": "24km/h"
+    },
+    {
+      "id": "fill_maths_medium_2",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is the LCM of 15 and 25?",
+      "answer": "75"
+    },
+    {
+      "id": "fill_maths_medium_3",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "Solve for x: 7x - 4 = 3x + 16",
+      "answer": "5"
+    },
+    {
+      "id": "fill_maths_medium_4",
+      "category": "maths",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "A regular polygon has 9 sides. What is the sum of its interior angles?",
+      "options": [
+        "1260°",
+        "1080°",
+        "1440°",
+        "900°"
+      ],
+      "answer": "1260°"
+    },
+    {
+      "id": "fill_maths_hard_1",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "What is the sum of the first 12 terms of an arithmetic sequence with first term 3 and common difference 7?",
+      "answer": "498"
+    },
+    {
+      "id": "fill_maths_hard_2",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "What is the derivative of f(x) = 5x⁴ − 3x² + 7?",
+      "options": [
+        "20x³ − 6x",
+        "20x³ − 6x²",
+        "15x³ − 6x",
+        "20x⁴ − 6x"
+      ],
+      "answer": "20x³ − 6x"
+    },
+    {
+      "id": "fill_maths_hard_3",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "In how many ways can a committee of 3 be selected from 10 people, if a particular person must be included?",
+      "answer": "36"
+    },
+    {
+      "id": "fill_maths_hard_4",
+      "category": "maths",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "The 5th term of a geometric progression is 162 and the common ratio is 3. What is the first term?",
+      "answer": "2"
+    },
+    {
+      "id": "fill_physics_easy_1",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the SI base unit of length?",
+      "options": [
+        "Metre",
+        "Kilogram",
+        "Second",
+        "Kelvin"
+      ],
+      "answer": "Metre"
+    },
+    {
+      "id": "fill_physics_easy_2",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the SI base unit of time?",
+      "answer": "Second"
+    },
+    {
+      "id": "fill_physics_easy_3",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the branch of physics that deals with electric charges at rest called?",
+      "options": [
+        "Electrostatics",
+        "Electrodynamics",
+        "Magnetostatics",
+        "Thermodynamics"
+      ],
+      "answer": "Electrostatics"
+    },
+    {
+      "id": "fill_physics_easy_4",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the branch of physics that studies sound called?",
+      "answer": "Acoustics"
+    },
+    {
+      "id": "fill_physics_easy_5",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which scientist is credited with formulating the law of universal gravitation?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Johannes Kepler"
+      ],
+      "answer": "Isaac Newton"
+    },
+    {
+      "id": "fill_physics_easy_6",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What device converts sound waves into electrical signals?",
+      "answer": "Microphone"
+    },
+    {
+      "id": "fill_physics_easy_7",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What device converts electrical signals into sound waves?",
+      "options": [
+        "Loudspeaker",
+        "Microphone",
+        "Resistor",
+        "Capacitor"
+      ],
+      "answer": "Loudspeaker"
+    },
+    {
+      "id": "fill_physics_easy_8",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What precision instrument is used to measure very small lengths, such as the diameter of a wire?",
+      "answer": "Micrometer screw gauge"
+    },
+    {
+      "id": "fill_physics_easy_9",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the name of Earth's only natural satellite?",
+      "options": [
+        "The Moon",
+        "Mars",
+        "Venus",
+        "Titan"
+      ],
+      "answer": "The Moon"
+    },
+    {
+      "id": "fill_physics_easy_10",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "How many planets are there in our solar system?",
+      "answer": "Eight"
+    },
+    {
+      "id": "fill_physics_easy_11",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Mercury"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "id": "fill_physics_easy_12",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What instrument, marked with a graduated scale, is used to measure the volume of liquids?",
+      "answer": "Measuring cylinder"
+    },
+    {
+      "id": "fill_physics_easy_13",
+      "category": "physics",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the name of the physical quantity that measures the amount of space occupied by an object?",
+      "options": [
+        "Volume",
+        "Mass",
+        "Density",
+        "Weight"
+      ],
+      "answer": "Volume"
+    },
+    {
+      "id": "fill_physics_medium_1",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "In an AC circuit, what term describes the equivalent value of an alternating current that produces the same heating effect as a steady direct current?",
+      "answer": "RMS (root mean square) value"
+    },
+    {
+      "id": "fill_physics_medium_2",
+      "category": "physics",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What is the name of the electrical component that stores energy in a magnetic field when current flows through it?",
+      "options": [
+        "Inductor",
+        "Capacitor",
+        "Resistor",
+        "Diode"
+      ],
+      "answer": "Inductor"
+    },
+    {
+      "id": "fill_physics_hard_1",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "What is the name of the apparent deflection of moving objects such as winds and ocean currents, caused by the Earth's rotation?",
+      "options": [
+        "Coriolis effect",
+        "Doppler effect",
+        "Magnus effect",
+        "Venturi effect"
+      ],
+      "answer": "Coriolis effect"
+    },
+    {
+      "id": "fill_physics_hard_2",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "What is the name for the ratio of volumetric stress to volumetric strain, describing a material's resistance to uniform compression?",
+      "answer": "Bulk modulus"
+    },
+    {
+      "id": "fill_physics_hard_3",
+      "category": "physics",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "A point charge of +5 μC sits in air. Using Coulomb's constant k = 8.99 × 10⁹ N·m²/C², what is the magnitude of the electric field it produces at a point 0.2 m away?",
+      "answer": "1.12 × 10⁶ N/C"
+    },
+    {
+      "id": "fill_riddles_easy_1",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "I have many layers like a cabbage, but slicing me open makes people cry. What am I?",
+      "options": [
+        "An onion",
+        "A garlic bulb",
+        "A cabbage",
+        "An orange"
+      ],
+      "answer": "An onion"
+    },
+    {
+      "id": "fill_riddles_easy_2",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "I am filled with air, floating above your head at a party, and if you touch me with something sharp I burst with a loud bang. What am I?",
+      "answer": "A balloon"
+    },
+    {
+      "id": "fill_riddles_easy_3",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "I have two sharp blades joined together by a screw in the middle, and you squeeze my handles to cut paper or cloth. What am I?",
+      "options": [
+        "Scissors",
+        "A knife",
+        "Pliers",
+        "A stapler"
+      ],
+      "answer": "Scissors"
+    },
+    {
+      "id": "fill_riddles_easy_4",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "I have soft bristles at one end and a handle at the other, and you use me with paste every morning and night to keep your teeth clean. What am I?",
+      "answer": "A toothbrush"
+    },
+    {
+      "id": "fill_riddles_easy_5",
+      "category": "riddles",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "I shine brightly in the night sky but make no light of my own — I only borrow light from the sun, and my shape seems to change every few nights. What am I?",
+      "options": [
+        "The moon",
+        "The sun",
+        "A star",
+        "A cloud"
+      ],
+      "answer": "The moon"
+    },
+    {
+      "id": "fill_riddles_medium_1",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "I am unique to every single person on earth, found at the very tip of your finger, and police use me to identify who touched something. What am I?",
+      "answer": "A fingerprint"
+    },
+    {
+      "id": "fill_riddles_medium_2",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Only my tip shows above the ocean's surface while most of my huge body hides underwater, and a ship that ignores me can be torn open and sunk, as happened to the Titanic. What am I?",
+      "options": [
+        "An iceberg",
+        "A glacier",
+        "A snowman",
+        "A cloud"
+      ],
+      "answer": "An iceberg"
+    },
+    {
+      "id": "fill_riddles_medium_3",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "I sleep quietly for years, sometimes centuries, then suddenly wake up and erupt, spewing hot melted rock called lava into the sky. What am I?",
+      "answer": "A volcano"
+    },
+    {
+      "id": "fill_riddles_medium_4",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "I am a board game played on 64 black and white squares, where trapping the opponent's king is called 'checkmate'. What game am I?",
+      "options": [
+        "Chess",
+        "Checkers",
+        "Ludo",
+        "Backgammon"
+      ],
+      "answer": "Chess"
+    },
+    {
+      "id": "fill_riddles_medium_5",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "I freeze a single moment in time forever with a click of my shutter and sometimes a flash of light. What am I?",
+      "answer": "A camera"
+    },
+    {
+      "id": "fill_riddles_medium_6",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "I am the official currency of Nigeria, and my symbol looks like the letter N crossed with two horizontal strikes. What currency am I?",
+      "options": [
+        "The Naira",
+        "The Dollar",
+        "The Cedi",
+        "The Pound"
+      ],
+      "answer": "The Naira"
+    },
+    {
+      "id": "fill_riddles_medium_7",
+      "category": "riddles",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "I am formed where a flowing river suddenly drops over a cliff edge, crashing loudly into the pool below. What am I?",
+      "answer": "A waterfall"
+    },
+    {
+      "id": "fill_riddles_hard_1",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "I am a five-letter word for a golden grain crop. Remove my first letter and I become warmth from the sun or fire. Remove another letter and I become the act of consuming food. Remove yet another letter and I become a tiny word meaning 'located at'. What am I?",
+      "answer": "Wheat"
+    },
+    {
+      "id": "fill_riddles_hard_2",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "I am an odd number. Remove my very first letter and I become even. What number am I?",
+      "options": [
+        "Seven",
+        "Nine",
+        "Six",
+        "Eleven"
+      ],
+      "answer": "Seven"
+    },
+    {
+      "id": "fill_riddles_hard_3",
+      "category": "riddles",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "I am a bright point of light twinkling in the night sky. Spelled backwards, I become small rodents that scurry in the dark. What am I?",
+      "answer": "A star"
+    },
+    {
+      "id": "fill_technology_easy_1",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What does 'DVD' stand for?",
+      "options": [
+        "Digital Versatile Disc",
+        "Digital Video Device",
+        "Direct Video Disc",
+        "Digital Visual Display"
+      ],
+      "answer": "Digital Versatile Disc"
+    },
+    {
+      "id": "fill_technology_easy_2",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which company makes the AirPods wireless earbuds?",
+      "options": [
+        "Samsung",
+        "Apple",
+        "Sony",
+        "Google"
+      ],
+      "answer": "Apple"
+    },
+    {
+      "id": "fill_technology_easy_3",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What does 'DM' stand for on social media?",
+      "options": [
+        "Direct Message",
+        "Data Media",
+        "Digital Mail",
+        "Direct Mail"
+      ],
+      "answer": "Direct Message"
+    },
+    {
+      "id": "fill_technology_easy_4",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the common term for a photo someone takes of themselves, usually with a smartphone?",
+      "answer": "Selfie"
+    },
+    {
+      "id": "fill_technology_easy_5",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What does 'PC' stand for in computing?",
+      "options": [
+        "Personal Computer",
+        "Processing Chip",
+        "Portable Console",
+        "Program Code"
+      ],
+      "answer": "Personal Computer"
+    },
+    {
+      "id": "fill_technology_easy_6",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which company makes the iPad tablet?",
+      "options": [
+        "Samsung",
+        "Apple",
+        "Microsoft",
+        "Amazon"
+      ],
+      "answer": "Apple"
+    },
+    {
+      "id": "fill_technology_easy_7",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which video game company created the Wii console?",
+      "options": [
+        "Sony",
+        "Microsoft",
+        "Nintendo",
+        "Sega"
+      ],
+      "answer": "Nintendo"
+    },
+    {
+      "id": "fill_technology_easy_8",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is 'dark mode' on phones and apps mainly used for?",
+      "options": [
+        "Reducing eye strain and saving battery",
+        "Increasing internet speed",
+        "Blocking adverts",
+        "Encrypting messages"
+      ],
+      "answer": "Reducing eye strain and saving battery"
+    },
+    {
+      "id": "fill_technology_easy_9",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is the main purpose of 'incognito' or 'private' browsing mode?",
+      "answer": "To browse without saving your history or cookies"
+    },
+    {
+      "id": "fill_technology_easy_10",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What does 'JPEG' stand for in image file formats?",
+      "options": [
+        "Joint Photographic Experts Group",
+        "Java Picture Encoding Grid",
+        "Joint Print Export Group",
+        "Just Plain Enhanced Graphics"
+      ],
+      "answer": "Joint Photographic Experts Group"
+    },
+    {
+      "id": "fill_technology_easy_11",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which Nigerian fintech app, formerly known as Paylater, offers quick digital loans?",
+      "options": [
+        "Carbon",
+        "Kuda",
+        "PalmPay",
+        "FairMoney"
+      ],
+      "answer": "Carbon"
+    },
+    {
+      "id": "fill_technology_easy_12",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which keyboard shortcut is used to paste copied text on Windows?",
+      "options": [
+        "Ctrl+V",
+        "Ctrl+C",
+        "Ctrl+P",
+        "Ctrl+X"
+      ],
+      "answer": "Ctrl+V"
+    },
+    {
+      "id": "fill_technology_easy_13",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is a 'bookmark' in a web browser used for?",
+      "answer": "To save a webpage so you can quickly find and visit it again later"
+    },
+    {
+      "id": "fill_technology_easy_14",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What does 'PIN' stand for, as used to secure ATM cards and phones?",
+      "options": [
+        "Personal Identification Number",
+        "Private Internet Number",
+        "Personal Info Number",
+        "Protected Identity Number"
+      ],
+      "answer": "Personal Identification Number"
+    },
+    {
+      "id": "fill_technology_easy_15",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "Which company owns the Fitbit fitness tracker brand?",
+      "options": [
+        "Apple",
+        "Samsung",
+        "Google",
+        "Garmin"
+      ],
+      "answer": "Google"
+    },
+    {
+      "id": "fill_technology_easy_16",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "How many bits make up one byte?",
+      "options": [
+        "8",
+        "4",
+        "16",
+        "2"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "fill_technology_easy_17",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "text",
+      "question": "What is a 'stylus' mainly used for on touchscreen devices?",
+      "answer": "Writing or drawing on the screen"
+    },
+    {
+      "id": "fill_technology_easy_18",
+      "category": "technology",
+      "difficulty": "easy",
+      "type": "multiple",
+      "question": "What is the current name of the Nigerian telecom company formerly known as Etisalat Nigeria?",
+      "options": [
+        "9mobile",
+        "Globacom",
+        "Smile",
+        "Spectranet"
+      ],
+      "answer": "9mobile"
+    },
+    {
+      "id": "fill_technology_medium_1",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is 'rate limiting' in API design used to do?",
+      "answer": "Restrict how many requests a client can make within a given time period"
+    },
+    {
+      "id": "fill_technology_medium_2",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Which programming language, developed by Microsoft, adds static typing on top of JavaScript?",
+      "options": [
+        "TypeScript",
+        "CoffeeScript",
+        "Dart",
+        "Elm"
+      ],
+      "answer": "TypeScript"
+    },
+    {
+      "id": "fill_technology_medium_3",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is a 'sandbox' environment used for in software development?",
+      "answer": "A safe, isolated space to test code without affecting the live production system"
+    },
+    {
+      "id": "fill_technology_medium_4",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Which Nigerian bank is associated with the USSD banking code *901#?",
+      "options": [
+        "Access Bank",
+        "Zenith Bank",
+        "First Bank",
+        "UBA"
+      ],
+      "answer": "Access Bank"
+    },
+    {
+      "id": "fill_technology_medium_5",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "Which Nigerian government agency regulates radio and television broadcasting in the country?",
+      "options": [
+        "National Broadcasting Commission (NBC)",
+        "Nigerian Communications Commission (NCC)",
+        "NITDA",
+        "NIMC"
+      ],
+      "answer": "National Broadcasting Commission (NBC)"
+    },
+    {
+      "id": "fill_technology_medium_6",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What does 'MVP' stand for in startup and product development?",
+      "options": [
+        "Minimum Viable Product",
+        "Most Valuable Programmer",
+        "Maximum Viable Product",
+        "Managed Virtual Platform"
+      ],
+      "answer": "Minimum Viable Product"
+    },
+    {
+      "id": "fill_technology_medium_7",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is 'churn rate' in a subscription-based tech business?",
+      "answer": "The percentage of customers who stop using a service over a given period"
+    },
+    {
+      "id": "fill_technology_medium_8",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What is a 'freemium' business model?",
+      "options": [
+        "Offering a basic product for free while charging for premium features",
+        "Selling products only through free trials",
+        "Giving away all products for free permanently",
+        "Charging a one-time fee for lifetime access"
+      ],
+      "answer": "Offering a basic product for free while charging for premium features"
+    },
+    {
+      "id": "fill_technology_medium_9",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What does 'UGC' stand for on social media platforms?",
+      "options": [
+        "User-Generated Content",
+        "Universal Graphics Codec",
+        "Unified Gateway Control",
+        "User Group Chat"
+      ],
+      "answer": "User-Generated Content"
+    },
+    {
+      "id": "fill_technology_medium_10",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is the 'dark web'?",
+      "answer": "A part of the internet not indexed by standard search engines, accessible only with special software"
+    },
+    {
+      "id": "fill_technology_medium_11",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What does 'B2B' stand for in business technology?",
+      "options": [
+        "Business-to-Business",
+        "Back-to-Base",
+        "Buy-to-Build",
+        "Business-to-Broker"
+      ],
+      "answer": "Business-to-Business"
+    },
+    {
+      "id": "fill_technology_medium_12",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What is 'crowdfunding'?",
+      "options": [
+        "Raising money for a project from a large number of people, often online",
+        "A government tech grant scheme",
+        "A method of cloud data backup",
+        "A type of network security testing"
+      ],
+      "answer": "Raising money for a project from a large number of people, often online"
+    },
+    {
+      "id": "fill_technology_medium_13",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "multiple",
+      "question": "What does 'MNP' allow mobile phone users to do?",
+      "options": [
+        "Keep their phone number when switching networks",
+        "Make free international calls",
+        "Access mobile data without a SIM",
+        "Block spam calls automatically"
+      ],
+      "answer": "Keep their phone number when switching networks"
+    },
+    {
+      "id": "fill_technology_medium_14",
+      "category": "technology",
+      "difficulty": "medium",
+      "type": "text",
+      "question": "What is a person's 'digital footprint'?",
+      "answer": "The trail of data left behind from a person's online activity"
+    },
+    {
+      "id": "fill_technology_hard_1",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "In computer science, what is a 'Bloom filter' used for?",
+      "answer": "A space-efficient probabilistic data structure that tests whether an element is in a set, allowing false positives but no false negatives"
+    },
+    {
+      "id": "fill_technology_hard_2",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "In cryptography, what does 'forward secrecy' guarantee?",
+      "options": [
+        "Past session keys stay secure even if the server's long-term private key is later compromised",
+        "Passwords are automatically reset every 24 hours",
+        "Data is encrypted twice for extra protection",
+        "Only forward network traffic is encrypted"
+      ],
+      "answer": "Past session keys stay secure even if the server's long-term private key is later compromised"
+    },
+    {
+      "id": "fill_technology_hard_3",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "multiple",
+      "question": "What does 'QoS' stand for in networking?",
+      "options": [
+        "Quality of Service",
+        "Queue of Servers",
+        "Quantity of Sessions",
+        "Quick Output System"
+      ],
+      "answer": "Quality of Service"
+    },
+    {
+      "id": "fill_technology_hard_4",
+      "category": "technology",
+      "difficulty": "hard",
+      "type": "text",
+      "question": "In compiler design, what is the tree-shaped data structure, abbreviated AST, that represents the grammatical structure of source code after parsing?",
+      "answer": "Abstract Syntax Tree"
     }
   ]
 }
