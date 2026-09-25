@@ -1,7 +1,10 @@
 import { Platform, PermissionsAndroid } from 'react-native'
 import messaging from '@react-native-firebase/messaging'
 
-const TOPICS = ['new_questions', 'announcements']
+// Prefixed with the app name -- this Firebase project (verified-844f4) is
+// shared with two other apps, and one FCM service-account key can send to
+// any topic across all of them, so a generic name risks a collision.
+const TOPICS = ['answerthis_new_questions', 'answerthis_announcements']
 
 async function requestPermission() {
   if (Platform.OS === 'android' && Platform.Version >= 33) {

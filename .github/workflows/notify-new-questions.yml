@@ -20,6 +20,6 @@ jobs:
         working-directory: .github/scripts
         env:
           FCM_SERVICE_ACCOUNT_JSON: ${{ secrets.FCM_SERVICE_ACCOUNT_JSON }}
-          NOTIFY_TOPIC: new_questions
+          NOTIFY_TOPIC: answerthis_new_questions
           NOTIFY_TITLE: New questions are live!
           NOTIFY_BODY: Fresh trivia questions just dropped in Answer This. Go check them out!

@@ -18,6 +18,6 @@ jobs:
         working-directory: .github/scripts
         env:
           FCM_SERVICE_ACCOUNT_JSON: ${{ secrets.FCM_SERVICE_ACCOUNT_JSON }}
-          NOTIFY_TOPIC: announcements
+          NOTIFY_TOPIC: answerthis_announcements
           NOTIFY_TITLE: ${{ github.event.client_payload.title }}
           NOTIFY_BODY: ${{ github.event.client_payload.body }}
